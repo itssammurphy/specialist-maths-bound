@@ -1,0 +1,1212 @@
+\PassOptionsToPackage{svgnames}{xcolor}
+\documentclass[a4paper,twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+\usepackage{tipfr}
+\usepackage{framed}
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+\usepackage{centernot}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepgfplotslibrary{polar}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{pgfplots.polar}
+\pgfplotsset{compat=1.18, width=\textwidth}
+\usepackage{mathtools}
+\usepackage[thinc]{esdiff}
+\def\pgfplots@stacked@diff{}
+\setlength\parindent{12pt}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{amsthm}
+\usepackage{tabularx}
+\usepackage[noEnd=true]{algpseudocodex}
+\usepackage{algorithm}
+\usepackage[a4paper, marginparwidth=80pt, top=2cm, bottom=1cm, left=1cm, right=1cm]{geometry}
+\usepackage{marginnote}
+\usepackage{polynom}
+\usepackage{xfrac}
+\usepackage{gensymb}
+\usepackage{fancyhdr}
+\usepackage{undertilde}
+\usepackage{nicematrix}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\tcbuselibrary{skins,breakable}
+\graphicspath{{./img/}}
+\usepackage{mathrsfs}
+\newsavebox\foobox
+\newlength{\foodim}
+\newcommand{\slantbox}[2][0]{\mbox{%
+		\sbox{\foobox}{#2}%
+		\foodim=#1\wd\foobox
+		\hskip \wd\foobox
+		\hskip -0.5\foodim
+		\pdfsave
+		\pdfsetmatrix{1 0 #1 1}%
+		\llap{\usebox{\foobox}}%
+		\pdfrestore
+		\hskip 0.5\foodim
+}}
+\def\Laplace{\slantbox[-.45]{$\mathscr{L}$}}
+
+\DeclareMathOperator\cis{cis}
+\DeclareMathOperator\Arg{Arg}
+\DeclareMathOperator\Real{Re}
+
+\pgfplotsset{polar default/.append style={xticklabels={,,
+			$\frac{\pi}{6}$, $\frac{\pi}{3}$, $\frac{\pi}{2}$, $\frac{2\pi}{3}$,
+			$\frac{5\pi}{6}$, $\pi$, $\frac{7\pi}{6}$, $\frac{4\pi}{3}$,
+			$\frac{3\pi}{2}$, $\frac{5\pi}{3}$,$\frac{11\pi}{6}$,}, thick }}
+
+\DeclarePairedDelimiter\set\{\}
+
+\title {Specialist Mathematics 3/4 Bound Reference}
+\author {$\mathbb{SAM}\;\mathbb{MURPHY}$}
+\date{2023}
+
+\definecolor{lightgray}{RGB}{220,220,220}
+\renewenvironment{leftbar}[1][\hsize]
+{%
+	\def\FrameCommand
+	{%
+		{\color{darkgray}\vrule width 3pt}%
+		\hspace{0pt}%must no space.
+		\fboxsep=\FrameSep\colorbox{lightgray}%
+	}%
+	\MakeFramed{\hsize#1\advance\hsize-\width\FrameRestore}%
+}
+{\endMakeFramed}
+
+\newcommand{\E}{\mathbb{E}}
+
+\newcommand{\vasymptote}[2][]{
+	\draw [densely dashed,#1] ({rel axis cs:0,0} -| {axis cs:#2,0}) -- ({rel axis cs:0,1} -| {axis cs:#2,0});
+}
+
+\newenvironment{example}[1]{%
+	\mbox{}\\\tcolorbox[beamer,breakable,%
+		title=Example: #1,standard jigsaw,opacityback=0, colframe=blue!75!black]}{\endtcolorbox\mbox{}\\}
+	
+\newenvironment{examquestion}[1]{%
+	\mbox{}\\\tcolorbox[beamer,breakable,%
+	title=Exam-style Question: #1,standard jigsaw,opacityback=0, colframe=red!75!black]}{\endtcolorbox\mbox{}\\}
+
+\newenvironment{note}[1]{%
+	\mbox{}\\\tcolorbox[beamer,breakable,%
+	title=Example: #1,standard jigsaw,opacityback=0, colframe=red!75!black]}{\endtcolorbox\mbox{}\\}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[EL]{\thepage}
+\fancyhead[OR]{\thepage}
+\raggedbottom   
+
+\begin{document}
+	\maketitle
+	\newtheorem{bitchesTheorem}{Theorem}
+	\begin{bitchesTheorem}
+		$\{\text{Sam}\}\cap\{\text{Bitches}\}=\emptyset$
+	\end{bitchesTheorem}
+	\begin{proof}
+		$\{\text{Sam}\}\in\text{Samuel Murphy}$\newline
+		$\{\text{Bitches}\}\in\text{All Females}$\newline\newline
+		A person "Person" is denoted as being a certain sex by the notation: $\text{Person}_M\text{ or Person}_F$\newline\newline
+		$\text{Samuel Murphy}=(\text{Samuel Murphy})_M$\newline\newline
+		A female takes the form of $\text{Person}_r$. $\therefore \{\text{Bitches}\}\text{ contains all Person}_F\text{, and exclusively all Person}_F$.\newline\newline
+		The set {Sam} contains one element $(\text{Samuel Murphy})_M$, which does not take the form Person$_F\;\therefore$ the sets {Sam} and {Bitches} contain no elements in common.\newline
+		$\therefore\{\text{Sam}\}\cap\{\text{Bitches}\}=\emptyset$
+	\end{proof}
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{Useful Rules, Values and Identities}
+	\[
+		(a+b)^3=a^3+3a^2b+3ab^2+b^3
+	\]
+	\begin{align*}
+		\sin\frac{\pi}{4}=\frac{1}{\sqrt2} \qquad \cos\frac{\pi}{4}=\frac{1}{\sqrt2} \qquad \tan\frac{\pi}{4}=1 \\
+		\sin\frac{\pi}{3}=\frac{\sqrt3}{2} \qquad \cos\frac{\pi}{3}=\frac{1}{2} \qquad \tan\frac{\pi}{3}=\sqrt3\\
+		\sin\frac{\pi}{6}=\frac{1}{2} \qquad \cos\frac{\pi}{6}=\frac{\sqrt3}{2} \qquad \tan\frac{\pi}{6}=\frac{1}{\sqrt3}
+	\end{align*}
+	\newpage
+	\section{Silly Blunders}
+		\paragraph{u-sub} For definite integrals, do not forget to change the limits with the rule of u.
+		\paragraph{Linear combinations of random variables - standard deviation} For calculating $\mathrm{sd}(aX\pm bY)$ \textbf{always} add the variances first through $a^2\mathrm{Var}(X)+b^2\mathrm{Var}(Y)$. Only ever find standard deviation through the square root of the variance.
+		\paragraph{Kinematics - acceleration} Do not forget to multiply $\frac{dv}{dx}$ by $v$ again.
+	\section{Unit 1/2 Assumed Knowledge}
+		\subsection{Sequences and Series}
+			\paragraph{Arithmetic Sequences} Sequences formed by adding a fixed amount to successive terms.
+			\[
+				t_n=a+(n-1)d
+			\]
+			$a$ is the first term in the sequence, $d$ is the common difference.
+			
+			\paragraph{Arithmetic Series} The sum of an arithmetic sequence.
+			\[
+				S_n=\frac{n}{2}\left(2a+(n-1)d\right)
+			\]
+			
+			\paragraph{Geometric Sequences} Sequences formed by multiplying successive terms by a fixed ratio.
+			\[
+				t_n=ar^{n-1}
+			\]
+			$a$ is the first term, $r$ is the common ratio $r=\frac{t_k}{t_{k-1}}$ for $k>1$
+			
+			\paragraph{Geometric Series} The sum of terms in a geometric sequence.
+			\[
+				S_n=\frac{a(1-r^n)}{1-r}
+			\]
+			
+			\paragraph{Infinite Geometric Series}
+			\[
+				S_\infty=\frac{a}{1-r}\qquad\qquad -1<r<1
+			\]
+		\subsection{Non-Linear Relations}
+			\subsubsection{Circles}
+				\[
+					(x-h)^2+(y-k)^2=r^2
+				\]
+				Represents a circle of radius $r$ centred on $(h,k)$.
+			\subsubsection{Ellipses}
+				\[
+					\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1
+				\]
+				Ellipse with centre $(h,k)$ and $2a$ is the horizontal axis length, $b$ is the vertical axis length.
+			\subsubsection{Hyperbolas}
+				\[
+					\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1\qquad\qquad\text{Asymptotes: }y-k=\pm\frac{b}{a}(x-h)
+				\]
+				Hyperbola with centre $(h,k)$ and $2a$ is the horizontal distance between foci, $b$ is a vertical dilation.
+	\section{Vectors and Kinematics}
+		\subsection{Vectors Tech}
+			\paragraph{Create a vector} ctrl+( creates a matrix which we can use for vectors.
+			\subsubsection{norm(a)} Menu+7+7+1 give the norm (magnitude) of a vector.
+			\subsubsection{unitV(a)} Menu+7+C+1 creates a unit vector in direction of a given vector.
+			\subsubsection{dotP(a,b)} Menu+7+C+3 gives the dot product of two vectors.
+			\subsubsection{crossP(a,b)} Menu+7+C+2 gives the cross product of two vectors.
+			\subsubsection{sam\textunderscore vectors\textbackslash vang(a,b)} gives the angle between two vectors.
+			\subsubsection{sam\textunderscore vectors\textbackslash vecres(a,b)} Put in vectors and it will find the vector resolute of $\utilde{a}$ in both the direction of and perpendicular to $\utilde{b}$.
+			\subsubsection{sam\textunderscore vectors\textbackslash lindep(a,b,c,p)} Find a value for pronumeral $p$ that makes the set of vectors $a,b,c$ linearly dependent. In the first example below, we use it to find a value of p for which the vectors are linearly dependent. In the second example it is used to verify that a set of known vectors is linearly dependent. It returns a constant solution, so therefore they must be dependent.\\
+			\includegraphics[width=18cm]{lindepcas.png}
+		\subsection{Anles Between Vectors}
+			\begin{examquestion}{2006 Exam 2 Question B2}
+				\begin{minipage}{\linewidth}
+					\begin{leftbar}
+						Point $A$ has position vector $\utilde{a}=-\utilde{i}-4\utilde{j}$, point $B$ has position vector $\utilde{b}=2\utilde{i}-5\utilde{j}$, point $C$ has position vector $\utilde{c}=5\utilde{i}-4\utilde{j}$ and point $D$ has position vector $\utilde{d}=2\utilde{i}+5\utilde{j}$. It is known that $\cos\left(\angle ADC\right)=\frac{4}{5}$. Find the cosine of $\angle ABC$ and \textbf{hence show} that $\angle ADC$ and $\angle ABC$ are supplementary (add to $\pi$).
+					\end{leftbar}
+				\end{minipage}
+				\begin{align*}
+					\overrightarrow{BA}&=-3\utilde{i}+\utilde{j} \qquad \overrightarrow{BC}=3\utilde{i}+\utilde{j}\\
+					\mathrm{Let }\theta&=\angle ABC\\
+					\cos\theta&=\frac{\overrightarrow{BA}\cdot\overrightarrow{BC}}{\left|\overrightarrow{BA}\right|\left|\overrightarrow{BC}\right|}\\
+					&=-\frac{4}{5}\\\\
+					\arccos\left(-\frac{4}{5}\right)&=\frac{\pi}{2}+\arcsin\left(\frac{4}{5}\right)\\
+					\therefore \arccos\left(-\frac{4}{5}\right)+\arccos\left(\frac{4}{5}\right)&=\frac{\pi}{2}+\arcsin\left(\frac{4}{5}\right)+\arccos\left(\frac{4}{5}\right)\\
+					&=\frac{\pi}{2}+\frac{\pi}{2}=\pi\\
+				\end{align*}
+			\end{examquestion}
+		\subsection{Linear Dependence}
+			\[
+				x_1\utilde{a_1}+x_2\utilde{a_2}+...+x_n\utilde{a_n}=0\centernot\implies x_i=0 \forall i\in[0,n]
+			\]
+			A set of vectors is said to be linearly dependent if at least one of its members can be expressed as a linear combination of other vectors in the set. Alternatively, a set of vectors are linearly dependent if a vector could be removed from the set and not affect the set's span.
+			\paragraph{Linear combination} A vector $\utilde{w}$ is a linear combination of $\utilde{u}$ and $\utilde{v}$ if it can be expressed in form $\utilde{w}=k_1\utilde{u}+k_2\utilde{v}$ for $k_1,k_2\in\mathbb{R}$.
+			\paragraph{General Case} A set $S\in\mathbb{R}^n$ of $n$ vectors $\utilde{a}_1,\utilde{a}_2,...,\utilde{a}_n$ is linearly dependent \textbf{if and only if} there exists $k_1,k_2,...,k_n\in\mathbb{R}$ (not all equal 0) such that $k_1\utilde{a}_1+k_2\utilde{a}_2+...+k_n\utilde{a}_n=0$
+		\subsection{Scalar Product}
+			The scalar product of vectors $\utilde{a},\utilde{b}$ is given by:
+			\[
+			\utilde{a}\cdot\utilde{b}=|\utilde{a}||\utilde{b}|\cos\theta
+			\]
+			where $\theta$ is the angle between the two vectors.
+			\paragraph{Properties of the Scalar Product}
+			\begin{align*}
+				&\utilde{a}\cdot\utilde{b}=\utilde{b}\cdot\utilde{a} &\utilde{a}\cdot\left(\utilde{b}+\utilde{c}\right)=\utilde{a}\cdot\utilde{b}+\utilde{a}\cdot\utilde{c} \\
+				&k\left(\utilde{a}\cdot\utilde{b}\right)=\left(k\utilde{a}\right)\cdot\utilde{b}=a\cdot\left(k\utilde{b}\right) &\utilde{a}\cdot0=0
+			\end{align*}
+				\subparagraph{Parallel Vectors} For parallel vectors $\utilde{a},\utilde{b}$
+				\[
+					\utilde{a}\cdot\utilde{b}=\begin{cases*}
+						|\utilde{a}||\utilde{b}| & if $\utilde{a},\utilde{b}$ are in the same direction \\
+						-|\utilde{a}||\utilde{b}| & if $\utilde{a},\utilde{b}$ are in opposite directions
+					\end{cases*}
+				\]
+		\subsection{Vector and Scalar Resolutes}
+			We can decompose a vector $\utilde{a}$ into the sum of two vectors in perpendicular directions.
+			\paragraph{Vector Resolute in General}
+			The Vector resolute of $\utilde{a}$ in direction $\utilde{b}$ is given by:
+			\[
+				\utilde{u}=\frac{\utilde{a}\cdot\utilde{b}}{\utilde{b}\cdot\utilde{b}}\utilde{b}=\frac{\utilde{a}\cdot\utilde{b}}{|\utilde{b}|^2}\utilde{b}=\left(\utilde{a}\cdot\frac{\utilde{b}}{|\utilde{b}|}\right)\left(\frac{\utilde{b}}{|\utilde{b}|}\right)=\left(\utilde{a}\cdot\hat{\utilde{b}}\right)\hat{\utilde{b}}
+			\]
+			\paragraph{Scalar Resolute in General} The scalar resolute is the signed length of the vector resolute of $\utilde{a}$ in direction $\utilde{b}$
+			\[
+				\utilde{a}\cdot\hat{\utilde{b}}=\frac{\utilde{a}\cdot\utilde{b}}{|\utilde{b}|}
+			\]
+		\subsection{Vector Proof}
+		\subsection{Vector Equations}
+			\paragraph{Vector Equation of Line given by Point and Direction} $\utilde{r}(\lambda)=\utilde{a}+\lambda\utilde{d},\lambda\in\mathbb{R}$. \textbf{Note} that there is no unique vector equation for a given line $\ell$, as we can choose any point with position vector $\utilde{a}$ as our starting point and any vector $\utilde{d}\parallel \ell$.
+			
+			\paragraph{Vector Equation of Line given by Two Points} $\utilde{r}(\lambda)=\utilde{a}+\lambda\left(\utilde{b}-\utilde{a}\right),\lambda\in\mathbb{R}$ where $\utilde{a}$ and $\utilde{b}$ are the position vectors of the two points.
+			
+			\paragraph{Converting from Vector to Cartesian Equation} Consider the vector equation as a set of parametrics, where the coefficient of $\utilde{i}$ is equal to $x$, coefficient of $\utilde{j}$ is equal to $y$, etc. and then solving to get the cartesian form.
+			
+			\paragraph{Changing from Cartesian to Vector Equation} The direction vector of the line $\utilde{d}$ is given by $\utilde{d}=\mathrm{(run)}\utilde{i}+\mathrm{(rise)}\utilde{j}$.
+			
+			\paragraph{Lines in 3D} Lines in three dimensions can be described in three ways, where $\utilde{a}=a_1\utilde{i}+a_2\utilde{j}+a_3\utilde{k}$ is the position vector of a point A on the line and $\utilde{d}=d_1\utilde{i}+d_2\utilde{j}+d_3\utilde{k}$ is a vector parallel to the line.
+			\begin{center}
+				\bgroup
+				\def\arraystretch{2}
+				\begin{tabularx}{\textwidth}{|m{3cm}*2{|X}|}
+					\hline
+					\centering Vector & Parametric & Cartesian \\
+					\hline
+					\vspace{2em}
+					\centering$\utilde{r}(\lambda)=\utilde{a}+\lambda\utilde{d}$ & $\begin{aligned}
+						x=a_1+d_2\lambda \\[1em]
+						y=a_2+d_2\lambda \\[1em]
+						z=a_3+d_3\lambda
+					\end{aligned}$ & \(\frac{x-a_1}{d_1}=\frac{y-a_2}{d_2}=\frac{z-a_3}{d_3}\) \\
+					\hline
+				\end{tabularx}
+				\egroup
+			\end{center}
+			
+			\paragraph{Parallel and Perpendicular Lines} For two lines $\ell_1:\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\mathbb{R}$ and $\ell_2:\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\mathbb{R}$:
+			\begin{itemize}
+				\item $\ell_1\parallel\ell_2 \iff \utilde{d}_1\parallel\utilde{d}_2$
+				\item $\ell_1\perp\ell_2 \iff \utilde{d}_1\perp\utilde{d}_2 \iff \utilde{d}_1\cdot\utilde{d}_2=0$
+			\end{itemize}
+			
+			\subparagraph{Distance between two parallel lines} Let $\utilde{v}$ be the unit vector in the direction of the lines. Now let $p_1$ be a point on line 1 and $p_2$ be a point on line 2. The distance between the lines, as shown in the diagram below, can be calculated using the cross product.\\
+			\begin{minipage}{0.5\linewidth}
+				\begin{align*}
+					d&=|\utilde{w}|\sin\theta \\
+					&=\left|\utilde{v}\times\utilde{w}\right|\\
+					&=\left|\utilde{v}\times\left(\utilde{p_2}-\utilde{p_1}\right)\right|
+				\end{align*}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.5\linewidth}
+				\includegraphics[width=0.5\linewidth]{vectorlinesdist.png}
+			\end{minipage}
+		\subsection{Intersections and Skew Lines}
+			\subsubsection{Lines in 2D Space} A pair of lines in 2D space can
+			\begin{itemize}
+				\item intersect
+				\item be parallel and distinct
+				\item coincide
+			\end{itemize}
+			To check whether two parallel lines coincide choose a point on one line and see if it is on the other.
+			
+			\subsubsection{Lines in 3D Space}
+				\paragraph{Skew Lines} Two lines are skew lines if they are not parallel \textbf{and} do not intersect. Two lines are skew lines \textbf{if and only if} they do not lie in the same plane.
+				
+				\paragraph{Coincident and Parallel Lines} We can determine whether 3D lines are coincident or parallel and distinct by similar methods as in 2 dimensions. If parallel lines share a point they must coincide.
+				
+				\paragraph{Intersecting Lines} Two lines $\ell_1:\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1$ and $\ell_2:\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2$ have a common point if $\exists\lambda,\gamma\in\mathbb{R}\ni\utilde{r}_1(\lambda)=\utilde{r}_2(\gamma)$.
+				
+				\paragraph{Concurrence of 3 lines} A point of concurrence is where 3 or more lines meet.
+				
+				\paragraph{Angle Between 2 Lines} The angle between two lines can be found using the scalar product of their direction vectors. The angle is either $\theta$ or $\pi-\theta$, whichever lies in the interval $[0,\frac{\pi}{2}]$.
+		\subsection{Vector Product (Cross Product)}
+			\paragraph{Properties of the Vector Product}
+				\begin{itemize}
+					\item Direction of $\utilde{a}\times\utilde{b}$ is perpendicular to the plane containing $\utilde{a}$ and $\utilde{b}$.
+					\item $|\utilde{a}\times\utilde{b}|=|\utilde{a}||\utilde{b}|\sin\theta$
+					\item $\utilde{a}\parallel\utilde{b}\implies|\utilde{a}\times\utilde{b}|=0$
+					\item $\utilde{a}\perp\utilde{b}\implies|\utilde{a}\times\utilde{b}|=|\utilde{a}||\utilde{b}|$
+					\item Vector product is not associative $\left(\utilde{a}\times\utilde{b}\right)\times\utilde{c}\neq\utilde{a}\times\left(\utilde{b}\times\utilde{c}\right)$
+					\item Vector product is not commutative $\utilde{a}\times\utilde{b}\neq\utilde{b}\times\utilde{a}$
+					\item Distributes over addition $\utilde{a}\times\left(\utilde{b}+\utilde{c}\right)=\utilde{a}\times\utilde{b}+\utilde{a}\times\utilde{c}$
+					\item $\utilde{a}\times\utilde{b}=-\left(\utilde{b}\times\utilde{a}\right)$
+				\end{itemize}
+			
+			\paragraph{Vector Product in Component Form}
+				Let $\utilde{a}=a_1\utilde{\hat{i}}+a_2\utilde{\hat{j}}+a_3\utilde{\hat{k}}$ and $\utilde{b}=b_1\utilde{\hat{i}}+b_2\utilde{\hat{j}}+b_3\utilde{\hat{k}}$, then:
+				\begin{align*}
+					\utilde{a}\times\utilde{b}&=\left(a_1\utilde{\hat{i}}+a_2\utilde{\hat{j}}+a_3\utilde{\hat{k}}\right)\times\left(b_1\utilde{\hat{i}}+b_2\utilde{\hat{j}}+b_3\utilde{\hat{k}}\right)\\
+					&=(a_2b_3-a_3b_2)\utilde{\hat{i}}-(a_1b_3-a_3b_1)\utilde{\hat{j}}+(a_1b_2-a_2b_1)\utilde{\hat{k}}
+				\end{align*}
+				We can also use the determinant of a $3\times3$ matrix to find the components of a vector product.
+				\begin{equation*}
+					\utilde{a}\times\utilde{b}=\begin{vmatrix}
+						\utilde{\hat{i}} & \utilde{\hat{j}} & \utilde{\hat{k}} \\
+						a_1 & a_2 & a_3 \\
+						b_1 & b_2 & b_3
+					\end{vmatrix}=\begin{vmatrix}
+						a_2 & a_3 \\
+						b_2 & b_3
+					\end{vmatrix}\utilde{\hat{i}} - \begin{vmatrix}
+						a_1 & a_3 \\
+						b_1 & b_3
+					\end{vmatrix}\utilde{\hat{j}} + \begin{vmatrix}
+						a_2 & a_2 \\
+						b_1 & b_2
+					\end{vmatrix}\utilde{\hat{k}}
+				\end{equation*}
+			
+			\paragraph{Area from Vector Product} $|\utilde{a}\times\utilde{b}|$ equals the area of the parallelogram spanned by $\utilde{a}$ and $\utilde{b}$
+		\subsection{Vector Equations of Planes}
+			\paragraph{Equations of Planes} A plane $\Pi$ can be described in 3-dimensional space with 2 vectors
+			\begin{itemize}
+				\item Position vector $\utilde{a}$ of a point on the plane
+				\item A vector $\utilde{n}$ that is normal to the plane
+			\end{itemize}
+			Let $\utilde{r}$ be the position vector of a point P on the plane, then the vector $\overrightarrow{AP}=\utilde{r}-\utilde{a}$ lies on the plane and therefore $\overrightarrow{AP}\perp\utilde{n}$.\\
+			\begin{align*}
+				(\utilde{r}-\utilde{a})\cdot\utilde{n}&=0 \\
+				\utilde{r}\cdot\utilde{n}&=\utilde{a}\cdot\utilde{n}
+			\end{align*}
+			The above equation is known as the \textbf{vector equation} of the plane.\\\\
+			If we let $\utilde{r}=x\utilde{\hat{i}}+y\utilde{\hat{j}}+z\utilde{\hat{k}}$ and $\utilde{n}=n_1\utilde{\hat{i}}+n_2\utilde{\hat{j}}+n_3\utilde{\hat{k}}$ we can obtain the \textbf{cartesian equation} for the plane.\\
+			\begin{align*}
+				\utilde{r}\cdot\utilde{n}&=\utilde{a}\cdot\utilde{n} \\
+				n_1x+n_2y+n_3z&=k\text{ where }k=\utilde{a}\cdot\utilde{n}
+			\end{align*}
+			\\\\
+			We can also describe planes with the use of parameters. For example, if $n_1x+n_2y+n_3z=k$, with $a_3\neq0$ describes a plane, it can be described by the following parametrics:
+			\begin{equation*}
+				x=\lambda \qquad y=\gamma \qquad z=\frac{k-n_1\lambda-n_2\gamma}{n_3} \qquad \lambda,\gamma\in\mathbb{R}
+			\end{equation*}
+			We can determine the equations of planes with:
+			\begin{itemize}
+				\item a point on the plane and a normal vector at that point
+				\item three points on the plane which are not collinear, or
+				\item two lines on the plane that intersect
+			\end{itemize}
+		
+			\begin{example}{Equation of a Plane given Point and Normal Vector}
+				A plane $\Pi$ is such that the vector $-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}$ is normal to it at point A with the position vector $\utilde{a}=-3\utilde{\hat{i}}+4\utilde{\hat{j}}+6\utilde{\hat{k}}$ on the plane. Find the cartesian and vector equations that describe $\Pi$.\\
+				\begin{align*}
+					\utilde{r}\cdot\utilde{n}&=\utilde{a}\cdot\utilde{n} \\
+					\utilde{r}\cdot\left(-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}\right)&=\left(-3\utilde{\hat{i}}+4\utilde{\hat{j}}+6\utilde{\hat{k}}\right)\cdot\left(-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}\right) \\
+					\utilde{r}\cdot\left(-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}\right)&=3+20-18=5 \\
+					\therefore\utilde{r}\cdot\left(-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}\right)&=5\\
+					\\
+					\\
+					\utilde{r}&=x\utilde{\hat{i}}+y\utilde{\hat{j}}+z\utilde{\hat{k}} \\
+					\left(x\utilde{\hat{i}}+y\utilde{\hat{j}}+z\utilde{\hat{k}}\right)\cdot\left(-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}\right)&=5 \\
+					-x+5y-3z&=5
+				\end{align*}
+			\end{example}
+			
+			\begin{example}{Equation of Plane Given 3 Points}
+				Consider the plane containing the points $A(0,1,1),B(2,1,0)$ and $C(-2,0,3)$.
+				(a) Find cartesian equation of the plane.
+				\begin{align*}
+					\overrightarrow{AB}=2\utilde{\hat{i}}-\utilde{\hat{k}} \qquad &\text{and} \qquad \overrightarrow{AC}=-2\utilde{\hat{i}}-\utilde{\hat{j}}+2\utilde{\hat{k}} \\
+					\\
+					\overrightarrow{AB}\times\overrightarrow{AC}&=-\utilde{\hat{i}}-2\utilde{\hat{j}}-2\utilde{\hat{k}} \\
+					\therefore \utilde{n}&=-\utilde{\hat{i}}-2\utilde{\hat{j}}-2\utilde{\hat{k}} \\
+					\text{Use previous method to find plane equation to be:}\\
+					-x-2y-2z&=-4
+				\end{align*}
+				(b) Find the axis intercepts of the plane
+				\begin{align*}
+					\text{x-intercept: Let }y=z=0&\implies x=4 \\ 
+					\text{y-intercept: Let }x=z=0&\implies 2y=4 \implies y=2 \\
+					\text{z-intercept: Let }x=y=0&\implies 2z=4 \implies z=2
+				\end{align*}
+			\end{example}
+			
+			\begin{example}{Equation of Plane Given 2 Intersecting Lines}
+				Find a vector and cartesian equation of the plane containing the two lines:
+				\begin{align*}
+					&\ell_1: \utilde{r}_1(\lambda)=5\utilde{\hat{i}}+2\utilde{\hat{j}}+\lambda\left(2\utilde{\hat{i}}+\utilde{\hat{j}}+\utilde{\hat{k}}\right) \qquad \text{and} \\ &
+					\ell_2: \utilde{r}_2(\gamma)=-3\utilde{\hat{i}}+4\utilde{\hat{j}}+6\utilde{\hat{k}}+\gamma\left(\utilde{\hat{i}}-\utilde{\hat{j}}-2\utilde{\hat{k}}\right)
+				\end{align*}
+				\begin{align*}
+					\utilde{a}&=5\utilde{\hat{i}}+2\utilde{\hat{j}}\text{ is on the plane} \\
+					\\
+					\text{Let $\utilde{n}$ be the a vector perpendicular to both } & \text{$\utilde{d}_1$ and $\utilde{d}_2$} \\
+					\utilde{n}&=\utilde{d}_2\times\utilde{d}_2 \\
+					&=-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}} \\
+					\\
+					\therefore \utilde{r}\cdot\left(-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}\right)&=\utilde{a}\cdot\utilde{n}\\
+					&=-1\times5+2\times5+-3\times0 \\
+					\therefore\utilde{r}\cdot\left(-\utilde{\hat{i}}+5\utilde{\hat{j}}-3\utilde{\hat{k}}\right)&=5 \\
+					\implies -x+5y-3z=5
+				\end{align*}
+			\end{example}
+		\subsection{Distances, Angles, Intersections of Planes}
+			\subsubsection{Distances}
+				\paragraph{Point to Plane distance} The distance from a point $P$ to a plane $\Pi$ is given by
+				\[
+					d=\left|\overrightarrow{PQ}\cdot\utilde{\hat{n}}\right|
+				\]
+				
+				\paragraph{Plane to Origin Distance} A plane that does not pass through the origin has a vector equation $\utilde{r}\cdot\utilde{n}=k$ for $k\neq0$. Take the point $M$ as the closest point on the plane to the origin. $\overrightarrow{OM}=m\utilde{n}$ where $|m|$ is the distance of the plane to the origin.
+				\begin{align*}
+					&\left(m\utilde{\hat{n}}\right)\cdot\utilde{n}=k \\
+					&m\left(\utilde{\hat{n}}\cdot\utilde{n}\right)=m|\utilde{n}|=k\\
+					&\therefore m=\frac{k}{|\utilde{n}|}
+				\end{align*}
+			
+				\paragraph{Distance Between Parallel Planes} To find the distance between planes $\Pi_1$ and $\Pi_2$ we choose any point $P$ on $\Pi_1$ and find its nearest distance to $\Pi_2$, we can also use each plane's distance from origin.
+				
+				\paragraph{Distance Between Skew Lines} Given two skew lines it can be shown that there is a unique line segment $PQ$ joining them that is perpendicular to both lines. Consider the lines defined by $\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\mathbb{R}$ and $\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\mathbb{R}$. The distance between these skew lines is given by $d=\left|\left(\utilde{a}_2-\utilde{a}_1\right)\cdot\utilde{\hat{n}}\right|$
+			
+			\subsubsection{Intersections and Angles}
+				Two planes that are not parallel will intersect along a line. To find the angle between the planes choose a point $P$ common to both planes and find the angle $\theta$ between the normal vectors. The answer will either be $\theta$ or $\pi-\theta$, whichever is in the interval $[0,\frac{\pi}{2}]$.
+				
+				\paragraph{Intersection of a Line and a Plane} The angle between a line and a plane is 90\degree-$\theta$ where $\theta$ is the angle between the line and a normal to the plane.
+			
+		\subsection{Parametric Vector Equations}
+			
+		\subsection{SUVAT and Constant Acceleration}
+			\[
+				v=u+at \qquad s=ut+\frac{1}{2}at^2 \qquad v^2=u^2+2as \qquad s=\frac{1}{2}(u+v)t
+			\]
+		\subsection{Velocity-Time Graphs}
+			\paragraph{Displacement} is given by the signed area bounded by the graph and the $t$-axis.
+			\paragraph{Acceleration} is given by the gradient.
+			\paragraph{Distance} is given by the total area bounded by the graph and the $t$-axis.
+		\subsection{Vector Functions}
+			\subsubsection{Describing Particle's Path}
+				Consider $\utilde{r}(\lambda)=x(\lambda)\utilde{i}+y(\lambda)\utilde{j},\lambda\in\mathbb{R}$. $\utilde{r}(\lambda)$ represents a family of vectors defined by the parameter $\lambda$. Solve the components as normal parametrics to obtain the equation of the path.
+			\subsubsection{Describing Curves with Vector Functions}
+				Vector functions to describe curves are not unique.
+		\subsection{Position Vectors as a Function of Time}
+			Consider the vector function $\utilde{r}(t)=\cos(t)\utilde{i}+\sin(t)\utilde{j},t\geq0$.
+			\begin{itemize}
+				\item At $t=0$, $\utilde{r}(t)=\utilde{i}$ so the particle starts at $(1,0)$
+				\item The particle moves at a constant speed along $x^2+y^2=1$
+				\item The particle moves counterclockwise (sub in successive $t$ values)
+				\item The period of the motion is $2\pi$; it takes $2\pi$ units of time to complete one circle.
+			\end{itemize}
+		\subsection{Vector Calculus}
+			\subsubsection{Properties of Vector Derivatives}
+				\begin{align*}
+					&\frac{d}{dt}(\utilde{c})=0 \qquad \text{For constant vector }\utilde{c} \qquad &\frac{d}{dt}\left(k\utilde{r}(t)\right)=k\frac{d}{dt}\left(\utilde{r}(t)\right),k\in\mathbb{R}\\
+					&\frac{d}{dt}\left(\utilde{r}_1(t)+\utilde{r}_2(t)\right)=\frac{d}{dt}\left(\utilde{r}_1(t)\right)+\frac{d}{dt}\left(\utilde{r}_2(t)\right) \qquad &\frac{d}{dt}\left(f(t)\cdot\utilde{r}(t)\right)=f(t)\frac{d}{dt}=\left(\utilde{r}(t)\right)+\utilde{r}(t)\frac{d}{dt}\left(f(t)\right),f:\mathbb{D}\to\mathbb{R}\\
+				\end{align*}
+			\subsubsection{Velocity and Acceleration Along a Curve}
+				Consider a particle with position vector $\utilde{r}(t)=x(t)\utilde{i}+y(t)\utilde{j}$.
+				\paragraph{Velocity} $\utilde{v}=\utilde{\dot{r}}(t)=\dot{x}(t)\utilde{i}+\dot{y}(t)\utilde{j}$
+				\paragraph{Acceleration} $\utilde{a}(t)=\utilde{\ddot{r}}(t)=\ddot{x}(t)\utilde{i}+\ddot{y}(t)\utilde{j}$
+				\paragraph{Distance Between Points on Vector Function Curve} $|\utilde{r}(t_1)-\utilde{r}(t_0)|$
+			
+	\section{Complex Numbers}
+		\subsection{Tech}
+			\subsubsection{Lines in the Complex Plane} Define z:=x+y$\cdot\mathbf{i}$, then Menu+3+1 to get the solve() function and then input your complex relation, and solve for $y$.
+			
+			\subsubsection{Relations with Arguments in the Complex Plane} For relations in form $\Arg(z)=a$ we define z:=x+y$\cdot\mathbf{i}$, and then use Menu+2+9+4 to input the angle() function. We then menu+3+1 solve(angle(z)=a,y) to get the relation.
+		\subsection{Operations of Complex Numbers in Cartesian Form}
+			For $z_1=a+bi$ and $z_2=c+di$ for $a,b,c,d\in\mathbb{R}$
+			\begin{align*}
+				z_1+z_2=(a+c)+(b+d)i \qquad z_1z_2=(ac-bd)+(ad+bc)i \\
+				z_1-z_2=(a-c)+(b-d)i \qquad kz=ka+kbi
+			\end{align*}
+			\begin{minipage}{0.5\textwidth}
+				\paragraph{Multiplication by i} $z\times i,z\in\mathbb{C}$ gives a $\frac{\pi}{2}$ rotation in the counterclockwise direction about the origin.
+				\begin{align*}
+					i^{4n}=1 \qquad i^{4n+1}=i \qquad i^{4n+2}=-1 \qquad i^{4n+3}=-i
+				\end{align*}
+			\end{minipage}
+			\begin{minipage}{0.5\textwidth}
+				\includegraphics[width=\linewidth]{argandrotate.png}
+			\end{minipage}
+		\subsection{Properties of Conjugates}
+			For $z=a+bi$, $\bar{z}=a-bi$
+			\[
+				\bar{z_1+z_2}=\bar{z_1}+\bar{z_2} \qquad \bar{z_1z_2}=\bar{z_1}\bar{z_2} \qquad \bar{kz}=k\bar{z},k\in\mathbb{R} \qquad z\bar{z}=|z|^2 \qquad z+\bar{z}=2\Real(z)
+			\]
+			\paragraph{Multiplicative Inverse for Division} If $z=a+bi\neq0$ then
+			\[
+				z^{-1}=\frac{a-bi}{a^2+b^2}=\frac{\bar{z}}{|z|^2}
+			\]
+			For division:
+			\[
+				\frac{z_1}{z_2}=z_1z_2^{-1}=\frac{z_1\bar{z_2}}{|z_2|^2}
+			\]
+		\subsection{Polar Form Operations}
+			\paragraph{Conjugate} $z=r\cis\theta\implies\bar{z}=r\cis\left(-\theta\right)$. On an Argand diagram this can be represented as a reflection of $z$ in the Real axis.
+			\paragraph{Addition and Subtraction} You need to convert to cartesian form to complete these operations using $\cis\theta=(\cos\theta+i\sin\theta)$.
+			\paragraph{Scalar Multiplication} If $k\in\mathbb{R}^+$ then $\Arg(z)=Arg(kz)$. If $k\in\mathbb{R}^-$ then:
+			\[
+				\Arg(kz)=\begin{cases*}
+					\Arg(z)-\pi & $0<\Arg(z)\leq\pi$ \\
+					\Arg(z)+\pi & $-\pi<\Arg(z)\leq0$
+				\end{cases*}
+			\]
+			\paragraph{Complex Multiplication} Let $z_1=r_1\cis\theta_1$ and $z_2=r_2\cis\theta_2$
+			\[
+				z_1z_2=r_1r_2\cis(\theta_1+\theta_2) \qquad \Arg(z_1z_2)=\Arg(z_1)+\Arg(z_2)+2k\pi,k\in\{-1,0,1\}
+			\]
+			\paragraph{Complex Division} Let $z_1=r_1\cis\theta_1$ and $z_2=r_2\cis\theta_2$, $r_2\neq0$.
+			\[
+				\frac{z_1}{z_2}=\frac{r_1}{r_2}\cis\left(\theta_1-\theta_2\right) \qquad \Arg(z_1z_2)=\Arg(z_1)-\Arg(z_2)+2k\pi,k\in\{-1,0,1\}
+			\]
+			$\Arg(\frac{1}{z})=-\Arg(z)$ given $z\notin\mathbb{R}^-$
+		\subsection{Quadratics over Complex Numbers}
+			\paragraph{Sum of Squares} Since $i^2=-1$, we can rewrite a sum of squares as a difference of squares using $i$. $z^2+a^2=z^2-(ai)^2=(z+ai)(z-ai)$
+		\subsection{Polynomials over Complex Numbers}
+			\paragraph{Remainder Theorem} Let $\alpha\in\mathbb{C}$. When a polynomial $P(z)$ is divided by $z-\alpha$, the remainder is $P(\alpha)$
+			\paragraph{Factor Theorem} Let $\alpha\in\mathbb{C}$. Then $z-\alpha$ is a factor of $P(z)$ \textbf{if and only if} $P(a)=0$.
+			\paragraph{Conjugate Root Theorem} Let $P(z)$ be a polynomial with real coefficients. If $a+bi$ is a solution to $P(z)=0$, with $a,b\in\mathbb{R}$, then the complex conjugate $a-bi$ is also a solution.
+			\paragraph{The Fundamental Theorem of Algebra} Every polynomial $P(z)=a_nz^n+a_{n-1}z^{n-1}+...+a_1z+a_0$ of degree $n$, where $n\geq1$ and the coefficients $a_i$ are complex numbers, has at least one linear factor in the complex number system.
+		\subsection{Solving with De Moivre}
+			Equations of form $z^n=a,a\in\mathbb{C}$ can be solved with de Moivre's theorem.
+			\begin{example}{de Moivre's theorem to solve basic case}
+				Let $z=r\cis\theta$ and $a=q\cis\phi$. Solve $z^n=a$.
+				\begin{align*}
+					&z=r\cis\theta,a=q\cis\phi &\cis(n\theta)=\cis\phi\\
+					&z^n=a &n\theta=\phi+2k\pi,k\in\mathbb{Z}\\
+					&r^n\cis(n\theta)=q\cis\phi &\theta=\frac{1}{n} (\phi+2k\pi),k\in\mathbb{Z}\\
+					&r=\sqrt[n]{q}\\
+				\end{align*}
+				We then use the information to begin finding solutions.
+			\end{example}
+		
+			\paragraph{Complex Roots}
+			\begin{itemize}
+				\item For $n\in\mathbb{N}$ and $a\in\mathbb{C}$, the solutions $z^n=a$ are called the nth-roots of $a$
+				\item Solutions lie evenly spaced on a circle about the origin of radius $|a|^{\frac{1}{n}}$.
+				\item There are n solutions and they are spaced equally around the circle by intervals of $\frac{2\pi}{n}$
+			\end{itemize}
+			
+			\paragraph{Roots of Unity} For $n\in\mathbb{N}$ the solutions of $z^n=1$ are called the nth-roots of unity.
+			\begin{itemize}
+				\item Solutions lie on the unit circle
+				\item There are n solutions and they are spaced evenly by $\frac{2\pi}{n}$ around the circle
+				\item $z=1$ is always a solution
+			\end{itemize}
+		
+			\paragraph{Sum of the nth-roots of Unity} $z^n=1$ has a set of solutions defined by the geometric sequence with ratio $w=\cis\left(\frac{2\pi}{n}\right)$. The sum of the nth-roots of unity is always 0.
+			\[
+				1,w,w^2,w^3,w^4,...,w^{n-1},w=\cis\left(\frac{2\pi}{n}\right),n\in\mathbb{N}
+			\]
+			\[
+				\sum\limits_{i=0}^{n-1}w^i=0 \text{ For }w=\cis\left(\frac{2\pi}{n}\right),w^n=1
+			\]
+		\subsection{Subsets of Complex Plane}
+			\subsubsection{Circles}
+				A circle is defined as the set of points equidistant from a complex number.\\
+				For $z,z_1\in\mathbb{C}$ we can form a circle of radius $r$ about $z_1$ by:
+				\[
+					\left(z-z_1\right)\overline{\left(z-z_1\right)}=r^2\implies |z-z_1|^2=r^2 \implies |z-z_1|=r
+				\]
+				\paragraph{Combination of Moduli} As $|z|=|\bar{z}|$, a linear combination of the moduli $a|z|+b|\bar{z}|=r(a+b)$ will be a circle of radius $r$.
+				\paragraph{Find Equation of Circle given Endpoints of Diameter} If $z_1$ and $z_2$ are the endpoints of the diameter of a circle, then the equation of a circle can be determined in \textbf{diametric form}:
+				\[
+					(z-z_1)\overline{\left(z-z_2\right)}+(z-z_2)\overline{\left(z-z_1\right)}=0
+				\]
+				\paragraph{Equation from Three Points} Given three complex numbers that lie on a circle, the centre $z_0$ can be found by finding the intersection of the perpendicular bisectors of the points.
+				\[
+					r=|z_0-z_1|=|z_0-z_2|=|z_0-z_3|\qquad z,z_1,z_2,z_3\in\mathbb{C}
+				\]
+			\subsubsection{Lines}
+				\paragraph{Perpendicular Bisectors} The set of points equidistant on the complex plane from two complex numbers form a line.
+				\[
+					|z-z_1|=|z-z_2|\qquad z,z_1,z_2\in\mathbb{C}
+				\]
+					\subparagraph{Converting Perpendicular Bisector to Cartesian Form} First find midpoint of the line between $z_1$ and $z_2$. Determine the slope between the points and take its negative reciprocal. Substitute in to $y=m(x-x_1)+y_1$.
+			\subsubsection{Rays}
+				A ray extending at angle $\theta$ from positive direction of the $\mathrm{Re}(z)$ axis originating from $z_1\in\mathbb{C}$ is defined by:
+				\[
+					\Arg(z-z_1)=\theta\qquad z,z_1\in\mathbb{C},\theta\in\mathbb(-\pi,\pi)
+				\]
+				A ray is not defined for $z=0+0i$ as there is no unique angle for $\Arg(0+0i)$
+				\begin{examquestion}{VCAA 2019 A5 (modified) - Intersections of Rays}
+					\begin{leftbar}
+						Let $z=x+yi$ for $x,y\in\mathbb{R}$. The rays $\Arg(z-2)=\frac{\pi}{4}$ and $\Arg\left(z-(5+i)\right)=\frac{5\pi}{6}$ for $z\in\mathbb{C}$, intersect at $(a,b)$. Find the value of $b$.
+					\end{leftbar}
+					\begin{align*}
+						&\Arg(z-2)=\frac{\pi}{4}\implies y=x-2,x>2\qquad &\Arg\left(z-(5+i)\right)=\frac{5\pi}{6}\implies y=\frac{-1}{\sqrt{3}}(x-5)+1,x<5\\
+						&\text{Consider }(a,b)\\
+						&\therefore b=a-2\qquad b=\frac{-1}{\sqrt{3}}(a-5)+1\\
+						&\therefore a=\sqrt{3}+2,b=\sqrt{3}
+					\end{align*}
+				\end{examquestion}
+			\subsubsection{Hyperbolas}
+				\[
+					|z-z_1|-|z-z_2|=2a \qquad z,z_1,z_2\in\mathbb{C},a\in\mathbb{R}
+				\]
+				$z_1,z_2$ are the foci of the ellipse, and $a$ is the semi-major axis length.\\
+				\begin{minipage}{0.7\textwidth}
+					\paragraph{Find Cartesian Form} The centre of the hyperbola $z_0$ is the midpoint of the foci, that is $\displaystyle z_0=\frac{z_1+z_2}{2}$. The linear eccentricity $c$ of the hyperbola is given $c=|z_0-z_1|=|z_0-z_2|$. The semi-major axis length $a$, the semi-minor axis length $b$ and eccentricity $c$ are related by $c^2=a^2+b^2\implies b=\sqrt{c^2-a^2}$. We then use this to write a horizontal (left below) or vertical (right below) hyperbola.
+					\[
+						\frac{\left(x-\mathrm{Re}(z_0)^2\right)}{a^2}-\frac{\left(y-\mathrm{Im}(z_0)\right)^2}{b^2}=1 \qquad \frac{\left(y-\mathrm{Im}(z_0)\right)^2}{a^2}-\frac{\left(x-\mathrm{Re}(z_0)\right)^2}{b^2}=1
+					\]
+				\end{minipage}
+				\begin{minipage}{0.3\textwidth}
+					\includegraphics[width=5cm]{complexhyperbola.png}
+				\end{minipage}				
+	\section{Logic and Proof}
+		\subsection{Converses, Negations, Contrapositives}
+			For a conditional statement $P\implies Q$:
+			\paragraph{Negation} $P$ and $\neg Q$
+				\subparagraph{de Morgan's Law} $\neg(P\land Q)\equiv\neg P\lor\neg Q$\\
+				$\neg(P\lor Q)\equiv\neg P\land\neg Q$\\
+				$\neg(P\implies Q)\equiv P\land \neg Q$
+			\paragraph{Converse} $Q\implies P$
+			\paragraph{Contrapositive} $\neg Q\implies\neg P$
+		\subsection{Proof of Equivalent Statements}
+			To prove $P\iff Q$ both $P\implies Q$ and $Q\implies P$ have to be shown to be true.
+		\subsection{Proof by Contradiction}
+			First, assume the statement is false, then show that this assumption leads to mathematical nonsense. Therefore we conclude that the assumption was wrong, and therefore the statement must be true.
+		\subsection{Quantifiers and Counterexamples}
+			\[
+				\forall:\text{ 'For all'} \qquad \exists:\text{ 'There exists'}
+			\]
+			To prove universal statements ($\forall$) we need to provide a general argument that holds for every case in the set. To disprove universal statements, we need to provide a counterexample where it does not hold.\\
+			To prove an existence statement ($\exists$) we need to show that it holds for at least one member in the set. To disprove these statements, we prove that its negation is true.
+			\subsubsection{Negations with Quantifiers}
+				Recall de Morgan's laws, apply these as normal and then flip the quantifier symbol ($\forall$ or $\exists$).
+			\subsubsection{Product and Sum Notation}
+				\[
+					\sum_{i=1}^ni^2=1^2+2^2+...+n^2 \qquad \prod_{i=1}^n(2i-1)=1\times3\times5\times...\times(2n-1)
+				\]
+	\section{Circular Functions}
+		\subsection{Tech}
+			
+		\subsection{Solutions of Equations with Circular Functions}
+			\paragraph{Sine general solutions} For $a\in[-1,1]$ the general solution of $\sin(x)=a$ is:
+			\[
+				x=2n\pi+\arcsin(a)\qquad\text{or}\qquad x=(2n+1)\pi-\arcsin(a),n\in\mathbb{Z}
+			\]
+			\paragraph{Cosine general solutions} For $a\in[-1,1]$ the general solution of $\cos(x)=a$ is:
+			\[
+				x=2n\pi\pm\arccos(a),n\in\mathbb{Z}
+			\]
+			\paragraph{Tangent general solutions} For $a\in\mathbb{R}$ the general solution of $\tan(x)=a$ is:
+			\[
+				x=n\pi+\arctan(a),n\in\mathbb{Z}
+			\]
+	\section{Stats and Probability :skull:}
+		\subsection{Tech}
+			\subsubsection{sam\textunderscore prob\textbackslash bpd(n,p,lower,upper)} Outputs the probability distribution of a random binomial variable with $n$ trials and probability of success $p$ for a range of successes from lower to upper inclusive. It will also output the total probability of that range of successes.
+			\subsubsection{sam\textunderscore prob\textbackslash pdanal({x},{px})}
+			Fill in the values from the \textbf{discrete} probability distribution where the set {x} is the row of $x$ values and {px} is the row of $\Pr(X=x)$ values. It will tell you the mean and variance of that distribution.
+			\subsubsection{scriptedmath\textbackslash expec(f(x),x)} Find the expected value of a continuous distribution with a density function f(x).
+			\subsubsection{scriptedmath\textbackslash var(f(x),x)} Find the variance of a continuous distribution with a density function f(x).
+			\subsubsection{scriptedmath\textbackslash sd(f(x),x)} Find the standard deviation of a continuous distribution with a density function f(x).
+			\subsubsection{scriptedmath\textbackslash mode(list,freqlist)} Find the mode of list.
+			\subsubsection{scriptedmath\textbackslash ns(eq,var)} Finds a relation to describe the non-negative integer solutions for the variable var to the equation.
+			
+			\subsubsection{normcdf(lower, upper, $\mu$, $\sigma$)} Finds the area under a normal density curve over an interval. For $\mathrm{Pr}(X\geq x)$ set the lower bound to be $x$ and the upper bound to be $\infty$. For $\mathrm{Pr}(X\leq x)$ set the upper bound to be $x$ and the lower bound to be $-\infty$. Input $\sigma$ and $\mu$ as given in the question.
+			
+			\subsubsection{invnorm(left tail prob, $\mu$, $\sigma$)} Used for solving $Pr(X>x_c)=C$. Input invnorm(1-$C$, $\mu$, $\sigma$) to get the value for $x_c$.
+			
+			\subsubsection{sam\textunderscore prob\textbackslash normsum(x1,ltp1,x2,ltp2)}
+			Find the mean and standard deviation of a normal distribution given the left-tail probability of two values. Put in one of the values for x1 and its left-tail probability for ltp1, and do the same for the second value.
+			
+			\subsubsection{Simulating Sample Means}
+				randNorm($\mu$, $\sigma$, $n$) will give a list of $n$ values randomly selected in a normal distribution of mean $\mu$ and standard deviation $\sigma$. To find the sample mean apply mean() to this function.\\\\
+				To do this for $m$ samples, add a \textbf{Lists and Spreadsheets} page in the CAS. In column A in the formula box input seq(mean(randNorm($\mu$,$\sigma$,$n$)),i,1,$m$). Remember $n$ is the sample size and $m$ is the number of samples. Name the column smeans. Now add a \textbf{Data and Statistics} page and add smeans to the $x$-axis.
+			\subsubsection{Confidence Interval}
+				To quickly find a confidence interval, in a calculator window go to menu+6+6+1. Set input method to stats, then input the necessary values.
+			\subsubsection{Hypothesis Testing - One Tail}
+				Menu+6+7+1 $\to$ zTest. $\mu_0$ is the original population mean. $\sigma$ is the general standard deviation (do not divide by $\sqrt{n}$). $\bar{x}$ is the sample mean. $n$ is the sample size. Choose the type of alternative hypothesis and it will give you the necessary values.\\
+				\textbf{For two tail-tests:} Do the same as for a one tail test, but choose the $\mu\neq\mu_0$ test type.
+			\subsubsection{nSolve for brute force solving}
+				In situations where solve() doesn't give a solution, even in approximate form, you can use nsolve() to brute force solve an equation.
+				
+			\subsubsection{Type II Error Probability}
+				\paragraph{Instances of one-tail tests} For a 5\% significance one-tail hypothesis test, in order to calculate the probability of type II error use \textbf{invnorm(0.05,$\mu$,$\frac{\sigma}{\sqrt{n}}$)} to get the value for the sample mean which determines the boundary between rejection and acceptance of $H_0$. From this, execute a \textbf{normcdf(ans,$\infty$,true mean,$\frac{\sigma}{\sqrt{n}}$)} to find the probability of a Type II error.
+				
+				\paragraph{Instances of two-tail tests} For a 5\% significance two-tail hypothesis test, in order to calculate the probability of type II error use \textbf{invnorm(0.025,$\mu$,$\frac{\sigma}{\sqrt{n}}$)} to get the lower bound value for the 'acceptance region' and save this in a variable name like $l$. From this, do $\mu-l$ and save this as $d$ then $\mu+d$ (save this as $u$). Then execute \textbf{normcdf(l,u,true mean,$\frac{\sigma}{\sqrt{n}}$)} to find the probability of a Type II error.
+		\subsection{Linear Functions of Random Variables}
+			Consider a random variable $Y$ which is a linear function of random variable $X$
+			\[
+				Y=aX+b\qquad a,b\in\mathbb{R}
+			\]
+			
+			\paragraph{Linear Functions of Discrete Random Variables} If $X$ is a discrete random variable $Y=aX+b$ is also a discrete random variable.
+			
+			\paragraph{Linear Functions of Continuous Random Variables} If $X$ is a continuous random variable, $Y=aX+b,a\neq0$ is also a continuous random variable. For $a>0$:
+			\[
+				\mathrm{Pr}(Y\leq y)=\mathrm{Pr}(aX+b\leq y)=\mathrm{Pr}\left(X\leq\frac{y-b}{a}\right)
+			\]
+			\[
+				\therefore \mathrm{Pr}(Y\leq y)=\int\limits_{-\infty}^{\frac{y-b}{a}}f(x)dx
+			\]
+			
+			\paragraph{Mean of Linear Functions of Random Variables}
+				\subparagraph{Mean of Discrete Random Variables} For D.R.V's, the expected value $\mathrm{E}(X)$ of $X$ gives:
+					\[
+					\mathrm{E}(X)=\sum\limits_xx\cdot\mathrm{Pr}(X=x)
+					\]
+				\subparagraph{Mean of Continuous Random Variables} For C.R.V's, the expected value $\mathrm{E}(X)$ of $X$ gives:
+					\[
+					\mathrm{E}(X)=\int\limits_{-\infty}^{\infty}x\cdot f(x)dx
+					\]
+				For $Y=aX+b$:
+				\[
+					\mathrm{E}(Y)=\mathrm{E}(aX+b)=a\mathrm{E}(X)+b
+				\]
+			
+			\paragraph{Variance of Linear Functions of Random Variables} Generally, for $X$ is a random variable with variance $\sigma^2$, and $Y=aX+b$ for $a,b\in\mathbb{R}$:
+			\[
+				\mathrm{Var}(Y)=a^2\mathrm{Var}(X)=a^2\sigma^2
+			\]
+			\[
+				\mathrm{s.d}(Y)=\sqrt{a^2\sigma^2}=|a|\sigma
+			\]
+		\subsection{Linear Combination of Random Variables}
+			Independent events $A$ and $B$ are such that $\mathrm{Pr}(A\cap B)=\mathrm{Pr}(A)\times\mathrm{Pr}(B)$. This idea also applies to random variables. If two random variables' joint probability function is the product of their individual probability functions, the random variables are said to be independent.
+			
+			\paragraph{aX vs X+X+X+...+X} Consider $X$ representing the number that turns up on a dice roll. Then $2X$ is the result of one dice roll, doubled. $X+X$ is the the equivalent of rolling the dice twice and adding the results.
+			\[
+				\E(2X)=\E(X+X)=2\E(X)
+			\]
+			\[
+				\mathrm{Var}(2X)=2^2\mathrm{Var}(X)=4\mathrm{Var}(X) \qquad \text{vs} \qquad \mathrm{Var}(X+X)=1^2\mathrm{Var}(X)+1^2\mathrm{Var}(X)=2\mathrm{Var}(X)
+			\]
+			
+			\paragraph{Sum of Identically Distributed Independent Random Variables} Variables with the same mean and standard deviation and are independent. The events predicted by the random variables are also independent, so therefore we can find the sum of probabilities by multiplying the individual probabilities. Consider $X_1$ and $X_2$ being discrete random variables for two dice rolling.
+			\[
+				\mathrm{Pr}(X_1+X_2=2)=\mathrm{Pr}(X_1=1,X_2=2)=\mathrm{Pr}(X_1=1)\times\mathrm{Pr}(X_2=1)=\frac{1}{6}\times\frac{1}{6}=\frac{1}{36}
+			\]
+			
+			\paragraph{Mean of Sum of n Identically Distributed Independent Random Variables} $\displaystyle\mathrm{E}(X_1+X_2+...+X_n)=\mathrm{E}(X_1)+\mathrm{E}(X_2)+...+\mathrm{E}(X_n)=n\mu$
+			
+			\paragraph{Variance of Sum of n Identically Distributed Independent Random Variables} $\displaystyle\mathrm{Var}(X_1+X_2+...+X_n)=\mathrm{Var}(X_1)+\mathrm{Var}(X_2)+...+\mathrm{Var}(X_n)=n\sigma^2$\\
+			$\displaystyle\mathrm{sd}(X_1+X_2+...+X_n)=\sqrt{\mathrm{Var}(X_1+X_2+...+X_n)}=\sqrt{n}\sigma$
+			
+			\paragraph{Linear Combinations of n Independent Random Variables} A random variable $Y$ which is a linear combination of random variables $X_1,X_2,...,X_n$ is given by $Y=a_1X_1+a_2X_2+...+a_nX_n$ for $a_1,a_2,...,a_n\in\mathbb{R}$.
+			\[
+				\mathrm{E}(a_1X_1+a_2X_2+...a_nX_n)=a_1\mathrm{E}(X_1)+a_2\mathrm{E}(X_2)+...+a_n\mathrm{E}(X_n)
+			\]
+			\[
+				\mathrm{Var}(a_1X_1+a_2X_2+...+a_nX_n)=a_1^2\mathrm{Var}(X_1)+a_2^2\mathrm{Var}(X_2)+...+a_n^2\mathrm{Var}(X_n)
+			\]
+			\[
+				\mathrm{sd}(a_1X_1+a_2X_2+...+a_nX_n)=\sqrt{a_1^2\mathrm{Var}(X_1)+a_2^2\mathrm{Var}(X_2)+...+a_n^2\mathrm{Var}(X_n)}
+			\]
+		
+			\paragraph{Linear Combinations of Normal Random Variables} A linear combination of normally distributed random variables is also a normally distributed random variable.
+		\subsection{Sample Mean of a Normal Random Variable}
+			\paragraph{Populations and samples}
+				\begin{itemize}
+					\item \textbf{Population} is the set of all eligible members of the intended group of study.
+					\item \textbf{Sample} is a subset of the population which is selected to make inferences about the population.
+					\item The \textbf{population mean} $\mu$ is the mean of all values of a measure in the entire population.
+					\item The \textbf{sample mean} $\bar{x}$ is the mean of the values of measure in a particular sample. Since this varies based on the contents of a random sample, we consider $\bar{x}$ as being values of a random variable $\bar{X}$
+				\end{itemize}
+			
+			\paragraph{Sample Mean of a normal random variable} Let $X$ be a normally distributed random variable with mean $\mu$ and standard deviation $\sigma$. Let $X_1,X_2,...,X_n$ represents a sample size of $n$ selected from this population. The sample mean is defined as:
+			\[
+				\bar{X}=\frac{X_1+X_2+...+X_n}{n}
+			\]
+			The sample mean $\bar{X}$ is normally distributed with $\mathrm{E}(\bar{X})=\mu$ and $\mathrm{sd}(\bar{X})=\frac{\sigma}{\sqrt{n}}$.
+				
+		\subsection{Normal Approximation of Sample Proportions}
+			The distribution of the sample mean $\bar{X}$ is normal with mean $\bar{x}=\mu$ and the standard deviation $s=\frac{\sigma}{\sqrt{n}}$.
+			\[
+				\Pr\left(\bar{X}>a\right)=\Pr\left(Z=\frac{a-\bar{x}}{s}\right) \qquad Z\sim(0,1)
+			\]
+			
+		\subsection{Distribution of the sample mean}
+			\paragraph{Central Limit Theorem} Let $X$ be any random variable with mean $\mu$ and standard deviation $\sigma$. Then, provided that the sample size $n$ is large enough, the distribution of $\bar{X}$ is approximately normal with mean $\mathrm{E}(\bar{X})=\mu$ and $\mathrm{sd}(\bar{X})=\frac{\sigma}{\sqrt{n}}$.
+			
+			\paragraph{Normal Approximation to the Binomial Distribution} If $X$ is a binomial random variable with parameters $n,p$, then the distribution of $X$ is approximately normal with mean $\mu=np$ and standard deviation $\sigma=\sqrt{np(1-p)}$ provided $np>5$ and $n(1-p)>5$.
+			
+		\subsection{Confidence Intervals for the Population Mean}
+			\paragraph{Point Estimates} The value of the sample mean $\bar{x}$ can be used to estimate the population mean $\mu$, as this is a single-valued estimate, it is called a point estimate of $\mu$.
+			
+			\paragraph{Interval Estimates} An interval estimate for the population mean $\mu$ is called a confidence interval for $\mu$.
+				\subparagraph{C\% Confidence Interval} An approximate $C\%$ confidence interval for $\mu$ is given by
+				\[
+					\left(\bar{x}-z\frac{\sigma}{\sqrt{n}},\bar{x}+\frac{\sigma}{\sqrt{n}}\right)
+				\]
+				where $z\ni\mathrm{Pr}(-z<Z<z)=C\%$, $\bar{x}$ is the sample mean, $\sigma$ is the standard deviation of the population and $n$ is the sizeo f the sample from which $\bar{x}$ was calculated.\\\\
+				
+				The values of $z$ for common confidence intervals:
+				\begin{itemize}
+					\item 90\% $\to z=1.6449$
+					\item 95\% $\to z=1.9600$
+					\item 99\% $\to z=2.5758$
+				\end{itemize}
+		\subsection{Hypothesis Testing for Mean}
+			\paragraph{Null hypothesis} The null hypothesis is denoted by $H_0$ says that the sample is drawn from a population which has the same mean as before (the mean has not changed after taking the sample). Under this hypothesis, any difference between a sample statistic and a population parameter is explained by sample-sample variation.
+			
+			\paragraph{Alternative hypothesis} The alternative hypothesis $H_1$ says that the population mean has changed.
+			
+			\paragraph{p-Values} The $p$ value is the probability of observing a value of the sample statistic as extreme as or more extreme than the one observed, assuming that the null hypothesis is true.
+			
+			\paragraph{Statistical Significance} The significance level represents the threshold of unlikelihood that a result must have to cast sufficient doubt on the null hypothesis. This is denoted by $\alpha$.
+			
+			If the $p$-value is less than $\alpha$, we reject the null hypothesis in favour of the alternative hypothesis. If the $p$-value is greater than $\alpha$, we do not reject the null hypothesis.
+			
+			\paragraph{z-test} is the name for the hypothesis test for a mean of a sample drawn from a normally distributed population with known standard deviation.
+			
+			\subsubsection{One-tail tests}
+				For directional alternative hypotheses, one-tail tests are used to calculate $p$-values.\\
+				For $H_1:\mu>x$ the p-value is calculated considering only values in the upper tail of the normal curve.\\
+				For $H_1:\mu<x$ the p-value is calculated considering only values in the lower tail of the normal curve.\\
+			\subsubsection{Two-tail tests}
+				Non-directional alternative hypothesis $p$-values are determined with two-tail tests. $H_1:\mu\neq x$.\\
+				\[
+					p=\Pr\left(\left|\bar{X}-\mu\right|\geq\left|\bar{x}-\mu\right|\right)
+				\]
+				$p$-value (two-tail)=2$\times p$-value (one-tail)
+			\subsubsection{Relation to Confidence Intervals}
+				Consider the fact of the real number line:
+				\[
+					a\in\left(b-c,b+c\right)\iff|a-b|<c\iff b\in(a-c,a+c)
+				\]
+				Suppose we have:
+				\[
+					H_0:\mu=\mu_0 \qquad H_1:\mu\neq\mu_0
+				\]
+				Then:
+				\[
+					\mu_0\notin\left(\bar{x}-1.96\frac{\sigma}{\sqrt{n}},\bar{x}+1.96\frac{\sigma}{\sqrt{n}}\right)\iff\bar{x}\notin\left(\mu_0-1.96\frac{\sigma}{\sqrt{n}},\mu_0+1.96\frac{\sigma}{\sqrt{n}}\right)
+				\]
+				Hence the 95\% confidence interval does not contain $\mu_0$ if and only if we should reject $H_0$ at a $5\%$ significance.
+			\subsubsection{Hypothesis Testing Errors}
+				\paragraph{Type I} Rejecting the null hypothesis when it is true. $\Pr$(Type I)$=\Pr(H_0 \text{ rejected}|H_0 \text{ true})=\text{ level of significance of test}$
+				\paragraph{Type II} Not rejecting the null hypothesis when it is false. $\Pr$(Type II)$=\Pr(H_0 \text{ not rejected}|H_0 \text{ false})$
+	\section{Differential Calculus}			
+		\subsection{Derivatives of x=f(y)}
+			For $x=f(y)$ where $f$ is a one-to-one function:
+			\[
+				\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}},\frac{dx}{dy}\neq0
+			\]
+		\subsection{Derivatives of Inverse Circular Functions}
+		\subsection{Second Derivatives}
+		\subsection{Points of Inflection}
+		\subsection{Related Rates}
+		\subsection{Rational Functions}
+	\section{Integral Calculus}
+		\subsection{Rules}
+			\subsubsection{Definite Integral}
+				The definite integral on interval $[a,b]$ denotes the signed area enclosed by the graph $y=f(x)$, the $x$-axis, and the lines $x=a$ and $x=b$.
+				\[
+					\int\limits_{a}^{b}f(x)dx=F(b)-F(a)
+				\]
+				where $F(x)$ is any antiderivative of $f(x)$
+		\subsection{Inverse Circular Functions}
+			\[
+				\int\frac{1}{\sqrt{a^2-x^2}}dx=\arcsin\left(\frac{x}{a}\right)+c,x\in(-a,a)
+			\]
+			\[
+				\int\frac{-1}{\sqrt{a^2-x^2}}dx=\arccos\left(\frac{x}{a}\right)+c,x\in(-a,a)
+			\]
+			\[
+				\int\frac{a}{a^2+x^2}dx=\arctan\left(\frac{x}{a}\right)+c,x\in\mathbb{R}
+			\]
+		\subsection{u-Substitution}
+			\[
+				\int f(u)\frac{du}{dx}dx=\int f(u)du
+			\]
+			\paragraph{Linear substitutions} Antiderivatives of expressions in the form $f(x)[g(x)]^n$ for a linear function $g$ can be found using linear substitution:
+			\begin{examquestion}{}
+				Evaluate $\int\limits_0^1xe^{-x^2}dx$.\\
+				\begin{align*}
+					\int\limits_0^1xe^{-x^2}dx&=\frac{1}{2}\int\limits_0^1(2x)e^{-x^2}dx \\
+					&u=-x^2 \qquad \frac{du}{dx}=-2x \qquad x=0\implies u=0, x=1\implies u=-1 \\
+					&=\frac{-1}{2}\int\limits_0^{-1}e^udu\\
+					&=\frac{-1}{2}\left[e^u\right]_0^{-1} \\
+					&=\frac{-1}{2}\left(e^{-1}-1\right)\\
+					&=\frac{1}{2}-\frac{1}{2e}
+				\end{align*}
+			\end{examquestion}
+			\begin{examquestion}{}
+				Using the substitution $u=\pi-x$,\\
+				a) Show that $\displaystyle\int\limits_0^\pi\frac{x\sin x}{1+\cos^2x}dx=\int\limits_0^\pi\frac{(\pi-x)\sin x}{1+\cos^2x}dx$.\\
+				\begin{align*}
+					&u=\pi-x \qquad x=\pi-u \qquad \frac{du}{dx}=-1 \qquad du=-dx \\
+					&\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx=\int\limits_{\pi}^{0}\frac{(\pi-u)\sin(\pi-u)}{1+\cos^2(\pi-u)}(-du)\\
+					&=\int\limits_0^\pi\frac{(\pi-u)\sin(\pi-u)}{1+\cos^2(\pi-u)}du \\
+					&=\int\limits_0^\pi\frac{(\pi-x)\sin(x)}{1+\cos^2x}dx \text{ (Because u is just a dummy variable)}
+				\end{align*}
+				b) Hence deduce that $\displaystyle\int\limits_0^\pi\frac{x\sin x}{1+\cos^2x}dx=\frac{\pi^2}{4}$.
+				\begin{align*}
+					&\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx=\int\limits_{0}^{\pi}\frac{\pi\sin x}{1+\cos^2x}dx-\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx \\
+					2\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx&=\pi\int\limits_0^\pi\frac{\sin x}{1+\cos^2 x}dx\\
+					&v=\cos x, dx=\frac{-1}{\sin x}du, x=0\to v=1, x=\pi\to v=-1 \\
+					\pi\int\limits_0^\pi\frac{\sin x}{1+\cos^2 x}dx&=-\pi\int\limits_1^{-1}\frac{1}{1+u^2}du\\
+					&=\pi\int\limits_{-1}^1\frac{1}{1+u^2}du=\pi\left[\arctan u\right]_{-1}^1 \\
+					&=\frac{\pi^2}{2}
+				\end{align*}
+			\end{examquestion}
+		\subsection{Integration by Trig Identities}
+			Integrals of form $\displaystyle \int\sin^m(x)\cos^n(x)dx$ can be considered in three cases:
+			\paragraph{Case 1: Power of sine is odd} If $m$ is odd, let $m=2k+1,k\in\mathbb{Z}$
+			\[
+				\sin^{2k+1}(x)=\left(\sin^2x\right)^k\sin x=(1-\cos^2x)^k\sin x
+			\]
+			We can then use the substitution $u=\cos x$ to evaluate integrals.
+			\paragraph{Case 2: Power of cosine is odd} If $m$ is even and $n$ is odd, let $n=2k+1,k\in\mathbb{Z}$
+			\[
+				\cos^{2k+1}(x)=\left(\cos^2x\right)^k\cos x=(1-\sin^2x)^k\cos x
+			\]
+			We can then use the substitution $u=\sin x$ to evaluate integrals.
+			\paragraph{Case 3: Both powers are even} If both $m$ and $n$ are even, we use the identities:
+			\[
+				\sin^2x=\frac{1}{2}\left(1-\cos(2x)\right)\qquad\cos^2x=\frac{1}{2}\left(1+\cos(2x)\right)\qquad\sin(2x)=2\sin(x)\cos(x)
+			\]
+			
+			\paragraph{Products to Sums Identities} Recall the product to sum identities:
+			\[
+				2\cos x\cos y=\cos(x-y)+\cos(x+y) \qquad 2\sin x\sin y=\cos(x-y)-\cos(x+y) \qquad 2\sin x\cos y=\sin(x+y)+\sin(x-y)
+			\]
+			We can also use these for integration in appropriate questions.
+		\subsection{Partial Fractions}
+		\subsection{Integration by Parts}
+			\[
+				\int u\frac{dv}{dx}dx=uv-\int v\frac{du}{dx}dx
+			\]
+			\[
+				\int\limits_{a}^{b}u\frac{dv}{dx}dx=\left[uv\right]_a^b-\int\limits_a^bv\frac{du}{dx}dx
+			\]
+		\subsection{Properties of the Definite Integral}
+			\[
+				\int\limits_a^bf(x)dx=\int\limits_a^cf(x)dx+\int\limits_c^bf(x)dx,a<c<b
+			\]
+			\[
+				\int\limits_a^af(x)dx=0
+			\]
+			\[
+				\int\limits_a^bkf(x)dx=k\int\limits_a^bf(x)dx
+			\]
+			\[
+				\int\limits_a^bf(x)\pm g(x)dx=\int\limits_a^bf(x)dx\pm\int\limits_a^bg(x)dx
+			\]
+			\[
+				\int\limits_a^bf(x)dx=-\int\limits_b^af(x)dx
+			\]
+		\subsection{Area Between Curves}
+			Let $f$ and $g$ be continuous functions on the interval $[a,b]$ such that $\forall x\in[a,b] f(x)\geq g(x)$. The area of the region bounded between the two curves and the lines $x=a$ and $x=b$ can be found by evaluating:
+			\[
+				\int\limits_a^bf(x)dx-\int\limits_a^bg(x)dx=\int\limits_a^bf(x)-g(x)dx
+			\]
+			When the graphs intersect on the interval, you must evaluate an integral for each section.
+		\subsection{Volumes of Solids of Revolution}
+			By rotating a function around an axis you form a solid of revolution.
+			\paragraph{Revolution around the x-axis} If the region being rotated is bounded by $y=f(x)$, $x=a$, $x=b$ and the $x$-axis, then:
+			\[
+				V=\pi\int\limits_a^bf(x)^2dx
+			\]
+			\paragraph{Revolution around the y-axis} If the region being rotated is bounded by $x=f(y)$, $y=a$, $y=b$ and the $y$-axis, then:
+			\[
+				V=\pi\int\limits_a^bf(y)^2dy
+			\]
+			\paragraph{Regions not bound by an axis} If the region to be rotated is bounded by two functions instead of by an axis, use the area between two curves form:
+			\[
+				V=\pi\int\limits_a^b(f(x))^2-(g(x))^2dx
+			\]
+		\subsection{Lengths of Curves in Plane}
+			The length of a curve of $f(x)$ (for $f$ is differentiable and $f'$ is continuous) from $x=a$ to $x=b$ is given by:
+			\[
+				L=\int\limits_a^b\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx=\int\limits_a^b\sqrt{1+\left(f'(x)\right)^2}dx
+			\]
+		\subsection{Areas of Surfaces of Revolution}
+			\paragraph{Revolution About x-axis} If the region bounded by $y=f(x)$, the $x$-axis and $x=a$, $x=b$ is rotated about the x-axis, the area of the surface formed is given by:
+			\[
+				A=2\pi\int\limits_a^by\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx
+			\]
+			
+			\paragraph{Revolution About y-axis} If the region bounded by $x=f(y)$, the $y$-axis and $y=a$, $y=b$ is rotated about the y-axis, the surface area of the surface formed is given by:
+			\[
+				A=2\pi\int\limits_a^bx\sqrt{1+\left(\frac{dx}{dy}\right)^2}dy
+			\]
+			
+			\paragraph{Surface Area of Parametrics} Consider a curve defined by $x=f(t)$ and $y=g(t)$ for $a\leq t\leq b$. If $P(f(t),g(t))$ traces the curve exactly once from $t=a$ to $t=b$ then the area formed by rotating about the $x$-axis is given by:
+			\[
+				A=2\pi\int\limits_a^b|g(t)|\sqrt{\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2}dt
+			\]
+			
+			\paragraph{Total Surface Area of a Solid}
+			\[
+				\Sigma A=A+\pi\left(f(a)\right)^2+\pi\left(f(b)\right)^2
+			\]
+			For $A$ being the area of the surface, and $a,b$ being the limits of the solid of revolution.
+		\subsection{Reduction Formulas}
+			\begin{example}{Reduction Formulas Example 1}
+				\[
+					\text{Let } I_n=\int\limits_{1}^{e}(ln(t))^ndt\;n\in\mathbb{Z}^+
+				\]
+				i) Show that $I_n=e-nI_{n-1}$ for $n\in\mathbb{Z}^+$.\\
+					\begin{align*}
+						&I_n=\int\limits_{1}^{e}(ln(t))^ndt \\
+						&u=(ln(t))^n \quad \frac{du}{dt}=\frac{n(ln(t))^n-1}{t} \quad \frac{dv}{dt}=1 \quad v=t \quad \text{(I.B.P)} \\
+						&I_n=\left[t(ln(t))^n\right]_1^e-\int\limits_1^en(ln(t))^{n-1}dt \\
+						&=e-n\int\limits_1^en(ln(t))^{n-1}dt \\
+						&=e-nI_{n-1} \text{ As required}.
+					\end{align*}
+				ii) Hence, or otherwise, find the exact value of $I_3$.\\
+					\begin{align*}
+						I_3&=e-3I_2\\
+						&=e-3(e-2I_1)=-2e+6(e-I_0) \\
+						&=4e-6I_0=4e-6\int\limits_1^e(ln(t))^0dt=4e-\left[t\right]^e_1\\
+						&=4e-6(e-1)=6-2e
+					\end{align*}
+			\end{example}
+	\section{Differential Equations}
+		\subsection{Tech}
+			\subsubsection{deSolve(diffeq,iv,dv)} Press menu+4+D to get this function up. In the diffeq, denote derivatives with an apostrophe, iv is the independent variable and dv is the dependent variable.
+			
+			\subsubsection{euler(dydx,iv,dv,\{x0,x1\},y0,h)} Input the euler method function. dydx is the derivative of the dependent variable (dv) w.r.t the independent variable (iv). x0 is the x value stipulated in the initial condition, x1 is the maximum x value you wish to enumerate to. y0 is the y value in the initial condition and h is the step size.
+		\subsection{Verification of Solutions}
+			We can verify solutions to DiffEqs by substitution.
+		\subsection{DiffEqs involving function of the independent variable}
+		\subsection{DiffEqs involving function of the dependent variable}
+		\subsection{Logistic DiffEq}
+			\[
+				\frac{dP}{dt}=rP\left(1-\frac{P}{K}\right)
+			\]
+			Where $P$ is the population at time $t$, $r$ is the 'growth parameter' (rate), $K$ is the upper limit of the population, $\frac{dP}{dt}\to0$ as $P\to K$. Maximum $\frac{dP}{dt}$ occurs at $P=\frac{K}{2}$.
+		\subsection{Separation of Variables}
+			\[
+				\frac{dy}{dx}=f(x)g(y) \implies \int f(x)dx=\int\frac{1}{g(y)}dy
+			\]
+			\subsubsection{Solving}
+				To solve $\displaystyle\frac{dy}{dx}=f(x)g(y)$:\\
+				1) Write expression clearly as a product of a function in $x$ and a function in $y$.\\
+				2) Substitute these expressions into the separation of variables form.\\
+				3) Antidifferentiate both expressions with $+c$ included (you only need this on one side).\\
+		\subsection{DiffEqs + Related Rates Crossover Event}
+			
+		\subsection{Definite Integration to solve DiffEqs}
+			
+		\subsection{Euler's Method}
+			If $\displaystyle\frac{dy}{dx}=g(x)$ with $y=y_0$ when $x=x_0$, then:
+			\[
+				x_{n+1}=x_n+h \qquad \text{and} \qquad y_{n+1}=y_n+hg(x_n)
+			\]
+			\begin{example}{Euler's Method Basic Case}
+				\begin{leftbar}
+					Let $\frac{dy}{dx}=x^2y$ with $y(1)=4$. Apply Euler's method to find $y_3$ using steps of $0.2$.
+				\end{leftbar}
+				\begin{align*}
+					g(x,y)&=x^2y,\qquad h=0.2\\
+					0:\qquad &x_0=1\qquad &y_0=4\\
+					1:\qquad &x_1=1.2\qquad &y_1=4+0.2(1)^2(4)=4.8\\
+					2:\qquad &x_2=1.4\qquad &y_2=4.8+0.2(1.2)^2(4.8)=6.18\\
+					3:\qquad &x_3=1.6\qquad &y_3=6.18+0.2(1.4)^2(6.18)=8.606
+				\end{align*}
+			\end{example}
+		\subsection{Slope Fields}
+			\begin{examquestion}{2018 Exam 2 Question A10}
+				The differential equation that best represents the slope field below is
+				\begin{center}
+					\includegraphics[width=8cm]{2018-2A10.png}\\
+				\end{center}
+				a) $\displaystyle \frac{dy}{dx}=\frac{2x+y}{y-2x}$\qquad b) $\displaystyle \frac{dy}{dx}=\frac{x+2y}{2x-y}$\qquad c) $\displaystyle \frac{dy}{dx}=\frac{2x-y}{x+2y}$\qquad d) $\displaystyle \frac{dy}{dx}=\frac{x-2y}{y-2x}$\qquad e) $\displaystyle \frac{dy}{dx}=\frac{2x+y}{2y-x}$\\\\
+				Plot using \textbf{Graphs} page, Menu+3+8 to enter a diffeq. \textbf{A} has the same shape, so A is the answer.
+			\end{examquestion}
+		\subsection{Finding Solutions to DiffEqs}
+			\begin{examquestion}{2018 Exam 2 Question A9}
+				A solution to the differential equation $\displaystyle \frac{dy}{dx}=\frac{2}{\sin(x+y)-\sin(x-y)}$ can be obtained from:\\
+				a) $\displaystyle \int1dx=\int2\sin(y)dy$\\
+				b) $\displaystyle \int\cos(y)dy=\int\csc(x)dx$\\
+				c) $\displaystyle \int\cos(x)dx=\int\csc(y)dy$\\
+				d) $\displaystyle \int\sec(x)dx=\int\sin(y)dy$\\
+				e) $\displaystyle \int\sec(x)dx=\int\csc(y)dy$\\
+				\begin{align*}
+					\frac{dy}{dx}&=\frac{1}{\cos(x)\sin(y)} \\
+					\sin(y)\frac{dy}{dx}&=\sec(x) \\
+					\int\sin(y)dy&=\int\sec(x)dx \qquad \mathrm{(D)}
+				\end{align*}
+			\end{examquestion}
+	\section{Pseudocode}
+		\subsection{Syntax}
+		
+	\section{Other Tech}
+		\subsection{Functions}
+			\subsubsection{scriptedmath\textbackslash poi(f(x),x)} Gives stationary points, axes intercepts, straight-line asymptotes, and endpoints.
+			\subsubsection{scriptedmath\textbackslash inv(f(x),pointX)} Finds $f^{-1}(x)$. If the function is not one-to-one it will restrict domain to contain the point where x=pointX.
+			\subsubsection{sam\textunderscore other\textbackslash newtonraphson(f,g,e,n)} Uses the Newton-Raphson method to approximate roots. f is the function, the roots of which we are trying to estimate. g is the derivative function. e is the initial estimate, and n is the number of iterations.
+		\subsection{Parametric Functions}
+			\subsubsection{scriptedmath\textbackslash pder(vfunc, parameter)} For a vector function in form $[x(t) y(t)]$ and parameter $t$. This function will find $\frac{dy}{dx}$.
+	\section{Advanced Maths}
+		\subsection{The Derivative of f(x)=4x+1} This could be a tough one. It might be best to take an indirect approach. Let's start with what we know:
+		\[
+		f(x)=4x+1
+		\]
+		and make the problem simpler by translating it to a coordinate system I'm going to call "Laplace Space"
+		\[
+		\Laplace\{f(x)\}=\Laplace\{4x+1\}
+		\]
+		Next we should refer to our table of Laplace Transforms, to convert our functions in $x$ to functions in $s$.
+		\[
+		F(s)=\frac{4}{s^2}+\frac{1}{s}=\frac{s+4}{s^2}
+		\]
+		Now we're in "Laplace Space". The cool thing about "Laplace Space" is that integration becomes division and differentiation becomes multiplication. To find the derivative, we generally want to multiply everything by $s$.
+		\[
+		sF(s)=\frac{s+4}{s}
+		\]
+		In "Laplace Space", the derivative of a function is $sF(s)-f(0)$.
+		\[
+		sF(s)-f(0)=\frac{s+4}{s}-(4(0)+1)=\frac{s+4-s}{s}=\frac{4}{s}
+		\]
+		The left hand side of our equation is now the version of $f'(x)$ that exists in "Laplace Space". To find what our derivative is actually equal to, we need to convert everything back to "Cartesian Space"
+		\[
+		\Laplace^{-1}\{sF(s)-f(0)\}=\Laplace^{-1}\{\frac{4}{s}\}
+		\]
+		\[
+		f'(x)=4
+		\]
+		And that's our answer, $f'(x)=4$. By taking a detour through "Laplace Space", we were able to treat this like an algebra problem and avoid all of that troublesome, limit-based calculus.
+		\subsubsection{Our Table of Laplace Transforms}
+			\bgroup
+			\everymath{\displaystyle}
+			\def\arraystretch{2.5}
+			\begin{table}[H]
+				\footnotesize
+				\begin{tabular}[t]{|p{5cm}|c|}
+					\hline
+					1&$\frac{1}{s}$\\\hline
+					$e^{at},a\in\mathbb{R}$&$\frac{1}{s-a}$\\\hline
+					$t^n,n\in\mathbb{Z}^+$&$\frac{n!}{s^{n+1}}$\\\hline
+					$\sqrt{t}$&$\frac{\sqrt{\pi}}{2s^{\frac{3}{2}}}$\\\hline
+					$\sin(at),a\in\mathbb{R}$&$\frac{a}{s^2+a^2}$\\\hline
+					$\cos(at),a\in\mathbb{R}$&$\frac{s}{s^2+a^2}$\\\hline
+					$t\sin(at),a\in\mathbb{R}$&$\frac{2as}{(s^2+a^2)^2}$\\\hline
+					$t\cos(at),a\in\mathbb{R}$&$\frac{s^2-a^2}{(s^2+a^2)^2}$\\\hline
+					$\sin(at)-at\cos(at),a\in\mathbb{R}$&$\frac{2a^3}{(s^2+a^2)^2}$\\\hline
+					$\sin(at)+at\cos(at),a\in\mathbb{R}$&$\frac{2as^2}{(s^2+a^2)^2}$\\\hline
+					$t^ne^{at},a\in\mathbb{R},n\in\mathbb{Z}^+$&$\frac{n!}{(s-a)^{n+1}}$\\\hline
+				\end{tabular}
+				\hfill
+				\begin{tabular}[t]{|p{5cm}|c|}
+					\hline
+					$\cos(at)-at\sin(at),a\in\mathbb{R}$&$\frac{s(s^2-a^2)}{(s^2+a^2)^2}$\\\hline
+					$\cos(at)+at\sin(at),a\in\mathbb{R}$&$\frac{s(s^2+3a^2)}{(s^2+a^2)^2}$ \\\hline
+					$\sin(at+b),a,b\in\mathbb{R}$&$\frac{s\sin(b)+a\cos(b)}{s^2+a^2}$\\\hline
+					$\cos(at+b),a,b\in\mathbb{R}$&$\frac{s\cos(b)-a\sin(b)}{s^2+a^2}$ \\\hline   
+					$\sinh(at),a\in\mathbb{R}$&$\frac{a}{s^2-a^2}$\\\hline
+					$\cosh(at),a\in\mathbb{R}$&$\frac{s}{s^2-a^2}$\\\hline
+					$e^{at}\sin(bt),a,b\in\mathbb{R}$&$\frac{b}{(s-a)^2+b^2}$\\\hline
+					$e^{at}\cos(bt),a,b\in\mathbb{R}$&$\frac{s-a}{(s-a)^2+b^2}$\\\hline
+					$e^{at}\sinh(bt),a,b\in\mathbb{R}$&$\frac{b}{(s-a)^2-b^2}$\\\hline
+					$e^{at}\cosh(bt),a,b\in\mathbb{R}$&$\frac{s-a}{(s-a)^2-b^2}$\\\hline
+					$f(ct),c\in\mathbb{R}$&$\frac{1}{c}F(\frac{s}{c})$\\\hline
+				\end{tabular}
+				\caption{Laplace Transforms for Equations in $t$}
+			\end{table}
+			\everymath{}
+			\egroup
+		\subsection{Sandwich Theorem}
+			Let $g(x)\leq f(x)\leq h(x)$ for all $x$ near $a$ and
+			\[
+				\lim_{x\to a}g(x)=\lim_{x\to a}h(x)=L
+			\]
+			Then
+			\[
+				\lim_{x\to a}f(x)=L
+			\]
+			The function $f$ is 'sandwiched' between $g$ and $h$.
+	\newpage
+	\section{Cheeky Snack}
+\end{document}

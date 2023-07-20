@@ -1,0 +1,255 @@
+\babel@toc {nil}{}\relax 
+\contentsline {section}{\numberline {1}Useful Rules, Values and Identities}{5}{section.1}%
+\contentsline {section}{\numberline {2}Silly Blunders}{6}{section.2}%
+\contentsline {paragraph}{u-sub}{6}{section*.2}%
+\contentsline {paragraph}{Linear combinations of random variables - standard deviation}{6}{section*.3}%
+\contentsline {paragraph}{Kinematics - acceleration}{6}{section*.4}%
+\contentsline {section}{\numberline {3}Unit 1/2 Assumed Knowledge}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Sequences and Series}{6}{subsection.3.1}%
+\contentsline {paragraph}{Arithmetic Sequences}{6}{section*.5}%
+\contentsline {paragraph}{Arithmetic Series}{6}{section*.6}%
+\contentsline {paragraph}{Geometric Sequences}{6}{section*.7}%
+\contentsline {paragraph}{Geometric Series}{6}{section*.8}%
+\contentsline {paragraph}{Infinite Geometric Series}{6}{section*.9}%
+\contentsline {subsection}{\numberline {3.2}Non-Linear Relations}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Circles}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Ellipses}{6}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Hyperbolas}{6}{subsubsection.3.2.3}%
+\contentsline {section}{\numberline {4}Vectors and Kinematics}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Vectors Tech}{6}{subsection.4.1}%
+\contentsline {paragraph}{Create a vector}{6}{section*.10}%
+\contentsline {subsubsection}{\numberline {4.1.1}norm(a)}{7}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}unitV(a)}{7}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}dotP(a,b)}{7}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}crossP(a,b)}{7}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}sam\textunderscore vectors\textbackslash vang(a,b)}{7}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}sam\textunderscore vectors\textbackslash vecres(a,b)}{7}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}sam\textunderscore vectors\textbackslash lindep(a,b,c,p)}{7}{subsubsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.2}Anles Between Vectors}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Linear Dependence}{8}{subsection.4.3}%
+\contentsline {paragraph}{Linear combination}{8}{section*.11}%
+\contentsline {paragraph}{General Case}{8}{section*.12}%
+\contentsline {subsection}{\numberline {4.4}Scalar Product}{8}{subsection.4.4}%
+\contentsline {paragraph}{Properties of the Scalar Product}{8}{section*.13}%
+\contentsline {subparagraph}{Parallel Vectors}{8}{section*.14}%
+\contentsline {subsection}{\numberline {4.5}Vector and Scalar Resolutes}{8}{subsection.4.5}%
+\contentsline {paragraph}{Vector Resolute in General}{9}{section*.15}%
+\contentsline {paragraph}{Scalar Resolute in General}{9}{section*.16}%
+\contentsline {subsection}{\numberline {4.6}Vector Proof}{9}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Vector Equations}{9}{subsection.4.7}%
+\contentsline {paragraph}{Vector Equation of Line given by Point and Direction}{9}{section*.17}%
+\contentsline {paragraph}{Vector Equation of Line given by Two Points}{9}{section*.18}%
+\contentsline {paragraph}{Converting from Vector to Cartesian Equation}{9}{section*.19}%
+\contentsline {paragraph}{Changing from Cartesian to Vector Equation}{9}{section*.20}%
+\contentsline {paragraph}{Lines in 3D}{9}{section*.21}%
+\contentsline {paragraph}{Parallel and Perpendicular Lines}{9}{section*.22}%
+\contentsline {subparagraph}{Distance between two parallel lines}{9}{section*.23}%
+\contentsline {subsection}{\numberline {4.8}Intersections and Skew Lines}{10}{subsection.4.8}%
+\contentsline {subsubsection}{\numberline {4.8.1}Lines in 2D Space}{10}{subsubsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.2}Lines in 3D Space}{10}{subsubsection.4.8.2}%
+\contentsline {paragraph}{Skew Lines}{10}{section*.24}%
+\contentsline {paragraph}{Coincident and Parallel Lines}{10}{section*.25}%
+\contentsline {paragraph}{Intersecting Lines}{10}{section*.26}%
+\contentsline {paragraph}{Concurrence of 3 lines}{10}{section*.27}%
+\contentsline {paragraph}{Angle Between 2 Lines}{10}{section*.28}%
+\contentsline {subsection}{\numberline {4.9}Vector Product (Cross Product)}{10}{subsection.4.9}%
+\contentsline {paragraph}{Properties of the Vector Product}{10}{section*.29}%
+\contentsline {paragraph}{Vector Product in Component Form}{10}{section*.30}%
+\contentsline {paragraph}{Area from Vector Product}{10}{section*.31}%
+\contentsline {subsection}{\numberline {4.10}Vector Equations of Planes}{11}{subsection.4.10}%
+\contentsline {paragraph}{Equations of Planes}{11}{section*.32}%
+\contentsline {subsection}{\numberline {4.11}Distances, Angles, Intersections of Planes}{12}{subsection.4.11}%
+\contentsline {subsubsection}{\numberline {4.11.1}Distances}{12}{subsubsection.4.11.1}%
+\contentsline {paragraph}{Point to Plane distance}{12}{section*.33}%
+\contentsline {paragraph}{Plane to Origin Distance}{13}{section*.34}%
+\contentsline {paragraph}{Distance Between Parallel Planes}{13}{section*.35}%
+\contentsline {paragraph}{Distance Between Skew Lines}{13}{section*.36}%
+\contentsline {subsubsection}{\numberline {4.11.2}Intersections and Angles}{13}{subsubsection.4.11.2}%
+\contentsline {paragraph}{Intersection of a Line and a Plane}{13}{section*.37}%
+\contentsline {subsection}{\numberline {4.12}Parametric Vector Equations}{13}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}SUVAT and Constant Acceleration}{13}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Velocity-Time Graphs}{13}{subsection.4.14}%
+\contentsline {paragraph}{Displacement}{13}{section*.38}%
+\contentsline {paragraph}{Acceleration}{13}{section*.39}%
+\contentsline {paragraph}{Distance}{13}{section*.40}%
+\contentsline {subsection}{\numberline {4.15}Vector Functions}{13}{subsection.4.15}%
+\contentsline {subsubsection}{\numberline {4.15.1}Describing Particle's Path}{13}{subsubsection.4.15.1}%
+\contentsline {subsubsection}{\numberline {4.15.2}Describing Curves with Vector Functions}{13}{subsubsection.4.15.2}%
+\contentsline {subsection}{\numberline {4.16}Position Vectors as a Function of Time}{13}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}Vector Calculus}{14}{subsection.4.17}%
+\contentsline {subsubsection}{\numberline {4.17.1}Properties of Vector Derivatives}{14}{subsubsection.4.17.1}%
+\contentsline {subsubsection}{\numberline {4.17.2}Velocity and Acceleration Along a Curve}{14}{subsubsection.4.17.2}%
+\contentsline {paragraph}{Velocity}{14}{section*.41}%
+\contentsline {paragraph}{Acceleration}{14}{section*.42}%
+\contentsline {paragraph}{Distance Between Points on Vector Function Curve}{14}{section*.43}%
+\contentsline {section}{\numberline {5}Complex Numbers}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Tech}{14}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Lines in the Complex Plane}{14}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Relations with Arguments in the Complex Plane}{14}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Operations of Complex Numbers in Cartesian Form}{14}{subsection.5.2}%
+\contentsline {paragraph}{Multiplication by i}{14}{section*.44}%
+\contentsline {subsection}{\numberline {5.3}Properties of Conjugates}{15}{subsection.5.3}%
+\contentsline {paragraph}{Multiplicative Inverse for Division}{15}{section*.45}%
+\contentsline {subsection}{\numberline {5.4}Polar Form Operations}{15}{subsection.5.4}%
+\contentsline {paragraph}{Conjugate}{15}{section*.46}%
+\contentsline {paragraph}{Addition and Subtraction}{15}{section*.47}%
+\contentsline {paragraph}{Scalar Multiplication}{15}{section*.48}%
+\contentsline {paragraph}{Complex Multiplication}{15}{section*.49}%
+\contentsline {paragraph}{Complex Division}{15}{section*.50}%
+\contentsline {subsection}{\numberline {5.5}Quadratics over Complex Numbers}{15}{subsection.5.5}%
+\contentsline {paragraph}{Sum of Squares}{15}{section*.51}%
+\contentsline {subsection}{\numberline {5.6}Polynomials over Complex Numbers}{15}{subsection.5.6}%
+\contentsline {paragraph}{Remainder Theorem}{15}{section*.52}%
+\contentsline {paragraph}{Factor Theorem}{15}{section*.53}%
+\contentsline {paragraph}{Conjugate Root Theorem}{15}{section*.54}%
+\contentsline {paragraph}{The Fundamental Theorem of Algebra}{15}{section*.55}%
+\contentsline {subsection}{\numberline {5.7}Solving with De Moivre}{15}{subsection.5.7}%
+\contentsline {paragraph}{Complex Roots}{16}{section*.56}%
+\contentsline {paragraph}{Roots of Unity}{16}{section*.57}%
+\contentsline {paragraph}{Sum of the nth-roots of Unity}{16}{section*.58}%
+\contentsline {subsection}{\numberline {5.8}Subsets of Complex Plane}{16}{subsection.5.8}%
+\contentsline {subsubsection}{\numberline {5.8.1}Circles}{16}{subsubsection.5.8.1}%
+\contentsline {paragraph}{Combination of Moduli}{16}{section*.59}%
+\contentsline {paragraph}{Find Equation of Circle given Endpoints of Diameter}{16}{section*.60}%
+\contentsline {paragraph}{Equation from Three Points}{16}{section*.61}%
+\contentsline {subsubsection}{\numberline {5.8.2}Lines}{16}{subsubsection.5.8.2}%
+\contentsline {paragraph}{Perpendicular Bisectors}{16}{section*.62}%
+\contentsline {subparagraph}{Converting Perpendicular Bisector to Cartesian Form}{17}{section*.63}%
+\contentsline {subsubsection}{\numberline {5.8.3}Rays}{17}{subsubsection.5.8.3}%
+\contentsline {subsubsection}{\numberline {5.8.4}Hyperbolas}{17}{subsubsection.5.8.4}%
+\contentsline {paragraph}{Find Cartesian Form}{17}{section*.64}%
+\contentsline {section}{\numberline {6}Logic and Proof}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Converses, Negations, Contrapositives}{17}{subsection.6.1}%
+\contentsline {paragraph}{Negation}{17}{section*.65}%
+\contentsline {subparagraph}{de Morgan's Law}{17}{section*.66}%
+\contentsline {paragraph}{Converse}{17}{section*.67}%
+\contentsline {paragraph}{Contrapositive}{17}{section*.68}%
+\contentsline {subsection}{\numberline {6.2}Proof of Equivalent Statements}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Proof by Contradiction}{18}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Quantifiers and Counterexamples}{18}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Negations with Quantifiers}{18}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Product and Sum Notation}{18}{subsubsection.6.4.2}%
+\contentsline {section}{\numberline {7}Circular Functions}{18}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Tech}{18}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Solutions of Equations with Circular Functions}{18}{subsection.7.2}%
+\contentsline {paragraph}{Sine general solutions}{18}{section*.69}%
+\contentsline {paragraph}{Cosine general solutions}{18}{section*.70}%
+\contentsline {paragraph}{Tangent general solutions}{18}{section*.71}%
+\contentsline {section}{\numberline {8}Stats and Probability :skull:}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Tech}{18}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}sam\textunderscore prob\textbackslash bpd(n,p,lower,upper)}{18}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}sam\textunderscore prob\textbackslash pdanal({x},{px})}{18}{subsubsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.3}scriptedmath\textbackslash expec(f(x),x)}{18}{subsubsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.4}scriptedmath\textbackslash var(f(x),x)}{18}{subsubsection.8.1.4}%
+\contentsline {subsubsection}{\numberline {8.1.5}scriptedmath\textbackslash sd(f(x),x)}{18}{subsubsection.8.1.5}%
+\contentsline {subsubsection}{\numberline {8.1.6}scriptedmath\textbackslash mode(list,freqlist)}{19}{subsubsection.8.1.6}%
+\contentsline {subsubsection}{\numberline {8.1.7}scriptedmath\textbackslash ns(eq,var)}{19}{subsubsection.8.1.7}%
+\contentsline {subsubsection}{\numberline {8.1.8}normcdf(lower, upper, $\mu $, $\sigma $)}{19}{subsubsection.8.1.8}%
+\contentsline {subsubsection}{\numberline {8.1.9}invnorm(left tail prob, $\mu $, $\sigma $)}{19}{subsubsection.8.1.9}%
+\contentsline {subsubsection}{\numberline {8.1.10}sam\textunderscore prob\textbackslash normsum(x1,ltp1,x2,ltp2)}{19}{subsubsection.8.1.10}%
+\contentsline {subsubsection}{\numberline {8.1.11}Simulating Sample Means}{19}{subsubsection.8.1.11}%
+\contentsline {subsubsection}{\numberline {8.1.12}Confidence Interval}{19}{subsubsection.8.1.12}%
+\contentsline {subsubsection}{\numberline {8.1.13}Hypothesis Testing - One Tail}{19}{subsubsection.8.1.13}%
+\contentsline {subsubsection}{\numberline {8.1.14}nSolve for brute force solving}{19}{subsubsection.8.1.14}%
+\contentsline {subsubsection}{\numberline {8.1.15}Type II Error Probability}{19}{subsubsection.8.1.15}%
+\contentsline {paragraph}{Instances of one-tail tests}{19}{section*.72}%
+\contentsline {paragraph}{Instances of two-tail tests}{19}{section*.73}%
+\contentsline {subsection}{\numberline {8.2}Linear Functions of Random Variables}{19}{subsection.8.2}%
+\contentsline {paragraph}{Linear Functions of Discrete Random Variables}{20}{section*.74}%
+\contentsline {paragraph}{Linear Functions of Continuous Random Variables}{20}{section*.75}%
+\contentsline {paragraph}{Mean of Linear Functions of Random Variables}{20}{section*.76}%
+\contentsline {subparagraph}{Mean of Discrete Random Variables}{20}{section*.77}%
+\contentsline {subparagraph}{Mean of Continuous Random Variables}{20}{section*.78}%
+\contentsline {paragraph}{Variance of Linear Functions of Random Variables}{20}{section*.79}%
+\contentsline {subsection}{\numberline {8.3}Linear Combination of Random Variables}{20}{subsection.8.3}%
+\contentsline {paragraph}{aX vs X+X+X+...+X}{20}{section*.80}%
+\contentsline {paragraph}{Sum of Identically Distributed Independent Random Variables}{20}{section*.81}%
+\contentsline {paragraph}{Mean of Sum of n Identically Distributed Independent Random Variables}{20}{section*.82}%
+\contentsline {paragraph}{Variance of Sum of n Identically Distributed Independent Random Variables}{20}{section*.83}%
+\contentsline {paragraph}{Linear Combinations of n Independent Random Variables}{21}{section*.84}%
+\contentsline {paragraph}{Linear Combinations of Normal Random Variables}{21}{section*.85}%
+\contentsline {subsection}{\numberline {8.4}Sample Mean of a Normal Random Variable}{21}{subsection.8.4}%
+\contentsline {paragraph}{Populations and samples}{21}{section*.86}%
+\contentsline {paragraph}{Sample Mean of a normal random variable}{21}{section*.87}%
+\contentsline {subsection}{\numberline {8.5}Normal Approximation of Sample Proportions}{21}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Distribution of the sample mean}{21}{subsection.8.6}%
+\contentsline {paragraph}{Central Limit Theorem}{21}{section*.88}%
+\contentsline {paragraph}{Normal Approximation to the Binomial Distribution}{21}{section*.89}%
+\contentsline {subsection}{\numberline {8.7}Confidence Intervals for the Population Mean}{21}{subsection.8.7}%
+\contentsline {paragraph}{Point Estimates}{21}{section*.90}%
+\contentsline {paragraph}{Interval Estimates}{21}{section*.91}%
+\contentsline {subparagraph}{C\% Confidence Interval}{21}{section*.92}%
+\contentsline {subsection}{\numberline {8.8}Hypothesis Testing for Mean}{22}{subsection.8.8}%
+\contentsline {paragraph}{Null hypothesis}{22}{section*.93}%
+\contentsline {paragraph}{Alternative hypothesis}{22}{section*.94}%
+\contentsline {paragraph}{p-Values}{22}{section*.95}%
+\contentsline {paragraph}{Statistical Significance}{22}{section*.96}%
+\contentsline {paragraph}{z-test}{22}{section*.97}%
+\contentsline {subsubsection}{\numberline {8.8.1}One-tail tests}{22}{subsubsection.8.8.1}%
+\contentsline {subsubsection}{\numberline {8.8.2}Two-tail tests}{22}{subsubsection.8.8.2}%
+\contentsline {subsubsection}{\numberline {8.8.3}Relation to Confidence Intervals}{22}{subsubsection.8.8.3}%
+\contentsline {subsubsection}{\numberline {8.8.4}Hypothesis Testing Errors}{22}{subsubsection.8.8.4}%
+\contentsline {paragraph}{Type I}{22}{section*.98}%
+\contentsline {paragraph}{Type II}{22}{section*.99}%
+\contentsline {section}{\numberline {9}Differential Calculus}{22}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Derivatives of x=f(y)}{22}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Derivatives of Inverse Circular Functions}{23}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Second Derivatives}{23}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Points of Inflection}{23}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Related Rates}{23}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Rational Functions}{23}{subsection.9.6}%
+\contentsline {section}{\numberline {10}Integral Calculus}{23}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Rules}{23}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}Definite Integral}{23}{subsubsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.2}Inverse Circular Functions}{23}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}u-Substitution}{23}{subsection.10.3}%
+\contentsline {paragraph}{Linear substitutions}{23}{section*.100}%
+\contentsline {subsection}{\numberline {10.4}Integration by Trig Identities}{24}{subsection.10.4}%
+\contentsline {paragraph}{Case 1: Power of sine is odd}{24}{section*.101}%
+\contentsline {paragraph}{Case 2: Power of cosine is odd}{24}{section*.102}%
+\contentsline {paragraph}{Case 3: Both powers are even}{24}{section*.103}%
+\contentsline {paragraph}{Products to Sums Identities}{25}{section*.104}%
+\contentsline {subsection}{\numberline {10.5}Partial Fractions}{25}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Integration by Parts}{25}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Properties of the Definite Integral}{25}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}Area Between Curves}{25}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}Volumes of Solids of Revolution}{25}{subsection.10.9}%
+\contentsline {paragraph}{Revolution around the x-axis}{25}{section*.105}%
+\contentsline {paragraph}{Revolution around the y-axis}{25}{section*.106}%
+\contentsline {paragraph}{Regions not bound by an axis}{26}{section*.107}%
+\contentsline {subsection}{\numberline {10.10}Lengths of Curves in Plane}{26}{subsection.10.10}%
+\contentsline {subsection}{\numberline {10.11}Areas of Surfaces of Revolution}{26}{subsection.10.11}%
+\contentsline {paragraph}{Revolution About x-axis}{26}{section*.108}%
+\contentsline {paragraph}{Revolution About y-axis}{26}{section*.109}%
+\contentsline {paragraph}{Surface Area of Parametrics}{26}{section*.110}%
+\contentsline {paragraph}{Total Surface Area of a Solid}{26}{section*.111}%
+\contentsline {subsection}{\numberline {10.12}Reduction Formulas}{26}{subsection.10.12}%
+\contentsline {section}{\numberline {11}Differential Equations}{27}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Tech}{27}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}deSolve(diffeq,iv,dv)}{27}{subsubsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {11.1.2}euler(dydx,iv,dv,\{x0,x1\},y0,h)}{27}{subsubsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.2}Verification of Solutions}{27}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}DiffEqs involving function of the independent variable}{27}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}DiffEqs involving function of the dependent variable}{27}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Logistic DiffEq}{27}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}Separation of Variables}{27}{subsection.11.6}%
+\contentsline {subsubsection}{\numberline {11.6.1}Solving}{28}{subsubsection.11.6.1}%
+\contentsline {subsection}{\numberline {11.7}DiffEqs + Related Rates Crossover Event}{28}{subsection.11.7}%
+\contentsline {subsection}{\numberline {11.8}Definite Integration to solve DiffEqs}{28}{subsection.11.8}%
+\contentsline {subsection}{\numberline {11.9}Euler's Method}{28}{subsection.11.9}%
+\contentsline {subsection}{\numberline {11.10}Slope Fields}{28}{subsection.11.10}%
+\contentsline {subsection}{\numberline {11.11}Finding Solutions to DiffEqs}{29}{subsection.11.11}%
+\contentsline {section}{\numberline {12}Pseudocode}{30}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Syntax}{30}{subsection.12.1}%
+\contentsline {section}{\numberline {13}Other Tech}{30}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Functions}{30}{subsection.13.1}%
+\contentsline {subsubsection}{\numberline {13.1.1}scriptedmath\textbackslash poi(f(x),x)}{30}{subsubsection.13.1.1}%
+\contentsline {subsubsection}{\numberline {13.1.2}scriptedmath\textbackslash inv(f(x),pointX)}{30}{subsubsection.13.1.2}%
+\contentsline {subsubsection}{\numberline {13.1.3}sam\textunderscore other\textbackslash newtonraphson(f,g,e,n)}{30}{subsubsection.13.1.3}%
+\contentsline {subsection}{\numberline {13.2}Parametric Functions}{30}{subsection.13.2}%
+\contentsline {subsubsection}{\numberline {13.2.1}scriptedmath\textbackslash pder(vfunc, parameter)}{30}{subsubsection.13.2.1}%
+\contentsline {section}{\numberline {14}Advanced Maths}{30}{section.14}%
+\contentsline {subsection}{\numberline {14.1}The Derivative of f(x)=4x+1}{30}{subsection.14.1}%
+\contentsline {subsubsection}{\numberline {14.1.1}Our Table of Laplace Transforms}{31}{subsubsection.14.1.1}%
+\contentsline {subsection}{\numberline {14.2}Sandwich Theorem}{31}{subsection.14.2}%
+\contentsline {section}{\numberline {15}Cheeky Snack}{32}{section.15}%
