@@ -70,6 +70,7 @@
 \DeclareMathOperator\cis{cis}
 \DeclareMathOperator\Arg{Arg}
 \DeclareMathOperator\Real{Re}
+\DeclareMathOperator\R{\mathbb{R}}
 
 \pgfplotsset{polar default/.append style={xticklabels={,,
 			$\frac{\pi}{6}$, $\frac{\pi}{3}$, $\frac{\pi}{2}$, $\frac{2\pi}{3}$,
@@ -228,8 +229,8 @@
 				x_1\utilde{a_1}+x_2\utilde{a_2}+...+x_n\utilde{a_n}=0\centernot\implies x_i=0 \forall i\in[0,n]
 			\]
 			A set of vectors is said to be linearly dependent if at least one of its members can be expressed as a linear combination of other vectors in the set. Alternatively, a set of vectors are linearly dependent if a vector could be removed from the set and not affect the set's span.
-			\paragraph{Linear combination} A vector $\utilde{w}$ is a linear combination of $\utilde{u}$ and $\utilde{v}$ if it can be expressed in form $\utilde{w}=k_1\utilde{u}+k_2\utilde{v}$ for $k_1,k_2\in\mathbb{R}$.
-			\paragraph{General Case} A set $S\in\mathbb{R}^n$ of $n$ vectors $\utilde{a}_1,\utilde{a}_2,...,\utilde{a}_n$ is linearly dependent \textbf{if and only if} there exists $k_1,k_2,...,k_n\in\mathbb{R}$ (not all equal 0) such that $k_1\utilde{a}_1+k_2\utilde{a}_2+...+k_n\utilde{a}_n=0$
+			\paragraph{Linear combination} A vector $\utilde{w}$ is a linear combination of $\utilde{u}$ and $\utilde{v}$ if it can be expressed in form $\utilde{w}=k_1\utilde{u}+k_2\utilde{v}$ for $k_1,k_2\in\R$.
+			\paragraph{General Case} A set $S\in\R^n$ of $n$ vectors $\utilde{a}_1,\utilde{a}_2,...,\utilde{a}_n$ is linearly dependent \textbf{if and only if} there exists $k_1,k_2,...,k_n\in\R$ (not all equal 0) such that $k_1\utilde{a}_1+k_2\utilde{a}_2+...+k_n\utilde{a}_n=0$
 		\subsection{Scalar Product}
 			The scalar product of vectors $\utilde{a},\utilde{b}$ is given by:
 			\[
@@ -261,9 +262,9 @@
 			\]
 		\subsection{Vector Proof}
 		\subsection{Vector Equations}
-			\paragraph{Vector Equation of Line given by Point and Direction} $\utilde{r}(\lambda)=\utilde{a}+\lambda\utilde{d},\lambda\in\mathbb{R}$. \textbf{Note} that there is no unique vector equation for a given line $\ell$, as we can choose any point with position vector $\utilde{a}$ as our starting point and any vector $\utilde{d}\parallel \ell$.
+			\paragraph{Vector Equation of Line given by Point and Direction} $\utilde{r}(\lambda)=\utilde{a}+\lambda\utilde{d},\lambda\in\R$. \textbf{Note} that there is no unique vector equation for a given line $\ell$, as we can choose any point with position vector $\utilde{a}$ as our starting point and any vector $\utilde{d}\parallel \ell$.
 			
-			\paragraph{Vector Equation of Line given by Two Points} $\utilde{r}(\lambda)=\utilde{a}+\lambda\left(\utilde{b}-\utilde{a}\right),\lambda\in\mathbb{R}$ where $\utilde{a}$ and $\utilde{b}$ are the position vectors of the two points.
+			\paragraph{Vector Equation of Line given by Two Points} $\utilde{r}(\lambda)=\utilde{a}+\lambda\left(\utilde{b}-\utilde{a}\right),\lambda\in\R$ where $\utilde{a}$ and $\utilde{b}$ are the position vectors of the two points.
 			
 			\paragraph{Converting from Vector to Cartesian Equation} Consider the vector equation as a set of parametrics, where the coefficient of $\utilde{i}$ is equal to $x$, coefficient of $\utilde{j}$ is equal to $y$, etc. and then solving to get the cartesian form.
 			
@@ -288,7 +289,7 @@
 				\egroup
 			\end{center}
 			
-			\paragraph{Parallel and Perpendicular Lines} For two lines $\ell_1:\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\mathbb{R}$ and $\ell_2:\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\mathbb{R}$:
+			\paragraph{Parallel and Perpendicular Lines} For two lines $\ell_1:\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\R$ and $\ell_2:\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\R$:
 			\begin{itemize}
 				\item $\ell_1\parallel\ell_2 \iff \utilde{d}_1\parallel\utilde{d}_2$
 				\item $\ell_1\perp\ell_2 \iff \utilde{d}_1\perp\utilde{d}_2 \iff \utilde{d}_1\cdot\utilde{d}_2=0$
@@ -320,7 +321,7 @@
 				
 				\paragraph{Coincident and Parallel Lines} We can determine whether 3D lines are coincident or parallel and distinct by similar methods as in 2 dimensions. If parallel lines share a point they must coincide.
 				
-				\paragraph{Intersecting Lines} Two lines $\ell_1:\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1$ and $\ell_2:\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2$ have a common point if $\exists\lambda,\gamma\in\mathbb{R}\ni\utilde{r}_1(\lambda)=\utilde{r}_2(\gamma)$.
+				\paragraph{Intersecting Lines} Two lines $\ell_1:\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1$ and $\ell_2:\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2$ have a common point if $\exists\lambda,\gamma\in\R\ni\utilde{r}_1(\lambda)=\utilde{r}_2(\gamma)$.
 				
 				\paragraph{Concurrence of 3 lines} A point of concurrence is where 3 or more lines meet.
 				
@@ -383,7 +384,7 @@
 			\\\\
 			We can also describe planes with the use of parameters. For example, if $n_1x+n_2y+n_3z=k$, with $a_3\neq0$ describes a plane, it can be described by the following parametrics:
 			\begin{equation*}
-				x=\lambda \qquad y=\gamma \qquad z=\frac{k-n_1\lambda-n_2\gamma}{n_3} \qquad \lambda,\gamma\in\mathbb{R}
+				x=\lambda \qquad y=\gamma \qquad z=\frac{k-n_1\lambda-n_2\gamma}{n_3} \qquad \lambda,\gamma\in\R
 			\end{equation*}
 			We can determine the equations of planes with:
 			\begin{itemize}
@@ -461,7 +462,7 @@
 			
 				\paragraph{Distance Between Parallel Planes} To find the distance between planes $\Pi_1$ and $\Pi_2$ we choose any point $P$ on $\Pi_1$ and find its nearest distance to $\Pi_2$, we can also use each plane's distance from origin.
 				
-				\paragraph{Distance Between Skew Lines} Given two skew lines it can be shown that there is a unique line segment $PQ$ joining them that is perpendicular to both lines. Consider the lines defined by $\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\mathbb{R}$ and $\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\mathbb{R}$. The distance between these skew lines is given by $d=\left|\left(\utilde{a}_2-\utilde{a}_1\right)\cdot\utilde{\hat{n}}\right|$
+				\paragraph{Distance Between Skew Lines} Given two skew lines it can be shown that there is a unique line segment $PQ$ joining them that is perpendicular to both lines. Consider the lines defined by $\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\R$ and $\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\R$. The distance between these skew lines is given by $d=\left|\left(\utilde{a}_2-\utilde{a}_1\right)\cdot\utilde{\hat{n}}\right|$
 			
 			\subsubsection{Intersections and Angles}
 				Two planes that are not parallel will intersect along a line. To find the angle between the planes choose a point $P$ common to both planes and find the angle $\theta$ between the normal vectors. The answer will either be $\theta$ or $\pi-\theta$, whichever is in the interval $[0,\frac{\pi}{2}]$.
@@ -480,7 +481,7 @@
 			\paragraph{Distance} is given by the total area bounded by the graph and the $t$-axis.
 		\subsection{Vector Functions}
 			\subsubsection{Describing Particle's Path}
-				Consider $\utilde{r}(\lambda)=x(\lambda)\utilde{i}+y(\lambda)\utilde{j},\lambda\in\mathbb{R}$. $\utilde{r}(\lambda)$ represents a family of vectors defined by the parameter $\lambda$. Solve the components as normal parametrics to obtain the equation of the path.
+				Consider $\utilde{r}(\lambda)=x(\lambda)\utilde{i}+y(\lambda)\utilde{j},\lambda\in\R$. $\utilde{r}(\lambda)$ represents a family of vectors defined by the parameter $\lambda$. Solve the components as normal parametrics to obtain the equation of the path.
 			\subsubsection{Describing Curves with Vector Functions}
 				Vector functions to describe curves are not unique.
 		\subsection{Position Vectors as a Function of Time}
@@ -494,8 +495,8 @@
 		\subsection{Vector Calculus}
 			\subsubsection{Properties of Vector Derivatives}
 				\begin{align*}
-					&\frac{d}{dt}(\utilde{c})=0 \qquad \text{For constant vector }\utilde{c} \qquad &\frac{d}{dt}\left(k\utilde{r}(t)\right)=k\frac{d}{dt}\left(\utilde{r}(t)\right),k\in\mathbb{R}\\
-					&\frac{d}{dt}\left(\utilde{r}_1(t)+\utilde{r}_2(t)\right)=\frac{d}{dt}\left(\utilde{r}_1(t)\right)+\frac{d}{dt}\left(\utilde{r}_2(t)\right) \qquad &\frac{d}{dt}\left(f(t)\cdot\utilde{r}(t)\right)=f(t)\frac{d}{dt}=\left(\utilde{r}(t)\right)+\utilde{r}(t)\frac{d}{dt}\left(f(t)\right),f:\mathbb{D}\to\mathbb{R}\\
+					&\frac{d}{dt}(\utilde{c})=0 \qquad \text{For constant vector }\utilde{c} \qquad &\frac{d}{dt}\left(k\utilde{r}(t)\right)=k\frac{d}{dt}\left(\utilde{r}(t)\right),k\in\R\\
+					&\frac{d}{dt}\left(\utilde{r}_1(t)+\utilde{r}_2(t)\right)=\frac{d}{dt}\left(\utilde{r}_1(t)\right)+\frac{d}{dt}\left(\utilde{r}_2(t)\right) \qquad &\frac{d}{dt}\left(f(t)\cdot\utilde{r}(t)\right)=f(t)\frac{d}{dt}=\left(\utilde{r}(t)\right)+\utilde{r}(t)\frac{d}{dt}\left(f(t)\right),f:\mathbb{D}\to\R\\
 				\end{align*}
 			\subsubsection{Velocity and Acceleration Along a Curve}
 				Consider a particle with position vector $\utilde{r}(t)=x(t)\utilde{i}+y(t)\utilde{j}$.
@@ -509,7 +510,7 @@
 			
 			\subsubsection{Relations with Arguments in the Complex Plane} For relations in form $\Arg(z)=a$ we define z:=x+y$\cdot\mathbf{i}$, and then use Menu+2+9+4 to input the angle() function. We then menu+3+1 solve(angle(z)=a,y) to get the relation.
 		\subsection{Operations of Complex Numbers in Cartesian Form}
-			For $z_1=a+bi$ and $z_2=c+di$ for $a,b,c,d\in\mathbb{R}$
+			For $z_1=a+bi$ and $z_2=c+di$ for $a,b,c,d\in\R$
 			\begin{align*}
 				z_1+z_2=(a+c)+(b+d)i \qquad z_1z_2=(ac-bd)+(ad+bc)i \\
 				z_1-z_2=(a-c)+(b-d)i \qquad kz=ka+kbi
@@ -520,13 +521,14 @@
 					i^{4n}=1 \qquad i^{4n+1}=i \qquad i^{4n+2}=-1 \qquad i^{4n+3}=-i
 				\end{align*}
 			\end{minipage}
-			\begin{minipage}{0.5\textwidth}
+			\hfill
+			\begin{minipage}{0.4\textwidth}
 				\includegraphics[width=\linewidth]{argandrotate.png}
 			\end{minipage}
 		\subsection{Properties of Conjugates}
 			For $z=a+bi$, $\bar{z}=a-bi$
 			\[
-				\bar{z_1+z_2}=\bar{z_1}+\bar{z_2} \qquad \bar{z_1z_2}=\bar{z_1}\bar{z_2} \qquad \bar{kz}=k\bar{z},k\in\mathbb{R} \qquad z\bar{z}=|z|^2 \qquad z+\bar{z}=2\Real(z)
+				\bar{z_1+z_2}=\bar{z_1}+\bar{z_2} \qquad \bar{z_1z_2}=\bar{z_1}\bar{z_2} \qquad \bar{kz}=k\bar{z},k\in\R \qquad z\bar{z}=|z|^2 \qquad z+\bar{z}=2\Real(z)
 			\]
 			\paragraph{Multiplicative Inverse for Division} If $z=a+bi\neq0$ then
 			\[
@@ -539,7 +541,7 @@
 		\subsection{Polar Form Operations}
 			\paragraph{Conjugate} $z=r\cis\theta\implies\bar{z}=r\cis\left(-\theta\right)$. On an Argand diagram this can be represented as a reflection of $z$ in the Real axis.
 			\paragraph{Addition and Subtraction} You need to convert to cartesian form to complete these operations using $\cis\theta=(\cos\theta+i\sin\theta)$.
-			\paragraph{Scalar Multiplication} If $k\in\mathbb{R}^+$ then $\Arg(z)=Arg(kz)$. If $k\in\mathbb{R}^-$ then:
+			\paragraph{Scalar Multiplication} If $k\in\R^+$ then $\Arg(z)=Arg(kz)$. If $k\in\R^-$ then:
 			\[
 				\Arg(kz)=\begin{cases*}
 					\Arg(z)-\pi & $0<\Arg(z)\leq\pi$ \\
@@ -554,13 +556,13 @@
 			\[
 				\frac{z_1}{z_2}=\frac{r_1}{r_2}\cis\left(\theta_1-\theta_2\right) \qquad \Arg(z_1z_2)=\Arg(z_1)-\Arg(z_2)+2k\pi,k\in\{-1,0,1\}
 			\]
-			$\Arg(\frac{1}{z})=-\Arg(z)$ given $z\notin\mathbb{R}^-$
+			$\Arg(\frac{1}{z})=-\Arg(z)$ given $z\notin\R^-$
 		\subsection{Quadratics over Complex Numbers}
 			\paragraph{Sum of Squares} Since $i^2=-1$, we can rewrite a sum of squares as a difference of squares using $i$. $z^2+a^2=z^2-(ai)^2=(z+ai)(z-ai)$
 		\subsection{Polynomials over Complex Numbers}
 			\paragraph{Remainder Theorem} Let $\alpha\in\mathbb{C}$. When a polynomial $P(z)$ is divided by $z-\alpha$, the remainder is $P(\alpha)$
 			\paragraph{Factor Theorem} Let $\alpha\in\mathbb{C}$. Then $z-\alpha$ is a factor of $P(z)$ \textbf{if and only if} $P(a)=0$.
-			\paragraph{Conjugate Root Theorem} Let $P(z)$ be a polynomial with real coefficients. If $a+bi$ is a solution to $P(z)=0$, with $a,b\in\mathbb{R}$, then the complex conjugate $a-bi$ is also a solution.
+			\paragraph{Conjugate Root Theorem} Let $P(z)$ be a polynomial with real coefficients. If $a+bi$ is a solution to $P(z)=0$, with $a,b\in\R$, then the complex conjugate $a-bi$ is also a solution.
 			\paragraph{The Fundamental Theorem of Algebra} Every polynomial $P(z)=a_nz^n+a_{n-1}z^{n-1}+...+a_1z+a_0$ of degree $n$, where $n\geq1$ and the coefficients $a_i$ are complex numbers, has at least one linear factor in the complex number system.
 		\subsection{Solving with De Moivre}
 			Equations of form $z^n=a,a\in\mathbb{C}$ can be solved with de Moivre's theorem.
@@ -626,7 +628,7 @@
 				A ray is not defined for $z=0+0i$ as there is no unique angle for $\Arg(0+0i)$
 				\begin{examquestion}{VCAA 2019 A5 (modified) - Intersections of Rays}
 					\begin{leftbar}
-						Let $z=x+yi$ for $x,y\in\mathbb{R}$. The rays $\Arg(z-2)=\frac{\pi}{4}$ and $\Arg\left(z-(5+i)\right)=\frac{5\pi}{6}$ for $z\in\mathbb{C}$, intersect at $(a,b)$. Find the value of $b$.
+						Let $z=x+yi$ for $x,y\in\R$. The rays $\Arg(z-2)=\frac{\pi}{4}$ and $\Arg\left(z-(5+i)\right)=\frac{5\pi}{6}$ for $z\in\mathbb{C}$, intersect at $(a,b)$. Find the value of $b$.
 					\end{leftbar}
 					\begin{align*}
 						&\Arg(z-2)=\frac{\pi}{4}\implies y=x-2,x>2\qquad &\Arg\left(z-(5+i)\right)=\frac{5\pi}{6}\implies y=\frac{-1}{\sqrt{3}}(x-5)+1,x<5\\
@@ -637,7 +639,7 @@
 				\end{examquestion}
 			\subsubsection{Hyperbolas}
 				\[
-					|z-z_1|-|z-z_2|=2a \qquad z,z_1,z_2\in\mathbb{C},a\in\mathbb{R}
+					|z-z_1|-|z-z_2|=2a \qquad z,z_1,z_2\in\mathbb{C},a\in\R
 				\]
 				$z_1,z_2$ are the foci of the ellipse, and $a$ is the semi-major axis length.\\
 				\begin{minipage}{0.7\textwidth}
@@ -686,7 +688,7 @@
 			\[
 				x=2n\pi\pm\arccos(a),n\in\mathbb{Z}
 			\]
-			\paragraph{Tangent general solutions} For $a\in\mathbb{R}$ the general solution of $\tan(x)=a$ is:
+			\paragraph{Tangent general solutions} For $a\in\R$ the general solution of $\tan(x)=a$ is:
 			\[
 				x=n\pi+\arctan(a),n\in\mathbb{Z}
 			\]
@@ -726,7 +728,7 @@
 		\subsection{Linear Functions of Random Variables}
 			Consider a random variable $Y$ which is a linear function of random variable $X$
 			\[
-				Y=aX+b\qquad a,b\in\mathbb{R}
+				Y=aX+b\qquad a,b\in\R
 			\]
 			
 			\paragraph{Linear Functions of Discrete Random Variables} If $X$ is a discrete random variable $Y=aX+b$ is also a discrete random variable.
@@ -753,7 +755,7 @@
 					\mathrm{E}(Y)=\mathrm{E}(aX+b)=a\mathrm{E}(X)+b
 				\]
 			
-			\paragraph{Variance of Linear Functions of Random Variables} Generally, for $X$ is a random variable with variance $\sigma^2$, and $Y=aX+b$ for $a,b\in\mathbb{R}$:
+			\paragraph{Variance of Linear Functions of Random Variables} Generally, for $X$ is a random variable with variance $\sigma^2$, and $Y=aX+b$ for $a,b\in\R$:
 			\[
 				\mathrm{Var}(Y)=a^2\mathrm{Var}(X)=a^2\sigma^2
 			\]
@@ -781,7 +783,7 @@
 			\paragraph{Variance of Sum of n Identically Distributed Independent Random Variables} $\displaystyle\mathrm{Var}(X_1+X_2+...+X_n)=\mathrm{Var}(X_1)+\mathrm{Var}(X_2)+...+\mathrm{Var}(X_n)=n\sigma^2$\\
 			$\displaystyle\mathrm{sd}(X_1+X_2+...+X_n)=\sqrt{\mathrm{Var}(X_1+X_2+...+X_n)}=\sqrt{n}\sigma$
 			
-			\paragraph{Linear Combinations of n Independent Random Variables} A random variable $Y$ which is a linear combination of random variables $X_1,X_2,...,X_n$ is given by $Y=a_1X_1+a_2X_2+...+a_nX_n$ for $a_1,a_2,...,a_n\in\mathbb{R}$.
+			\paragraph{Linear Combinations of n Independent Random Variables} A random variable $Y$ which is a linear combination of random variables $X_1,X_2,...,X_n$ is given by $Y=a_1X_1+a_2X_2+...+a_nX_n$ for $a_1,a_2,...,a_n\in\R$.
 			\[
 				\mathrm{E}(a_1X_1+a_2X_2+...a_nX_n)=a_1\mathrm{E}(X_1)+a_2\mathrm{E}(X_2)+...+a_n\mathrm{E}(X_n)
 			\]
@@ -902,7 +904,7 @@
 				\int\frac{-1}{\sqrt{a^2-x^2}}dx=\arccos\left(\frac{x}{a}\right)+c,x\in(-a,a)
 			\]
 			\[
-				\int\frac{a}{a^2+x^2}dx=\arctan\left(\frac{x}{a}\right)+c,x\in\mathbb{R}
+				\int\frac{a}{a^2+x^2}dx=\arctan\left(\frac{x}{a}\right)+c,x\in\R
 			\]
 		\subsection{u-Substitution}
 			\[
@@ -1075,9 +1077,27 @@
 				1) Write expression clearly as a product of a function in $x$ and a function in $y$.\\
 				2) Substitute these expressions into the separation of variables form.\\
 				3) Antidifferentiate both expressions with $+c$ included (you only need this on one side).\\
+			\begin{examquestion}{2018 Exam 2 Question A9}
+				A solution to the differential equation $\displaystyle \frac{dy}{dx}=\frac{2}{\sin(x+y)-\sin(x-y)}$ can be obtained from:\\
+				a) $\displaystyle \int1dx=\int2\sin(y)dy$\\
+				b) $\displaystyle \int\cos(y)dy=\int\csc(x)dx$\\
+				c) $\displaystyle \int\cos(x)dx=\int\csc(y)dy$\\
+				d) $\displaystyle \int\sec(x)dx=\int\sin(y)dy$\\
+				e) $\displaystyle \int\sec(x)dx=\int\csc(y)dy$\\
+				\begin{align*}
+					\frac{dy}{dx}&=\frac{1}{\cos(x)\sin(y)} \\
+					\sin(y)\frac{dy}{dx}&=\sec(x) \\
+					\int\sin(y)dy&=\int\sec(x)dx \qquad \mathrm{(D)}
+				\end{align*}
+			\end{examquestion} 
 		\subsection{DiffEqs + Related Rates Crossover Event}
 			
 		\subsection{Definite Integration to solve DiffEqs}
+		
+		\subsection{Newton's Law of Cooling DiffEq} Newton's Law of Cooling involves a DiffEq that describes the rate of change of temperature $\frac{dT}{dt}$ is proportional to the difference between the temperature and the outside. Note that $k\in\R^-$ in the below statement.
+		\[
+			\frac{dT}{dt}\propto (T-T_{external})\implies\frac{dT}{dt}=k(T-T_{external})
+		\]
 			
 		\subsection{Euler's Method}
 			If $\displaystyle\frac{dy}{dx}=g(x)$ with $y=y_0$ when $x=x_0$, then:
@@ -1106,19 +1126,7 @@
 				Plot using \textbf{Graphs} page, Menu+3+8 to enter a diffeq. \textbf{A} has the same shape, so A is the answer.
 			\end{examquestion}
 		\subsection{Finding Solutions to DiffEqs}
-			\begin{examquestion}{2018 Exam 2 Question A9}
-				A solution to the differential equation $\displaystyle \frac{dy}{dx}=\frac{2}{\sin(x+y)-\sin(x-y)}$ can be obtained from:\\
-				a) $\displaystyle \int1dx=\int2\sin(y)dy$\\
-				b) $\displaystyle \int\cos(y)dy=\int\csc(x)dx$\\
-				c) $\displaystyle \int\cos(x)dx=\int\csc(y)dy$\\
-				d) $\displaystyle \int\sec(x)dx=\int\sin(y)dy$\\
-				e) $\displaystyle \int\sec(x)dx=\int\csc(y)dy$\\
-				\begin{align*}
-					\frac{dy}{dx}&=\frac{1}{\cos(x)\sin(y)} \\
-					\sin(y)\frac{dy}{dx}&=\sec(x) \\
-					\int\sin(y)dy&=\int\sec(x)dx \qquad \mathrm{(D)}
-				\end{align*}
-			\end{examquestion}
+			
 	\section{Pseudocode}
 		\subsection{Syntax}
 		
@@ -1167,31 +1175,31 @@
 				\begin{tabular}[t]{|p{5cm}|c|}
 					\hline
 					1&$\frac{1}{s}$\\\hline
-					$e^{at},a\in\mathbb{R}$&$\frac{1}{s-a}$\\\hline
+					$e^{at},a\in\R$&$\frac{1}{s-a}$\\\hline
 					$t^n,n\in\mathbb{Z}^+$&$\frac{n!}{s^{n+1}}$\\\hline
 					$\sqrt{t}$&$\frac{\sqrt{\pi}}{2s^{\frac{3}{2}}}$\\\hline
-					$\sin(at),a\in\mathbb{R}$&$\frac{a}{s^2+a^2}$\\\hline
-					$\cos(at),a\in\mathbb{R}$&$\frac{s}{s^2+a^2}$\\\hline
-					$t\sin(at),a\in\mathbb{R}$&$\frac{2as}{(s^2+a^2)^2}$\\\hline
-					$t\cos(at),a\in\mathbb{R}$&$\frac{s^2-a^2}{(s^2+a^2)^2}$\\\hline
-					$\sin(at)-at\cos(at),a\in\mathbb{R}$&$\frac{2a^3}{(s^2+a^2)^2}$\\\hline
-					$\sin(at)+at\cos(at),a\in\mathbb{R}$&$\frac{2as^2}{(s^2+a^2)^2}$\\\hline
-					$t^ne^{at},a\in\mathbb{R},n\in\mathbb{Z}^+$&$\frac{n!}{(s-a)^{n+1}}$\\\hline
+					$\sin(at),a\in\R$&$\frac{a}{s^2+a^2}$\\\hline
+					$\cos(at),a\in\R$&$\frac{s}{s^2+a^2}$\\\hline
+					$t\sin(at),a\in\R$&$\frac{2as}{(s^2+a^2)^2}$\\\hline
+					$t\cos(at),a\in\R$&$\frac{s^2-a^2}{(s^2+a^2)^2}$\\\hline
+					$\sin(at)-at\cos(at),a\in\R$&$\frac{2a^3}{(s^2+a^2)^2}$\\\hline
+					$\sin(at)+at\cos(at),a\in\R$&$\frac{2as^2}{(s^2+a^2)^2}$\\\hline
+					$t^ne^{at},a\in\R,n\in\mathbb{Z}^+$&$\frac{n!}{(s-a)^{n+1}}$\\\hline
 				\end{tabular}
 				\hfill
 				\begin{tabular}[t]{|p{5cm}|c|}
 					\hline
-					$\cos(at)-at\sin(at),a\in\mathbb{R}$&$\frac{s(s^2-a^2)}{(s^2+a^2)^2}$\\\hline
-					$\cos(at)+at\sin(at),a\in\mathbb{R}$&$\frac{s(s^2+3a^2)}{(s^2+a^2)^2}$ \\\hline
-					$\sin(at+b),a,b\in\mathbb{R}$&$\frac{s\sin(b)+a\cos(b)}{s^2+a^2}$\\\hline
-					$\cos(at+b),a,b\in\mathbb{R}$&$\frac{s\cos(b)-a\sin(b)}{s^2+a^2}$ \\\hline   
-					$\sinh(at),a\in\mathbb{R}$&$\frac{a}{s^2-a^2}$\\\hline
-					$\cosh(at),a\in\mathbb{R}$&$\frac{s}{s^2-a^2}$\\\hline
-					$e^{at}\sin(bt),a,b\in\mathbb{R}$&$\frac{b}{(s-a)^2+b^2}$\\\hline
-					$e^{at}\cos(bt),a,b\in\mathbb{R}$&$\frac{s-a}{(s-a)^2+b^2}$\\\hline
-					$e^{at}\sinh(bt),a,b\in\mathbb{R}$&$\frac{b}{(s-a)^2-b^2}$\\\hline
-					$e^{at}\cosh(bt),a,b\in\mathbb{R}$&$\frac{s-a}{(s-a)^2-b^2}$\\\hline
-					$f(ct),c\in\mathbb{R}$&$\frac{1}{c}F(\frac{s}{c})$\\\hline
+					$\cos(at)-at\sin(at),a\in\R$&$\frac{s(s^2-a^2)}{(s^2+a^2)^2}$\\\hline
+					$\cos(at)+at\sin(at),a\in\R$&$\frac{s(s^2+3a^2)}{(s^2+a^2)^2}$ \\\hline
+					$\sin(at+b),a,b\in\R$&$\frac{s\sin(b)+a\cos(b)}{s^2+a^2}$\\\hline
+					$\cos(at+b),a,b\in\R$&$\frac{s\cos(b)-a\sin(b)}{s^2+a^2}$ \\\hline   
+					$\sinh(at),a\in\R$&$\frac{a}{s^2-a^2}$\\\hline
+					$\cosh(at),a\in\R$&$\frac{s}{s^2-a^2}$\\\hline
+					$e^{at}\sin(bt),a,b\in\R$&$\frac{b}{(s-a)^2+b^2}$\\\hline
+					$e^{at}\cos(bt),a,b\in\R$&$\frac{s-a}{(s-a)^2+b^2}$\\\hline
+					$e^{at}\sinh(bt),a,b\in\R$&$\frac{b}{(s-a)^2-b^2}$\\\hline
+					$e^{at}\cosh(bt),a,b\in\R$&$\frac{s-a}{(s-a)^2-b^2}$\\\hline
+					$f(ct),c\in\R$&$\frac{1}{c}F(\frac{s}{c})$\\\hline
 				\end{tabular}
 				\caption{Laplace Transforms for Equations in $t$}
 			\end{table}
