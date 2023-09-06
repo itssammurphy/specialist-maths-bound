@@ -1,5 +1,5 @@
 \PassOptionsToPackage{svgnames}{xcolor}
-\documentclass[a4paper,twoside]{article}
+\documentclass[a4paper,twoside,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \hypersetup{
@@ -9,6 +9,7 @@
 	linkcolor=black,
 	urlcolor=black
 }
+\usepackage{enumitem}
 \usepackage{tipfr}
 \usepackage{framed}
 \usepackage{babel}
@@ -36,7 +37,7 @@
 \usepackage{tabularx}
 \usepackage[noEnd=true]{algpseudocodex}
 \usepackage{algorithm}
-\usepackage[a4paper, marginparwidth=80pt, top=2cm, bottom=1cm, left=1cm, right=1cm]{geometry}
+\usepackage[a4paper, marginparwidth=80pt, top=2cm, bottom=1cm, left=2cm, right=0.5cm]{geometry}
 \usepackage{marginnote}
 \usepackage{polynom}
 \usepackage{xfrac}
@@ -69,8 +70,11 @@
 
 \DeclareMathOperator\cis{cis}
 \DeclareMathOperator\Arg{Arg}
-\DeclareMathOperator\Real{Re}
+\renewcommand{\Re}{\mathrm{Re}}
+\renewcommand{\Im}{\mathrm{Im}}
 \DeclareMathOperator\R{\mathbb{R}}
+
+\usepackage{pdfpages}
 
 \pgfplotsset{polar default/.append style={xticklabels={,,
 			$\frac{\pi}{6}$, $\frac{\pi}{3}$, $\frac{\pi}{2}$, $\frac{2\pi}{3}$,
@@ -79,11 +83,12 @@
 
 \DeclarePairedDelimiter\set\{\}
 
-\title {Specialist Mathematics 3/4 Bound Reference}
+\title {VCE Mathematics 3/4 Bound Reference}
 \author {$\mathbb{SAM}\;\mathbb{MURPHY}$}
 \date{2023}
 
 \definecolor{lightgray}{RGB}{220,220,220}
+\newcommand{\codeindent}{\indent\hspace{2em}}
 \renewenvironment{leftbar}[1][\hsize]
 {%
 	\def\FrameCommand
@@ -104,11 +109,11 @@
 
 \newenvironment{example}[1]{%
 	\mbox{}\\\tcolorbox[beamer,breakable,%
-		title=Example: #1,standard jigsaw,opacityback=0, colframe=blue!75!black]}{\endtcolorbox\mbox{}\\}
+		title=Example: #1,standard jigsaw,opacityback=0, colframe=blue!75!black, boxrule=2pt]}{\endtcolorbox\mbox{}\\}
 	
 \newenvironment{examquestion}[1]{%
 	\mbox{}\\\tcolorbox[beamer,breakable,%
-	title=Exam-style Question: #1,standard jigsaw,opacityback=0, colframe=red!75!black]}{\endtcolorbox\mbox{}\\}
+	title=Exam-style Question: #1,standard jigsaw,opacityback=0, colframe=red!75!black, boxrule=2pt]}{\endtcolorbox\mbox{}\\}
 
 \newenvironment{note}[1]{%
 	\mbox{}\\\tcolorbox[beamer,breakable,%
@@ -118,9 +123,13 @@
 \fancyhf{}
 \fancyhead[EL]{\thepage}
 \fancyhead[OR]{\thepage}
-\raggedbottom   
+\raggedbottom
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\newtheorem*{theorem*}{Theorem}
 
 \begin{document}
+	\large
 	\maketitle
 	\newtheorem{bitchesTheorem}{Theorem}
 	\begin{bitchesTheorem}
@@ -136,6 +145,10 @@
 		$\therefore\{\text{Sam}\}\cap\{\text{Bitches}\}=\emptyset$
 	\end{proof}
 	\newpage
+	\includepdf[pages={2,3}]{./pdf/methods_formula}
+	\includepdf[pages={2},angle=90]{./pdf/spesh_formula}
+	\includepdf[pages={3}]{./pdf/spesh_formula}
+	\small
 	\tableofcontents
 	\newpage
 	\section{Useful Rules, Values and Identities}
@@ -147,11 +160,58 @@
 		\sin\frac{\pi}{3}=\frac{\sqrt3}{2} \qquad \cos\frac{\pi}{3}=\frac{1}{2} \qquad \tan\frac{\pi}{3}=\sqrt3\\
 		\sin\frac{\pi}{6}=\frac{1}{2} \qquad \cos\frac{\pi}{6}=\frac{\sqrt3}{2} \qquad \tan\frac{\pi}{6}=\frac{1}{\sqrt3}
 	\end{align*}
+	\subsection{TI Nspire Shortcut Keys}
+	\begin{minipage}{0.5\textwidth}
+		\begin{tabular}{|c|c|}
+			\hline
+			\textbf{Shortcut} & \textbf{Outcome} \\
+			\hline
+			ctrl+A & Selects all\\
+			\hline
+			ctrl+C & Copy \\
+			\hline
+			ctrl+I & Insert page \\
+			\hline
+			ctrl+N & New doc \\
+			\hline
+			ctrl+O & Open \\
+			\hline
+			ctrl+1 & Page down (END)\\
+			\hline
+			ctrl+space & Underscore \\
+			\hline
+			Pi & $\pi$ \\
+			\hline
+			Theta & $\theta$ \\
+			\hline
+			Infinity & $\infty$ \\
+			\hline
+		\end{tabular}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.5\textwidth}
+		\paragraph{Add a Problem} If you want to add a new problem to the document, go doc+4+1
+	\end{minipage}
+	\subsection{Functions}
+	\paragraph{Odd Function} $f(-x)=-f(x)$. Odd functions have rotational symmetry about the origin.
+	\paragraph{Even Function} $f(-x)=f(x)$. Even functions are symmetrical about the $y$-axis.
+	\paragraph{Sum Functions} $(f+g)(x)=f(x)+g(x)$. $\mathrm{dom}\;(f+g)=\mathrm{dom}\;f\cap\mathrm{dom}\;g$
+	\paragraph{Product Functions} $(fg)(x)=f(x)g(x)$. $\mathrm{dom}\;(fg)=\mathrm{dom}\;f\cap\mathrm{dom}\;g$
+	\paragraph{Composite Functions} $g\circ f(x)=g(f(x))$. $\mathrm{dom}\;(g\circ f)=\mathrm{dom}f$
+	\paragraph{Inverse Functions} $f(f^{-1}(x))=x$
 	\newpage
 	\section{Silly Blunders}
 		\paragraph{u-sub} For definite integrals, do not forget to change the limits with the rule of u.
 		\paragraph{Linear combinations of random variables - standard deviation} For calculating $\mathrm{sd}(aX\pm bY)$ \textbf{always} add the variances first through $a^2\mathrm{Var}(X)+b^2\mathrm{Var}(Y)$. Only ever find standard deviation through the square root of the variance.
 		\paragraph{Kinematics - acceleration} Do not forget to multiply $\frac{dv}{dx}$ by $v$ again.
+		\paragraph{Integration notation} Don't be an idiot. Remember the $dx$ on an integral. (CornChip Blunder)
+		\paragraph{Complex polynomials} When it asks for a solution for $z$, don't write $z-2$, write $z=2$. Solutions are equations for $z$ that lead to $P(z)=0$. Do not list factors when it asks for solutions. (CornChip Blunder)
+		\paragraph{Cuboid} A cuboid is not a cube. You're sped.
+		\paragraph{Decimals} Questions ask for decimal answers. Check this.
+		\paragraph{Percentages} Probability or sample statistic questions may ask for a percentage proportion. DO NOT GIVE THE PROBABILITY (0.69), GIVE THEM THE PERCENTAGE (69\%).
+		\paragraph{MCQs about Stats} Some MCQs may ask about the variance of a variable or the standard deviation. Give them which one they ask for!!
+		\paragraph{Domains of Inverse} Usually when they ask you to find an inverse function, they want you to find its domain as well. Watch out for this!
+		\paragraph{Magnitude of Scalar Resolute} The expression $\displaystyle \frac{1}{|\utilde{b}|}|\utilde{b}\cdot\utilde{a}|$ is the \textbf{magnitude} of the scalar resolute, not just the scalar resolute.
 	\section{Unit 1/2 Assumed Knowledge}
 		\subsection{Sequences and Series}
 			\paragraph{Arithmetic Sequences} Sequences formed by adding a fixed amount to successive terms.
@@ -196,6 +256,129 @@
 					\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1\qquad\qquad\text{Asymptotes: }y-k=\pm\frac{b}{a}(x-h)
 				\]
 				Hyperbola with centre $(h,k)$ and $2a$ is the horizontal distance between foci, $b$ is a vertical dilation.
+				The tangents
+				\begin{examquestion}{VCAA 2007 Spesh E2 A1}
+					\begin{leftbar}
+						A hyperbola has equation $\displaystyle \frac{(x-2)^2}{a^2}-\frac{4(y+3)^2}{a^2}=1$, where $a\in\R\setminus\{0\}$. The product of the gradients of the asymptotes is:
+					\end{leftbar}
+					\[
+						\frac{(x-2)^2}{a^2}-\frac{4(y+3)^2}{a^2}=\frac{(x-2)^2}{a^2}-\frac{(y+3)^2}{\left(\frac{a}{2}\right)^2}=1
+					\]
+					Asymptotes are $\displaystyle y+3=\pm\frac{\frac{a}{2}}{a}(x-2)=\pm\frac{1}{2}(x-2)$ and the product of the gradients is $\displaystyle \frac{1}{2}\times\left(-\frac{1}{2}\right)=\frac{-1}{4}$.
+				\end{examquestion}
+	\section{Functions}
+		\subsection{Tech}
+			\paragraph{Defining a function} Make sure you use := to define functions! Alternatively, menu+1+1
+			
+			\subsubsection{fMax(rule,iv,lower,upper) and fMin(rule,iv,lower,upper)}
+			This finds the maximum and minimum values of a function over an interval. iv denotes the independent variable of the rule.
+			
+			\subsubsection{tangentLine(rule,iv,$x$)}
+			This finds the equation of the line tangent to the graph of the rule at the point with x-coordinate $x$. iv denotes the independent variable of the rule.
+			
+			\subsubsection{normalLine(rule,iv,$x$)}
+			This finds the equation of the normal line tangent to the graph of the rule at the point with x-coordinate $x$. iv denotes the independent variable of the rule.
+			
+			\subsubsection{scriptedmath\textbackslash poi(f(x),x)} Gives stationary points, axes intercepts, straight-line asymptotes, and endpoints.
+			\subsubsection{scriptedmath\textbackslash inv(f(x),pointX)} Finds $f^{-1}(x)$. If the function is not one-to-one it will restrict domain to contain the point where x=pointX.
+		\subsection{Average Value and Average Rate}
+			\paragraph{Average value} The average value of a continuous function $f$ over $[a,b]$ is given by:
+			\[
+			f_avg=\frac{1}{b-a}\int\limits_a^bf(x)dx
+			\]
+			\paragraph{Average rate of change} The average rate of change of a function $f$ over $[a,b]$ is given by:
+			\[
+			A(x)=\frac{f(b)-f(a)}{b-a}
+			\]
+		\subsection{Transformations}
+			\bgroup
+			\def\arraystretch{1.5}
+			\begin{table}[H]
+				\centering
+				\begin{tabular}{|c|c|}
+					\hline
+					$(x,y)\to(x+a,y)$ & Translation $a$ units right \\
+					\hline
+					$(x,y)\to(x-a,y)$ & Translation $a$ units left \\
+					\hline
+					$(x,y)\to(x,y+a)$ & Translation $a$ units up \\
+					\hline
+					$(x,y)\to(x,y-a)$ & Translation $a$ units down \\
+					\hline
+					$(x,y)\to(x,ay)$ & Dilation from $x$-axis by factor $a$\\
+					\hline
+					$(x,y)\to(ax,y)$ & Dilation from $y$-axis by factor $a$\\
+					\hline
+					$(x,y)\to(-x,y)$ & Reflection in $y$-axis\\
+					\hline
+					$(x,y)\to(x,-y)$ & Reflection in $x$-axis\\
+					\hline
+				\end{tabular}
+			\end{table}
+			\egroup
+			\begin{examquestion}{2010 NEAP Methods E2 A12}
+				\begin{leftbar}
+					The graph of $f$ where $\displaystyle f(x)=x^{-\frac{3}{2}}$ undergoes a dilation of factor 4 parallel to $x$-axis. The same result could be achieved had $f$ undergone a dilation of factor:\\
+					A) $\frac{1}{8}$ from $y$-axis \qquad B) 8 from $y$-axis \qquad C) $\frac{1}{8}$ from $x$-axis \qquad D) 8 from the $x$-axis \qquad E) $\frac{1}{16}$ from the $x$-axis.
+				\end{leftbar}
+				\begin{align*}
+					f\left(\frac{x}{4}\right)=\left(\frac{x}{4}\right)^{-\frac{3}{2}}&=8x^{-\frac{3}{2}}\quad \text{As }\left(\frac{1}{4}\right)^{-\frac{3}{2}}=8\\
+					&=8f(x)\implies\text{a factor of 8 from x-axis}
+				\end{align*}
+			\end{examquestion}
+		\subsection{Composite Functions}
+			\paragraph{Domain} The domain of a composite function $f(g(x))$ is all the inputs $x$ which are in the domain of $g$ such that $g(x)\in\mathrm{dom }f$
+		\subsection{Exponential Functions}
+			\begin{examquestion}{2006 VCAA Methods E2 B3e}
+				\begin{leftbar}
+					Find the values of $k$, where $k\in\mathbb{R}^+$, for which the equation $3-ke^x-e^{-x}=0$ has one or more solutions for $x$.
+				\end{leftbar}
+				\begin{align*}
+					&\text{Solving }3-ke^x-e^{-x}=0\text{ for }x\\
+					&\text{Let }u=e^x\\
+					&3-ku-(u)^{-1}=0\equiv3u-ku^2-1=0\\
+					&u=\frac{-3\pm\sqrt{9-4k}}{2k}=e^x\implies x=\ln\left(\frac{-3\pm\sqrt{9-4k}}{2k}\right)\\
+					&\star\text{Argument of a logarithm must be real and positive}\\
+					&9-4k\geq0\implies k\leq\frac{9}{4}\\
+					&\therefore 0<k\leq\frac{9}{4}\because k\in\mathbb{R}^+		
+				\end{align*}
+			\end{examquestion}
+		\subsection{Tangents}
+			\begin{examquestion}{2006 VCAA Methods E2 B1}
+				\begin{leftbar}
+					Consider $f:[0,2\pi]\to\mathbb{R},f(x)=2\sin(x)$. The graph is shown below with tangents drawn at A and B.\\
+					\begin{minipage}{0.5\linewidth}
+						\includegraphics[width=\textwidth]{2006 E2 B1.png}
+					\end{minipage}
+					\hfill
+					\begin{minipage}{0.5\linewidth}
+						The tangent to the curve at $x=\frac{\pi}{3}$ is given by $y=x+\frac{3\sqrt{3}-\pi}{3}$.\\
+						The $x$-intercept of the tangent at A is $\left(\frac{\pi-3\sqrt{3}}{3},0\right)$\\\\
+						The two tangents to the curve at points A and B have gradient 1. A translation of $m$ units right in the positive $x$ direction takes the tangent at A to the tangent at B. Find $m$.
+					\end{minipage}
+				\end{leftbar}\mbox{}\\
+				\includegraphics[width=\textwidth]{2006e2b1soln.png}
+			\end{examquestion}
+		\subsection{Areas}
+			\begin{examquestion}{2021 NEAP Methods MCQ20}
+				\begin{leftbar}
+					The graph below shows a linear function $f$ and a quadratic function $g$, where $f(x)\geq g(x)$ for $x\in\R$\\
+					\includegraphics[width=0.5\textwidth]{2021neapmcq20.png}\\
+					Given that $f(a)=g(a)$ and $f(x)=g(x)$ has one solution, the area of the shaded region in terms of $a$ and $b$ can be expressed as:
+				\end{leftbar}
+				Maximum area occurs when parabola is tangential to the line at $x=a$
+				\begin{equation*}
+					g'(x)=k(2x-a)\to g'(a)=ak
+				\end{equation*}
+				\begin{align*}
+					m_{tangent}=-\frac{b}{a}&=g'(a)\\
+					ak&=\frac{-b}{a}\\
+					k&=-\frac{b}{a^2}\\\\
+					\therefore g(x)&=-\frac{b}{a^2}x(x-a)\\
+					\text{max area }&=\int\limits_0^a-\frac{b}{a^2}x(x-a)dx\\
+					&=\frac{ab}{6}
+				\end{align*}
+			\end{examquestion}
 	\section{Vectors and Kinematics}
 		\subsection{Vectors Tech}
 			\paragraph{Create a vector} ctrl+( creates a matrix which we can use for vectors.
@@ -207,8 +390,8 @@
 			\subsubsection{sam\textunderscore vectors\textbackslash vecres(a,b)} Put in vectors and it will find the vector resolute of $\utilde{a}$ in both the direction of and perpendicular to $\utilde{b}$.
 			\subsubsection{sam\textunderscore vectors\textbackslash lindep(a,b,c,p)} Find a value for pronumeral $p$ that makes the set of vectors $a,b,c$ linearly dependent. In the first example below, we use it to find a value of p for which the vectors are linearly dependent. In the second example it is used to verify that a set of known vectors is linearly dependent. It returns a constant solution, so therefore they must be dependent.\\
 			\includegraphics[width=18cm]{lindepcas.png}
-		\subsection{Anles Between Vectors}
-			\begin{examquestion}{2006 Exam 2 Question B2}
+		\subsection{Angles Between Vectors}
+			\begin{examquestion}{2006 VCAA Spesh E2 B2}
 				\begin{minipage}{\linewidth}
 					\begin{leftbar}
 						Point $A$ has position vector $\utilde{a}=-\utilde{i}-4\utilde{j}$, point $B$ has position vector $\utilde{b}=2\utilde{i}-5\utilde{j}$, point $C$ has position vector $\utilde{c}=5\utilde{i}-4\utilde{j}$ and point $D$ has position vector $\utilde{d}=2\utilde{i}+5\utilde{j}$. It is known that $\cos\left(\angle ADC\right)=\frac{4}{5}$. Find the cosine of $\angle ABC$ and \textbf{hence show} that $\angle ADC$ and $\angle ABC$ are supplementary (add to $\pi$).
@@ -226,7 +409,7 @@
 			\end{examquestion}
 		\subsection{Linear Dependence}
 			\[
-				x_1\utilde{a_1}+x_2\utilde{a_2}+...+x_n\utilde{a_n}=0\centernot\implies x_i=0 \forall i\in[0,n]
+				x_1\utilde{a_1}+x_2\utilde{a_2}+...+x_n\utilde{a_n}=0\centernot\implies x_i=0 \forall i\in[1,n]
 			\]
 			A set of vectors is said to be linearly dependent if at least one of its members can be expressed as a linear combination of other vectors in the set. Alternatively, a set of vectors are linearly dependent if a vector could be removed from the set and not affect the set's span.
 			\paragraph{Linear combination} A vector $\utilde{w}$ is a linear combination of $\utilde{u}$ and $\utilde{v}$ if it can be expressed in form $\utilde{w}=k_1\utilde{u}+k_2\utilde{v}$ for $k_1,k_2\in\R$.
@@ -294,13 +477,15 @@
 				\item $\ell_1\parallel\ell_2 \iff \utilde{d}_1\parallel\utilde{d}_2$
 				\item $\ell_1\perp\ell_2 \iff \utilde{d}_1\perp\utilde{d}_2 \iff \utilde{d}_1\cdot\utilde{d}_2=0$
 			\end{itemize}
+		
+			\subparagraph{Distance between two lines (non-parallel)}
 			
-			\subparagraph{Distance between two parallel lines} Let $\utilde{v}$ be the unit vector in the direction of the lines. Now let $p_1$ be a point on line 1 and $p_2$ be a point on line 2. The distance between the lines, as shown in the diagram below, can be calculated using the cross product.\\
+			\subparagraph{Distance between two parallel lines} Let $\utilde{v}$ be the vector in the direction of the lines. Now let $p_1$ be a point on line 1 and $p_2$ be a point on line 2. The distance between the lines, as shown in the diagram below, can be calculated using the cross product.\\
 			\begin{minipage}{0.5\linewidth}
 				\begin{align*}
 					d&=|\utilde{w}|\sin\theta \\
-					&=\left|\utilde{v}\times\utilde{w}\right|\\
-					&=\left|\utilde{v}\times\left(\utilde{p_2}-\utilde{p_1}\right)\right|
+					&=\left|\utilde{\hat{v}}\times\utilde{w}\right|\\
+					&=\left|\utilde{\hat{v}}\times\left(\utilde{p_2}-\utilde{p_1}\right)\right|
 				\end{align*}
 			\end{minipage}
 			\hfill
@@ -327,6 +512,7 @@
 				
 				\paragraph{Angle Between 2 Lines} The angle between two lines can be found using the scalar product of their direction vectors. The angle is either $\theta$ or $\pi-\theta$, whichever lies in the interval $[0,\frac{\pi}{2}]$.
 		\subsection{Vector Product (Cross Product)}
+			\paragraph{Geometric Relationship} The relationship between the two vectors in a cross multiplication and the result is called 'mutually perpendicular'.
 			\paragraph{Properties of the Vector Product}
 				\begin{itemize}
 					\item Direction of $\utilde{a}\times\utilde{b}$ is perpendicular to the plane containing $\utilde{a}$ and $\utilde{b}$.
@@ -452,6 +638,7 @@
 				\[
 					d=\left|\overrightarrow{PQ}\cdot\utilde{\hat{n}}\right|
 				\]
+				where $Q$ is any point on the plane and $\hat{n}$ is a unit vector normal to the plane
 				
 				\paragraph{Plane to Origin Distance} A plane that does not pass through the origin has a vector equation $\utilde{r}\cdot\utilde{n}=k$ for $k\neq0$. Take the point $M$ as the closest point on the plane to the origin. $\overrightarrow{OM}=m\utilde{n}$ where $|m|$ is the distance of the plane to the origin.
 				\begin{align*}
@@ -461,13 +648,81 @@
 				\end{align*}
 			
 				\paragraph{Distance Between Parallel Planes} To find the distance between planes $\Pi_1$ and $\Pi_2$ we choose any point $P$ on $\Pi_1$ and find its nearest distance to $\Pi_2$, we can also use each plane's distance from origin.
+				\begin{example}{Distance Between Parallel Planes}
+					\begin{leftbar}
+						Consider the planes given by:
+						\[
+							\Pi_1:2x-y+2z=5\qquad\Pi_2:2x-y+2z=-2
+						\]
+						Find the distance between the two planes.
+					\end{leftbar}\mbox{}\\
+					First, we find the distance of each plane from the origin.\\
+					\begin{align*}
+						\utilde{n}&=2\utilde{i}-\utilde{j}+2\utilde{k}\implies |\utilde{n}|=3\\\\
+						\text{Signed distance from origin of }\Pi_1&=\frac{5}{|\utilde{n}|}=\frac{5}{3}\\
+						\text{Signed distance from origin of }\Pi_2&=\frac{-2}{|\utilde{n}|}=\frac{-2}{3}\\
+						\therefore\text{Distance between planes}&=\frac{5}{3}-\left(\frac{-2}{3}\right)\\
+						&=\frac{7}{3}
+					\end{align*}
+				\end{example}
 				
-				\paragraph{Distance Between Skew Lines} Given two skew lines it can be shown that there is a unique line segment $PQ$ joining them that is perpendicular to both lines. Consider the lines defined by $\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\R$ and $\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\R$. The distance between these skew lines is given by $d=\left|\left(\utilde{a}_2-\utilde{a}_1\right)\cdot\utilde{\hat{n}}\right|$
+				\paragraph{Distance Between Skew Lines} Given two skew lines it can be shown that there is a unique line segment $PQ$ joining them that is perpendicular to both lines. Consider the lines defined by $\utilde{r}_1(\lambda)=\utilde{a}_1+\lambda\utilde{d}_1,\lambda\in\R$ and $\utilde{r}_2(\gamma)=\utilde{a}_2+\gamma\utilde{d}_2,\gamma\in\R$. The distance between these skew lines is given by:
+				\[
+					d=\left|\left(\utilde{a}_2-\utilde{a}_1\right)\cdot\utilde{\hat{n}}\right|\qquad \hat{\utilde{n}}=\frac{\utilde{d}_1\times\utilde{d}_2}{|\utilde{d}_1\times\utilde{d}_2|}
+				\]
 			
 			\subsubsection{Intersections and Angles}
 				Two planes that are not parallel will intersect along a line. To find the angle between the planes choose a point $P$ common to both planes and find the angle $\theta$ between the normal vectors. The answer will either be $\theta$ or $\pi-\theta$, whichever is in the interval $[0,\frac{\pi}{2}]$.
 				
-				\paragraph{Intersection of a Line and a Plane} The angle between a line and a plane is 90\degree-$\theta$ where $\theta$ is the angle between the line and a normal to the plane.
+				\paragraph{Intersection of a Line and a Plane} The angle between a line and a plane is 90\degree-$\theta$ where $\theta$ is the angle between the line and a normal to the plane. To find the point of intersection between a plane and line, we need to find a value for $t$ for which $\utilde{r}(t)$ represents a point on the line. That is, $\utilde{r}(t)\cdot\utilde{n}=k$. This will help us find a $t$ value and then by subbing back in we find the point of intersection.
+				\begin{example}{Intersection of Line and Plane}
+					\begin{leftbar}
+						Consider the line represented by $\utilde{r}(\lambda)=3\utilde{i}-\utilde{j}-\utilde{k}+\lambda(\utilde{i}+2\utilde{j}-\utilde{k})$ and the plane represented by $\utilde{r}\cdot(\utilde{i}+\utilde{j}+2\utilde{k})=2$. Find the point of intersection and angle of intersection between the line and plane.
+					\end{leftbar}
+					\begin{minipage}[t]{0.5\linewidth}
+						\underline{Point of Intersection}\\
+						\begin{align*}
+							\utilde{r}(\lambda)\cdot(\utilde{i}+\utilde{j}+2\utilde{k})&=2\\
+							\left(3\utilde{i}-\utilde{j}-\utilde{k}+\lambda\left(\utilde{i}+2\utilde{j}-\utilde{k}\right)\right)\cdot(\utilde{i}+\utilde{j}+2\utilde{k})&=2\\
+							(3+\lambda)+(-1+2\lambda)+2(-1-\lambda)&=2\\
+							\therefore \lambda&=2\\
+							\utilde{r}(2)=5\utilde{i}+3\utilde{j}-3\utilde{k}&
+						\end{align*}
+						Therefore the point of intersection is (5,3,-3).
+					\end{minipage}
+					\hfill
+					\begin{minipage}[t]{0.5\linewidth}
+						\underline{Angle of Intersection}\\
+						$\utilde{d}=\utilde{i}+2\utilde{j}-\utilde{k}$ is parallel to the line and $\utilde{n}=\utilde{i}+\utilde{j}+2\utilde{k}$ is normal to the plane.
+						\begin{align*}
+							\utilde{d}\cdot\utilde{n}&=|\utilde{d}||\utilde{n}|\cos\theta\\
+							1&=6\cos\theta\\
+							\theta&=80.4\degree
+						\end{align*}
+						Therefore the angle of intersection is $90\degree-80.4\degree$ as $80.4\degree$ is the angle with the normal. Hence the angle of intersection is $9.6\degree$.
+					\end{minipage}
+				\end{example}
+			
+			\subsubsection{Intersection of Planes}
+				\begin{example}{Equation of the Line of Intersection}
+					\begin{leftbar}
+						Let $\Pi_1$ and $\Pi_2$ be planes represented by:
+						\[
+							\Pi_1:\utilde{r}\cdot(\utilde{i}+\utilde{j}-3\utilde{k})=6\qquad\Pi_2:\utilde{r}\cdot(2\utilde{i}-\utilde{j}+\utilde{k})=4
+						\]
+						Find a vector equation to describe the line of intersection of these planes.
+					\end{leftbar}
+					Consider the cartesian equations of two planes:
+					\begin{align*}
+						x+y-3z=6\quad(1)\qquad&\qquad2x-y+z=4\quad(2)\\
+						(1)+(2)\rightarrow3x-2z&=10\quad(3)\\
+						\text{Let }x=\lambda\implies z=\frac{3\lambda-10}{2} &\text{ (from (3)) },y=\frac{7\lambda-18}{2} \text{ (from (2))}\\
+						\text{This gives us the parametric equations for the line of intersection:}\\
+						x=\lambda,&y=\frac{7\lambda-18}{2},z=\frac{3\lambda-10}{2}\\
+						\text{Converting to vector form:}\\
+						\utilde{r}(\lambda)=-9\utilde{j}-5\utilde{k}+\lambda\left(\utilde{i}+\frac{7}{2}\utilde{j}+\frac{3}{2}\utilde{k}\right)
+					\end{align*}
+				\end{example}
 			
 		\subsection{Parametric Vector Equations}
 			
@@ -475,6 +730,34 @@
 			\[
 				v=u+at \qquad s=ut+\frac{1}{2}at^2 \qquad v^2=u^2+2as \qquad s=\frac{1}{2}(u+v)t
 			\]
+		
+		\subsection{Terminal (Limiting) Velocity}
+			\begin{examquestion}{VCAA 2017 Spesh E2 B2c}
+				\begin{leftbar}
+					After two seconds of falling, a skydiver's acceleration is affected by air resistance such that their acceleration is given by:
+					\[
+						a=g-0.01v^2
+					\]
+					Find the limiting (terminal) velocity in $m s^{-1}$ that they would reach.
+				\end{leftbar}
+				\begin{align*}
+					\text{Let }a&=0\\
+					g&=0.01v^2\\
+					v&=10\sqrt{g}
+				\end{align*}
+			\end{examquestion}
+		\subsection{Velocity Functions of Time}
+			\begin{examquestion}{VCAA 2007 Spesh E2 B5}
+				\begin{leftbar}
+					A car travelling at $20 m s^{-1}$ passes a stationary police car, and then decelerates so that its velocity $v m s^{-1}$, at time $t$ seconds after passing the police car, is given by $v=20-2\arctan(t)$.\\
+					b) Explain why $v$ will never equal 16.\\
+					\begin{align*}
+						t&\to\infty,\arctan(t)\to\frac{\pi}{2}\\
+						v&\to\left(20-2\cdot\frac{\pi}{2}\right)^+=(20-\pi)^+\\
+						v&>20-\pi>16
+					\end{align*}
+				\end{leftbar}
+			\end{examquestion}
 		\subsection{Velocity-Time Graphs}
 			\paragraph{Displacement} is given by the signed area bounded by the graph and the $t$-axis.
 			\paragraph{Acceleration} is given by the gradient.
@@ -495,15 +778,24 @@
 		\subsection{Vector Calculus}
 			\subsubsection{Properties of Vector Derivatives}
 				\begin{align*}
-					&\frac{d}{dt}(\utilde{c})=0 \qquad \text{For constant vector }\utilde{c} \qquad &\frac{d}{dt}\left(k\utilde{r}(t)\right)=k\frac{d}{dt}\left(\utilde{r}(t)\right),k\in\R\\
-					&\frac{d}{dt}\left(\utilde{r}_1(t)+\utilde{r}_2(t)\right)=\frac{d}{dt}\left(\utilde{r}_1(t)\right)+\frac{d}{dt}\left(\utilde{r}_2(t)\right) \qquad &\frac{d}{dt}\left(f(t)\cdot\utilde{r}(t)\right)=f(t)\frac{d}{dt}=\left(\utilde{r}(t)\right)+\utilde{r}(t)\frac{d}{dt}\left(f(t)\right),f:\mathbb{D}\to\R\\
+					&\frac{d}{dt}\left(\utilde{c}\right)=0 \qquad \text{For constant vector }\utilde{c} \qquad &\frac{d}{dt}\left(k\utilde{r}(t)\right)=k\frac{d}{dt}\left(\utilde{r}(t)\right),k\in\R\\
+					&\frac{d}{dt}\left(\utilde{r}_1(t)+\utilde{r}_2(t)\right)=\frac{d}{dt}\left(\utilde{r}_1(t)\right)+\frac{d}{dt}\left(\utilde{r}_2(t)\right) \qquad &\frac{d}{dt}\left(f(t)\cdot\utilde{r}(t)\right)=f(t)\frac{d}{dt}\left(\utilde{r}(t)\right)+\utilde{r}(t)\frac{d}{dt}\left(f(t)\right),f:\mathbb{D}\to\R\\
 				\end{align*}
+			\subsubsection{Vector Antidifferentiation}
+				Consider:
+				\[
+					\int\utilde{r}(\lambda)d\lambda=\int x(\lambda)\utilde{i}+y(\lambda)\utilde{j}+z(\lambda)\utilde{k}d\lambda=\left(\int x(\lambda)d\lambda\right)\utilde{i}+\left(\int y(\lambda)d\lambda\right)\utilde{j}+\left(\int z(\lambda)d\lambda\right)\utilde{k}=X(\lambda)\utilde{i}+Y(\lambda)\utilde{j}+Z(\lambda)\utilde{k}+\utilde{c},\utilde{c}\in\R^3
+				\]
+				Where $\frac{dX}{d\lambda}=x(\lambda)$ and $\frac{dY}{d\lambda}=y(\lambda)$ and $\frac{dZ}{d\lambda}=z(\lambda)$ and $\utilde{c}$ is a constant vector.
 			\subsubsection{Velocity and Acceleration Along a Curve}
 				Consider a particle with position vector $\utilde{r}(t)=x(t)\utilde{i}+y(t)\utilde{j}$.
 				\paragraph{Velocity} $\utilde{v}=\utilde{\dot{r}}(t)=\dot{x}(t)\utilde{i}+\dot{y}(t)\utilde{j}$
 				\paragraph{Acceleration} $\utilde{a}(t)=\utilde{\ddot{r}}(t)=\ddot{x}(t)\utilde{i}+\ddot{y}(t)\utilde{j}$
 				\paragraph{Distance Between Points on Vector Function Curve} $|\utilde{r}(t_1)-\utilde{r}(t_0)|$
-			
+				\paragraph{Distance traversed along the curve} If $\utilde{r}(\lambda)=x(\lambda)\utilde{i}+y(\lambda)\utilde{j}$ describes the path of a particle, the distance traversed along the curve from $\lambda=a$ to $\lambda=b$ is given by:
+				\[
+					\int\limits_a^b\sqrt{\left(\frac{dx}{d\lambda}\right)^2+\left(\frac{dy}{d\lambda}\right)^2}d\lambda
+				\]
 	\section{Complex Numbers}
 		\subsection{Tech}
 			\subsubsection{Lines in the Complex Plane} Define z:=x+y$\cdot\mathbf{i}$, then Menu+3+1 to get the solve() function and then input your complex relation, and solve for $y$.
@@ -528,7 +820,7 @@
 		\subsection{Properties of Conjugates}
 			For $z=a+bi$, $\bar{z}=a-bi$
 			\[
-				\bar{z_1+z_2}=\bar{z_1}+\bar{z_2} \qquad \bar{z_1z_2}=\bar{z_1}\bar{z_2} \qquad \bar{kz}=k\bar{z},k\in\R \qquad z\bar{z}=|z|^2 \qquad z+\bar{z}=2\Real(z)
+				\bar{z_1+z_2}=\bar{z_1}+\bar{z_2} \qquad \bar{z_1z_2}=\bar{z_1}\bar{z_2} \qquad \bar{kz}=k\bar{z},k\in\R \qquad z\bar{z}=|z|^2 \qquad z+\bar{z}=2\Re(z)
 			\]
 			\paragraph{Multiplicative Inverse for Division} If $z=a+bi\neq0$ then
 			\[
@@ -564,6 +856,13 @@
 			\paragraph{Factor Theorem} Let $\alpha\in\mathbb{C}$. Then $z-\alpha$ is a factor of $P(z)$ \textbf{if and only if} $P(a)=0$.
 			\paragraph{Conjugate Root Theorem} Let $P(z)$ be a polynomial with real coefficients. If $a+bi$ is a solution to $P(z)=0$, with $a,b\in\R$, then the complex conjugate $a-bi$ is also a solution.
 			\paragraph{The Fundamental Theorem of Algebra} Every polynomial $P(z)=a_nz^n+a_{n-1}z^{n-1}+...+a_1z+a_0$ of degree $n$, where $n\geq1$ and the coefficients $a_i$ are complex numbers, has at least one linear factor in the complex number system.
+			\begin{examquestion}{VCAA 2007 Spesh E2 A6}
+				\begin{leftbar}
+					Which one of the following diagrams would represent the roots of $z^5,z^2-z+c=0$ in the complex plane for $z\in\mathbb{C}$ and $c\in\R$?
+					\includegraphics[width=\linewidth]{2007e2a6.png}
+				\end{leftbar}
+				As the coefficients of $z$ are all real numbers, therefore the roots will exist in conjugate pairs. Thus it is \textbf{B}.
+			\end{examquestion}
 		\subsection{Solving with De Moivre}
 			Equations of form $z^n=a,a\in\mathbb{C}$ can be solved with de Moivre's theorem.
 			\begin{example}{de Moivre's theorem to solve basic case}
@@ -620,13 +919,25 @@
 					|z-z_1|=|z-z_2|\qquad z,z_1,z_2\in\mathbb{C}
 				\]
 					\subparagraph{Converting Perpendicular Bisector to Cartesian Form} First find midpoint of the line between $z_1$ and $z_2$. Determine the slope between the points and take its negative reciprocal. Substitute in to $y=m(x-x_1)+y_1$.
+				\begin{examquestion}{VCAA Spesh 2017 E2 B4f}
+					\begin{leftbar}
+						The equation of the line passing through the two roots of $z^2+4z+16=0,z\in\mathbb{C}$ can be expressed as $|z-a|=|z-b|$. Find $b$ in terms of $a$.
+					\end{leftbar}
+					\begin{align*}
+						\text{Let }a=\Re(a)+\Im(a)i&\qquad b=\Re(b)+\Im(b)i\\
+						\frac{\Re(a)+\Re(b)}{2}=-2&\qquad\Im(b)=\Im(a)\\
+						\implies \frac{a+b}{2}&=-2+\Im(a)i\\
+						\therefore b=-4-a+2\Im(a)i&=-4-(\Re(a)+\Im(a)i)+2\Im(a)i=-4-\Re(a)-\Im(a)i+2\Im(a)i\\
+						\therefore b&=-4-(\Re(a)-\Im(a)i)=-4-\bar{a}
+					\end{align*}
+				\end{examquestion}
 			\subsubsection{Rays}
 				A ray extending at angle $\theta$ from positive direction of the $\mathrm{Re}(z)$ axis originating from $z_1\in\mathbb{C}$ is defined by:
 				\[
 					\Arg(z-z_1)=\theta\qquad z,z_1\in\mathbb{C},\theta\in\mathbb(-\pi,\pi)
 				\]
 				A ray is not defined for $z=0+0i$ as there is no unique angle for $\Arg(0+0i)$
-				\begin{examquestion}{VCAA 2019 A5 (modified) - Intersections of Rays}
+				\begin{examquestion}{VCAA 2019 Spesh A5 (modified) - Intersections of Rays}
 					\begin{leftbar}
 						Let $z=x+yi$ for $x,y\in\R$. The rays $\Arg(z-2)=\frac{\pi}{4}$ and $\Arg\left(z-(5+i)\right)=\frac{5\pi}{6}$ for $z\in\mathbb{C}$, intersect at $(a,b)$. Find the value of $b$.
 					\end{leftbar}
@@ -650,7 +961,14 @@
 				\end{minipage}
 				\begin{minipage}{0.3\textwidth}
 					\includegraphics[width=5cm]{complexhyperbola.png}
-				\end{minipage}				
+				\end{minipage}
+			\subsubsection{Intersections of Subsets}
+				\begin{examquestion}{2006 NEAP Spesh E2 A8}
+					\begin{leftbar}
+						The values of $\Re(z),z\in\mathbb{C}$ such that $z$ belongs to $S\cap T$ where $S=\{z: |z-1|\leq 1\}$ and $T=\{z:\Re(z)+\Im(z)=1\}$ are
+					\end{leftbar}
+					Subset $T$ represents a line with the equation $x+y=1$ or $y=1-x$. Subset $S$ represents a circle with equation $(x-1)^2+y^2\leq1$. Substituting $1-x$ into the equation for $S$ and solving in CAS gives $\displaystyle 1-\frac{\sqrt{2}}{2}\leq x\leq\frac{\sqrt{2}}{2}+1$
+				\end{examquestion}	
 	\section{Logic and Proof}
 		\subsection{Converses, Negations, Contrapositives}
 			For a conditional statement $P\implies Q$:
@@ -672,12 +990,226 @@
 			To prove an existence statement ($\exists$) we need to show that it holds for at least one member in the set. To disprove these statements, we prove that its negation is true.
 			\subsubsection{Negations with Quantifiers}
 				Recall de Morgan's laws, apply these as normal and then flip the quantifier symbol ($\forall$ or $\exists$).
-			\subsubsection{Product and Sum Notation}
-				\[
-					\sum_{i=1}^ni^2=1^2+2^2+...+n^2 \qquad \prod_{i=1}^n(2i-1)=1\times3\times5\times...\times(2n-1)
-				\]
+		\subsection{Product and Sum Notation}
+			\[
+				\sum_{i=1}^ni^2=1^2+2^2+...+n^2 \qquad \prod_{i=1}^n(2i-1)=1\times3\times5\times...\times(2n-1)
+			\]
+		\subsection{Direct Proof}
+			\begin{examquestion}{1000 Spesh Questions Doc Proof 3}
+				\begin{theorem*}
+					There are no integers $a$ and $b$ such that $4a+8b=34$.
+				\end{theorem*}
+				\begin{proof}
+					$4a+8b=34\implies 4(a+2b)=34$ and hence the statement is false as $\nexists k\in\mathbb{Z}\ni 34=4k$
+				\end{proof}
+			\end{examquestion}
+		\subsection{Proof by Contradiction}
+			To prove $P\implies Q$ by contradiction, we suppose the negation of the statement $\neg(P\implies Q)$ is true and show this results in nonsense.\\
+			\begin{examquestion}{1000 Spesh Questions Doc Proof 2}
+				\begin{theorem*}
+					$\sqrt{3}+\sqrt{7}<2\sqrt{5}$
+				\end{theorem*}
+				\begin{proof}
+					Suppose that $\sqrt{3}+\sqrt{7}\geq2\sqrt{5}$. By squaring both sides we get $3+2\sqrt{21}+7\geq20$.
+					\begin{align*}
+						10+2\sqrt{21}&\geq20\\
+						\sqrt{21}&\geq{5}\\
+						21&\geq25
+					\end{align*}
+					$21\geq25$ is a contradiction, and thus $\sqrt{3}+\sqrt{7}<2\sqrt{5}$
+				\end{proof}
+			\end{examquestion}
+			\begin{examquestion}{1000 Spesh Questions Doc Proof 43}
+				\begin{theorem*}
+					$\cos\theta+\sin\theta\leq\sqrt{2}$
+				\end{theorem*}
+				\begin{proof}
+					Suppose that $\cos\theta+\sin\theta>\sqrt{2}$.\\
+					\begin{align*}
+						\left(\cos\theta+\sin\theta\right)^2&>2\\
+						\cos^2\theta+2\cos\theta\sin\theta+\sin^2\theta&>2\\
+						1+\sin2\theta&>2\\
+						\sin2\theta&>1
+					\end{align*}
+					As $\sin2\theta\in[-1,1]$, a contradiction has been reached, thus $\cos\theta+\sin\theta\leq\sqrt{2}$.
+				\end{proof}
+			\end{examquestion}
+			\begin{examquestion}{1000 Spesh Questions Doc Proof 51}
+				\begin{theorem*}
+					The square root of an irrational number $m$ is also irrational.
+				\end{theorem*}
+				\begin{proof}
+					Suppose that $\sqrt{m}=\frac{a}{b}\qquad a,b\in\mathbb{Z}\qquad m\notin\mathbb{Q}$.
+					\[
+						b^2m=a^2
+					\]
+					The RHS is an integer, but LHS is not since $m$ is by definition irrational. Hence a contradiction has been reached.\\
+					Hence the square root of the irrational number $m$ is also irrational.
+				\end{proof}
+			\end{examquestion}
+		\subsection{Arithmetic Mean-Geometric Mean Inequality}
+			For $x,y\geq0$, the arithmetic mean is greater than or equal to the geometric mean.
+			\[
+				\frac{x+y}{2}\geq\sqrt{xy}
+			\]
+			\begin{example}{AM-GM Inequality}
+				\begin{theorem*}
+					For $a,b>0$ and $ab=24$, prove that $2a+3b\geq24$.
+				\end{theorem*}
+				\begin{proof}
+					Assume $ab=24$, using the AM-GM inequality we find:\\
+					\begin{align*}
+						2a+3b&=\frac{4a+6b}{2}\\
+						&\geq\sqrt{(4a)(6b)}=\sqrt{24ab}\\
+						&=\sqrt{24\times24}\\
+						&=24\\
+						\\
+						&\therefore 2a+3b\geq24\text{ as required.}
+					\end{align*}
+				\end{proof}
+			\end{example}
+		\subsection{Proof by Induction}
+			\begin{examquestion}{University of Waikato Induction Problems Set Proof 18}
+				\begin{theorem*}
+					$5^{2n+1}+2^{2n+1}=7k,k\in\mathbb{Z}$ for all integers $n\geq0$.
+				\end{theorem*}
+				\begin{proof}
+					\begin{itemize}[label=$\lozenge$, itemsep=4ex]
+						\item \emph{Hypothesis}:
+						\[
+						P(n): 5^{2n+1}+2^{2n+1}=7k,k\in\mathbb{Z}
+						\]
+						\item \emph{Base case}:
+						\[
+							P(0): 5+2=7=7(1)\therefore\text{ holds}
+						\]
+						\item \emph{Inductive hypothesis}:
+						\[
+							\text{Assume }P(k)\text{ holds for all }k\in\mathbb{Z}^+\cup\{0\}: 5^{2k+1}+2^{2k+1}=7m,m\in\mathbb{Z}
+						\]
+						\item \emph{Inductive step}:
+						\[
+							P(k+1): 5^{2k+3}+2^{2k+3}=7x,x\in\mathbb{Z}
+						\]
+						\begin{align*}
+							LHS=5^2\cdot5^{2k+1}+2^2\cdot2^{2k+1}&=25\cdot5^{2k+1}+4\cdot2^{2k+1}=4\left(5^{2k+1}+2^{2k+1}\right)+21\cdot5^{2k+1}\\
+							&=4(7m)+7(3\cdot5^{2k+1})\\
+							&=7(4m+3\cdot5^{2k+1})=7x
+						\end{align*}
+					\end{itemize}
+					Therefore $(\forall k\in\mathbb{Z}^+\cup\{0\})P(k)\implies P(k+1)$\\
+					By principle of mathematical induction, $P(n)$ holds for $n\geq0$.
+				\end{proof}
+			\end{examquestion}
+			\begin{examquestion}{1000 Spesh Questions Doc Induction Proof 11}
+				\begin{theorem*}
+					$\displaystyle\sum_{r=1}^{n}\frac{1}{(r+1)(r+2)}=\frac{n}{2(n+2)}$ for $n\geq1$
+				\end{theorem*}
+				\begin{proof}
+					\begin{itemize}[label=$\lozenge$, itemsep=4ex]
+						\item \emph{Hypothesis}:
+						\[
+						P(n): \sum_{r=1}^{n}\frac{1}{(r+1)(r+2)}=\frac{n}{2(n+2)}
+						\]
+						\item \emph{Base case}:
+						\begin{align*}
+							P(1):\mathrm{LHS}=\qquad\sum_{r=1}^{1}\frac{1}{(r+1)(r+2)}&=\frac{1}{6}\\
+							\mathrm{RHS}=\frac{1}{2(1+2)}&=\frac{1}{6}
+						\end{align*}
+						LHS=RHS $\therefore P(1)$ holds
+						\item \emph{Inductive hypothesis}:
+						\[
+							\text{Assume }P(k)\text{ holds for all }k\in\mathbb{Z}\cap[1,\infty): \sum_{r=1}^{k}\frac{1}{(r+1)(r+2)}=\frac{k}{2(k+2)}
+						\]
+						\item \emph{Inductive step}:
+						\[
+							P(k+1): \sum_{r=1}^{k+1}\frac{1}{(r+1)(r+2)}=\frac{k+1}{2(k+3)}
+						\]
+						\begin{align*}
+							\text{LHS}=\sum_{r=1}^{k+1}\frac{1}{(r+1)(r+2)}&=\sum_{r=1}^{k}\frac{1}{(r+1)(r+2)}+\frac{1}{(k+2)(k+3)}=\frac{k+1}{2(k+2)}+\frac{1}{(k+2)(k+3)}\\
+							&=\frac{1}{k+2}\left(\frac{k}{2}+\frac{1}{k+3}\right)\\
+							&=\frac{1}{2(k+2)}\left(\frac{k^2+3k+1}{2(k+3)}\right)=\frac{1}{2(k+2)}\left(\frac{(k+1)(k+2)}{k+3}\right)\\
+							&=\frac{k+1}{2(k+3)}=\text{RHS}
+						\end{align*}
+						Therefore $(\forall k\in\mathbb{Z}\cap[1,\infty))P(k)\implies P(k+1)$ and therefore by the principle of mathematical induction, $P(n)$ holds for all integers $n\geq1$.
+					\end{itemize}
+				\end{proof}
+			\end{examquestion}
+			
 	\section{Circular Functions}
 		\subsection{Tech}
+		
+		\subsection{Inverse Circular Functions}
+			\includegraphics[width=\linewidth]{oldformulasheetinvtrig.png}
+			\paragraph{arcsin function} when $y=\sin(x)$ is restricted to $x\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$ the resulting function is one-to-one and therefore its inverse exists:
+			\[
+				\arcsin: [-1,1]\to\R,\arcsin(x)=y\qquad\text{where}\quad\sin(y)=x,y\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right]
+			\]
+			\begin{minipage}{0.5\textwidth}
+				\begin{itemize}
+					\item domain of $\arcsin(x)$: $x\in[-1,1]$
+					\item range of $\arcsin(x)$: $y\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$
+					\item $\arcsin(\sin(x))=x\forall x\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$
+					\item $\sin(\arcsin(x))=x\forall x\in[-1,1]$
+				\end{itemize}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.4\textwidth}
+				\includegraphics[width=\linewidth]{arcsin.png}
+			\end{minipage}
+		
+			\paragraph{arccos function} when $y=\cos(x)$ is restricted to $x\in[0,\pi]$ the resulting function is one-to-one and therefore the inverse function exists.
+			\[
+				\arccos: [-1,1]\to\R,\arccos(x)=y\qquad\text{where}\quad\cos(y)=x,y\in[0,\pi]
+			\]
+			\begin{minipage}{0.5\textwidth}
+				\begin{itemize}
+					\item domain of $\arccos(x)$: $x\in[-1,1]$
+					\item range of $\arccos(x)$: $y\in[0,\pi]$
+					\item $\arccos(\cos(x))=x\forall x\in[-1,1]$
+					\item $\cos(\arccos(x))=x\forall x\in[0,\pi]$
+				\end{itemize}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.4\textwidth}
+				\includegraphics[width=\linewidth]{arccos.png}
+			\end{minipage}
+		
+			\paragraph{arctan function} when $y=\tan(x)$ is restricted to $x\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ the resulting function is one-to-one and therefore the inverse function exists.
+			\[
+				\arctan: \R\to\R,\arctan(x)=y\qquad\text{where}\quad\tan(y)=x,y\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)
+			\]
+			\begin{minipage}{0.5\textwidth}
+				\begin{itemize}
+					\item domain of $\arctan(x)$: $x\in\R$
+					\item range of $\arctan(x)$: $y\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$
+					\item $\arctan(\tan(x))=x\forall x\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$
+					\item $\tan(\arctan(x))=x\forall x\in\R$
+				\end{itemize}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.4\textwidth}
+				\includegraphics[width=\linewidth]{arctan.png}
+			\end{minipage}
+			\begin{examquestion}{2007 NEAP Spesh E2 A7}
+				\begin{leftbar}
+					The domain of $f(x)=\sin(2x)$ is restricted so that it is one-to-one. The domain and range of the resulting inverse $f^{-1}(x)$, could be respectively:
+				\end{leftbar}
+				The usual domain of $\sin(x)$ for one-to-one is $\left[-\frac{\pi}{2},\frac{\pi}{2}\right]$. The range of $\sin(x)$ is $[-1,1]$. The range is unchanged by the horizontal dilation, so the domain of $f^{-1}(x)$ will be $[-1,1]$. The domain of $\sin(2x)$ to be one-to-one will halve, so it could be $\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$. Of the options, $\left[\frac{3\pi}{4},\frac{5\pi}{4}\right]$ is the only suitable option as it maintains the same period as $\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$. Therefore the range of the inverse will be $\left[\frac{3\pi}{4},\frac{5\pi}{4}\right]$. Therefore \textbf{C}.
+			\end{examquestion}
+		\subsection{Symmetry Properties}
+			\paragraph{Sine}
+			\[
+				-\sin(\alpha)=\sin(2\pi-\alpha)\qquad\sin(\pi-\alpha)=\sin(\alpha)\qquad\sin\left(\alpha+\frac{\pi}{2}\right)=\cos(\alpha)\qquad\sin\left(\alpha-\frac{\pi}{2}\right)=-\cos(\alpha)
+			\]
+			\paragraph{Cosine}
+			\[
+				-\cos(\alpha)=\cos(\pi-\alpha) \qquad \cos(2\pi-\alpha)=\cos(\alpha)\qquad\cos\left(\alpha-\frac{\pi}{2}\right)=\sin(\alpha)\qquad\cos\left(\alpha+\frac{\pi}{2}\right)=-\sin(\alpha)
+			\]
+			\paragraph{Tangent}
+			\[
+				\tan\left(\alpha+\frac{\pi}{2}\right)=\tan\left(\alpha-\frac{\pi}{2}\right)-\cot(\alpha)
+			\]
 			
 		\subsection{Solutions of Equations with Circular Functions}
 			\paragraph{Sine general solutions} For $a\in[-1,1]$ the general solution of $\sin(x)=a$ is:
@@ -691,6 +1223,17 @@
 			\paragraph{Tangent general solutions} For $a\in\R$ the general solution of $\tan(x)=a$ is:
 			\[
 				x=n\pi+\arctan(a),n\in\mathbb{Z}
+			\]
+		\subsection{Product-to-sum identities}
+			\[
+				2\cos(x)\cos(y)=\cos(x-y)+\cos(x+y) \qquad 2\sin(x)\sin(y)=\cos(x-y)-\cos(x+y) \qquad 2\sin(x)\cos(y)=\sin(x+y)+\sin(x-y)
+			\]
+		\subsection{Sum-to-product identities}
+			\[
+				\cos(x)+\cos(y)=2\cos\left(\frac{x+y}{2}\right)\cos\left(\frac{x-y}{2}\right) \qquad \cos(x)-\cos(y)=-2\sin\left(\frac{x+y}{2}\right)\sin\left(\frac{x-y}{2}\right)
+			\]
+			\[
+				\sin(x)+\sin(y)=2\sin\left(\frac{x+y}{2}\right)\cos\left(\frac{x-y}{2}\right) \qquad \sin(x)-\sin(y)=2\sin\left(\frac{x-y}{2}\right)\cos\left(\frac{x+y}{2}\right)
 			\]
 	\section{Stats and Probability :skull:}
 		\subsection{Tech}
@@ -707,14 +1250,47 @@
 			
 			\subsubsection{invnorm(left tail prob, $\mu$, $\sigma$)} Used for solving $Pr(X>x_c)=C$. Input invnorm(1-$C$, $\mu$, $\sigma$) to get the value for $x_c$.
 			
+			\subsubsection{binomcdf(n, p, lower, upper)} Gives the $\Pr(lower<X<upper)$ for $X\sim\mathrm{Bi}(n,p)$.
+			
+			\subsubsection{binompdf(n, p, x)} Gives the $\Pr(X=x)$ for $X\sim\mathrm{Bi}(n,p)$.
+			
+			\subsubsection{invbinomn(cumulative prob, prob, numsuccess)} Menu+5+5+D. Inverse binomial with respect to $N$ (number of trials). Given the probability of success on each trial (prob), and the number of successes (numsuccesses), this function returns the minimum number of trials, $N$, such that for $X\sim\mathrm{Bi}(N,prob)$, that $\Pr(X<N)$ is less than cumulative probability.
+			
 			\subsubsection{sam\textunderscore prob\textbackslash normsum(x1,ltp1,x2,ltp2)}
 			Find the mean and standard deviation of a normal distribution given the left-tail probability of two values. Put in one of the values for x1 and its left-tail probability for ltp1, and do the same for the second value.
+			
+			\subsubsection{Determine the Mean and Standard Deviation of a Normal Distribution}
+				Suppose we have a normal distribution with mean 2 and unknown standard deviation, and we know that $\Pr(X>3)=0.3$. We first standardise to the standard normal random variable $Z\sim N(0,1^2)$. Using the left tail area (in this case 1-0.3=0.7) to find the percentile on the standard normal distribution, then solve this for $\displaystyle \frac{3-\mu}{\sigma}$ substituting appropriately to obtain the unknown standard deviation. The same process can be used for an unknown mean.
+				\paragraph{Unknown Mean and Unknown Standard Deviation}
+				Suppose $X\sim N(\mu,\sigma^2)$, but we know $\Pr(X>5)=0.65$ and $\Pr(X<1)=0.05$. Observe the following:
+				\[
+				\Pr(X>5)=\Pr\left(Z>\frac{5-\mu}{\sigma}\right)=0.65 \qquad \text{and} \qquad \Pr(X<1)=\Pr\left(Z<\frac{1-\mu}{\sigma}\right)=0.05
+				\]
+				We can then use \textbf{invnorm()} to find the z-scores of each equation above, and set up an appropriate system of equations to solve.
+				\[
+				\mathrm{invnorm}(1-0.65,0,1)=\frac{5-\mu}{\sigma} \qquad \text{and} \qquad \mathrm{invnorm}(0.05,0,1)=\frac{1-\mu}{\sigma}
+				\]
 			
 			\subsubsection{Simulating Sample Means}
 				randNorm($\mu$, $\sigma$, $n$) will give a list of $n$ values randomly selected in a normal distribution of mean $\mu$ and standard deviation $\sigma$. To find the sample mean apply mean() to this function.\\\\
 				To do this for $m$ samples, add a \textbf{Lists and Spreadsheets} page in the CAS. In column A in the formula box input seq(mean(randNorm($\mu$,$\sigma$,$n$)),i,1,$m$). Remember $n$ is the sample size and $m$ is the number of samples. Name the column smeans. Now add a \textbf{Data and Statistics} page and add smeans to the $x$-axis.
-			\subsubsection{Confidence Interval}
+			
+			\subsubsection{Confidence Interval (Spesh)}
 				To quickly find a confidence interval, in a calculator window go to menu+6+6+1. Set input method to stats, then input the necessary values.
+			
+			\subsubsection{Determine a Confidence Interval (Methods)}
+				Menu+6+6+5 inserts the 1-Prop z interval function. Input the number of successes $x$, the sample size $n$, and the confidence level $C$.
+				
+				\begin{examquestion}{2016 VCAA Methods B3g}
+					\begin{leftbar}
+						A school has a class set of 22 new laptops kept in a recharging trolley. Provided each laptop is correctly plugged into the trolley after use, its battery recharges.\\\\
+						On a particular day, a class of 22 students uses the laptops. All laptop batteries are fully charged at the start of the lesson. Each student uses and returns exactly one laptop. The probability that a student does not correctly plug their laptop into the trolley at the end of the lesson is 10\%. The correctness of any student’s plugging-in is independent of any other student’s correctness.\\\\
+						The laptop supplier finds that, in a particular sample of 100 laptops, six of them have a battery life of less than three hours.\\\\
+						Determine the 95\% confidence interval for the supplier's estimate of the proportion of interest. Give the values correct to two decimal places.
+					\end{leftbar}
+					\textbf{menu+6+6+5} then input successes=6, n=100, C=0.95
+				\end{examquestion}
+			
 			\subsubsection{Hypothesis Testing - One Tail}
 				Menu+6+7+1 $\to$ zTest. $\mu_0$ is the original population mean. $\sigma$ is the general standard deviation (do not divide by $\sqrt{n}$). $\bar{x}$ is the sample mean. $n$ is the sample size. Choose the type of alternative hypothesis and it will give you the necessary values.\\
 				\textbf{For two tail-tests:} Do the same as for a one tail test, but choose the $\mu\neq\mu_0$ test type.
@@ -725,6 +1301,8 @@
 				\paragraph{Instances of one-tail tests} For a 5\% significance one-tail hypothesis test, in order to calculate the probability of type II error use \textbf{invnorm(0.05,$\mu$,$\frac{\sigma}{\sqrt{n}}$)} to get the value for the sample mean which determines the boundary between rejection and acceptance of $H_0$. From this, execute a \textbf{normcdf(ans,$\infty$,true mean,$\frac{\sigma}{\sqrt{n}}$)} to find the probability of a Type II error.
 				
 				\paragraph{Instances of two-tail tests} For a 5\% significance two-tail hypothesis test, in order to calculate the probability of type II error use \textbf{invnorm(0.025,$\mu$,$\frac{\sigma}{\sqrt{n}}$)} to get the lower bound value for the 'acceptance region' and save this in a variable name like $l$. From this, do $\mu-l$ and save this as $d$ then $\mu+d$ (save this as $u$). Then execute \textbf{normcdf(l,u,true mean,$\frac{\sigma}{\sqrt{n}}$)} to find the probability of a Type II error.
+			
+			
 		\subsection{Linear Functions of Random Variables}
 			Consider a random variable $Y$ which is a linear function of random variable $X$
 			\[
@@ -762,8 +1340,17 @@
 			\[
 				\mathrm{s.d}(Y)=\sqrt{a^2\sigma^2}=|a|\sigma
 			\]
+		\subsection{Independent Events}
+			\[
+				\text{Events }A,B\text{ are independent}\iff\Pr(A\cap B)=\Pr(A)\times\Pr(B)\qquad \Pr(A|B)=\Pr(A)
+			\]
+		\subsection{Mutually Exclusive Events}
+			Two events A and B are mutually exclusive:
+			\[
+				\Pr(A\cap B)=0\qquad \Pr(A\cup B)=\Pr(A)+\Pr(B)
+			\]
 		\subsection{Linear Combination of Random Variables}
-			Independent events $A$ and $B$ are such that $\mathrm{Pr}(A\cap B)=\mathrm{Pr}(A)\times\mathrm{Pr}(B)$. This idea also applies to random variables. If two random variables' joint probability function is the product of their individual probability functions, the random variables are said to be independent.
+			The idea of independent events also applies to random variables. If two random variables' joint probability function is the product of their individual probability functions, the random variables are said to be independent.
 			
 			\paragraph{aX vs X+X+X+...+X} Consider $X$ representing the number that turns up on a dice roll. Then $2X$ is the result of one dice roll, doubled. $X+X$ is the the equivalent of rolling the dice twice and adding the results.
 			\[
@@ -795,7 +1382,136 @@
 			\]
 		
 			\paragraph{Linear Combinations of Normal Random Variables} A linear combination of normally distributed random variables is also a normally distributed random variable.
-		\subsection{Sample Mean of a Normal Random Variable}
+		\subsection{Discrete Probability}
+			\begin{examquestion}{2021 NEAP Methods MCQ 9}
+				\begin{leftbar}
+					A discrete random variable $X$ has the following probability distribution, where $k$ and $m$ are real constants.\\
+					\resizebox{0.6\textwidth}{!}{
+						\begin{tabular}{|c|c|c|c|c|c|}
+							\hline
+							$x$ & $0$ & $1$ & $2$ & $3$ \\
+							\hline
+							$\Pr(X=x)$ & $m$ & $k$ & $k-\frac{1}{4}$ & $k^2$ \\
+							\hline
+						\end{tabular}	
+					}\mbox{}\\\\
+					The maximum value of $m$ is:
+				\end{leftbar}
+				\begin{align*}
+					&0\leq\Pr(X=2)\leq1\implies 0\leq k-\frac{1}{4}\leq1\\
+					\therefore&k_{min}=\frac{1}{4}\\
+					m&=1-\left(\frac{1}{4}+0+\frac{1}{4}^2\right)\\
+					&=\frac{11}{16}
+				\end{align*}
+			\end{examquestion}
+			\begin{examquestion}{2016 VCAA Methods MCQ 19}
+				\begin{leftbar}
+					Consider the discrete probability distribution with random variable $X$ below:\\
+					\resizebox{0.6\textwidth}{!}{
+						\begin{tabular}{|c|c|c|c|c|c|}
+							\hline
+							$x$ & $-1$ & $0$ & $b$ & $2b$ & $4$ \\
+							\hline
+							$\Pr(X=x)$ & $a$ & $b$ & $b$ & $2b$ & $0.2$ \\
+							\hline
+						\end{tabular}	
+					}\mbox{}\\\\
+					The smallest and largest possible values of $\E(X)$ are:
+				\end{leftbar}
+				\begin{align*}
+					\E(X)&=-a+b^2+4b^2+0.8=0.8+5b^2-a \\
+					&a+4b+0.2=1\to a+4b=0.8 \\
+					\E(X)&=0.8+5b^2-(0.8-4b)=5b^2+4b=b(4+5b) \\
+					&\text{Parabola with intercept } b=0,b>0\\
+					\therefore\E_{min}(X)&=0\\
+					&0\leq a\leq 0.8 \to 0\leq0.8-4b\leq0.8\\
+					&\implies -0.8\leq-4b\leq0 \to 0.2\geq b\geq0\\
+					&\text{Taking maximum value of b: }b=0.2\\
+					\therefore\E_{max}(X)&=0.2\cdot(4+5\cdot0.2)=1
+				\end{align*}
+			\end{examquestion}
+		\subsection{Normal Probability}
+			\[
+			X\sim N(\mu,\sigma^2)
+			\]
+			\paragraph{Symmetry Properties of Normally Distributed Probabilities} Consider $Z\sim\mathrm{N}(0,1)$.
+			\begin{itemize}
+				\item $\Pr(Z>a)=1-\Pr(Z\leq a)$
+				\item $\Pr(Z<-a)=\Pr(Z>a)$
+				\item $\Pr(-a<Z<a)=1-2\Pr(Z\geq a)=1-2\Pr(Z\leq -a)$
+			\end{itemize}
+			\begin{examquestion}{2010 NEAP Methods E2 B3}
+				\begin{leftbar}
+					A winery produces bottles of wine in two sizes: standard and large. For each size, the content of the bottles are normally distributed according to the following:\\
+					\begin{tabular}{|c|c|c|}
+						\hline
+						\textbf{Bottle Size} & \textbf{Mean} & \textbf{Standard Deviation} \\
+						\hline
+						standard & 0.760 & 0.008 \\
+						\hline
+						large & $\mu$ & $\sigma$ \\
+						\hline
+					\end{tabular}\mbox{}\\
+					The probability that a randomly selected standard bottle contains fewer than 0.750 litres of wine is known to be 0.1056. Of the large bottles, 8\% contain more than 1.023 litres and 4\% contain less that 0.994 litres. Show that the mean and standard deviation of the large bottles can be found by solving the system of equations: $\mu+1.4051\sigma=1.023$ and $\mu-1.7507\sigma=0.994$.
+				\end{leftbar}
+				\begin{align*}
+					&X\sim N(\mu,\sigma^2) \qquad \Pr(X>1.023)=0.08 \qquad \Pr(X<0.994)=0.04 \\
+					&Z\sim N(0,1)\\
+					&\Pr(X>1.023)=\Pr\left(Z>\frac{1.023-\mu}{\sigma}\right)=0.08 \qquad \textbf{invnorm(0.92,0,1) gives } \frac{1.023-\mu}{\sigma}=1.4051 \text{ standard deviations}\\
+					&\Pr(X<0.994)=\Pr\left(Z<\frac{0.994-\mu}{\sigma}\right)=0.04\qquad \textbf{invnorm(0.04,0,1) gives } \frac{0.994-\mu}{\sigma}=-1.7507 \text{ standard deviations}\\
+					\therefore &\mu+1.4051\sigma=1.023\\
+					&\mu-1.7507\sigma=0.994 \text{ as required}
+				\end{align*}
+			\end{examquestion}
+			\begin{examquestion}{2009 Methods E2 B3d}
+				content...
+			\end{examquestion}
+		\subsection{The Binomial Distribution}
+			\paragraph{Bernoulli Sequence} describes a sequence of trials for which there are two possible outcomes (success, failure), the probability of success $p$ is constant for all trials, and the trials are independent. The number of successes in a Bernoulli sequence of $n$ trials is called a Binomial Random Variable denoted $X\sim \mathrm{Bi}(n,p)$
+			\begin{examquestion}{Suzanne Cory 2018 SAC3 Part II Q2e/f}
+				\begin{leftbar}
+					In an isolated incident, Ricardo got his CAS stolen when he left it unattended in a breakout room in the G16-21 area after school one day. He found it later being sold on Gumtree.\\
+					Chelsea, from his homegroup, thinks she saw who walked into the breakout room. However, she was sitting quite far away, and her accusations are flimsy at best. To verify her claim, Mr. Mott tested her eyesight, by assessing her ability to identify a student from the claimed distance away.\\
+					The probability that she would correctly identify a student is 0.8. In the test to identify 8 students from distance, B is the random variable following a binomial distribution for the number of students she identifies correctly.\\\\
+					e) What is the probability the she identified exactly 7 students correctly, given that she correctly identified the first two (give your answer to 4dp).
+				\end{leftbar}
+				We know $B\sim\mathrm{Bi}(8,0.8)$ We know the outcomes of two out of eight trials, both being successes. So we can treat this as a binomial variable $B_1\sim\mathrm{Bi}(2,0.8)$, we then treat the remaining 6 trials as a binomial variable $B_2\sim\mathrm{Bi}(6,0.8)$.
+				\[
+					\Pr(B=7|\text{first two are correct})=\Pr(B_2=5|B_1=2)=\frac{\Pr(B_2=5)\times\Pr(B_1=2)}{\Pr(B_1=2)}
+				\]
+				\[
+					\frac{\Pr(B_2=5)\times\Pr(B_1=2)}{\Pr(B_1=2)}=\Pr(B_2=5)=0.3932\qquad\textbf{binompdf(6,0.8,5)}
+				\]
+				\begin{leftbar}
+					f) What is the minimum number of students in the test to ensure that the probability of Chelsea identifying at least 7 of them is 0.46?
+				\end{leftbar}
+				\begin{align*}
+					&X\sim\mathrm{Bi}(n,0.8)\\
+					&\Pr(X\geq7)\geq0.46\\
+					\implies&\Pr(X\leq6)\leq0.54\\
+					\implies&n=8\qquad\textbf{invBinomN(0.54,0.8,6)}
+				\end{align*}
+			\end{examquestion}
+			\subsubsection{Inverse Binomial}
+			\begin{examquestion}{2008 VCAA Methods MCQ 5}
+				\begin{minipage}{\linewidth}
+					\begin{leftbar}
+						Let $X$ be a discrete random variable with a binomial distribution. The mean of $X$ is 1.2 and the variance of $X$ is 0.72. The values of $n$ (the number of independent trials) and $p$ (the probability of success in one trial) are:
+					\end{leftbar}
+				\end{minipage}
+				\begin{align*}
+					\mu&=np=1.2 \\
+					\sigma^2&=np(1-p) \\
+					&\text{Solving the system gives }n=3,p=0.4
+				\end{align*}
+			\end{examquestion}
+			\begin{examquestion}{2022 VCAA NHT Methods QB4f}
+				\begin{leftbar}
+					The proportion of custard doughnuts as a proportion of all doughnuts made in the bakery is 0.44. Find the minimum number of doughnuts required in a box to ensure that the probability of having at least 12 custard doughnuts in a box is greater than 90\%.
+				\end{leftbar}
+				\textbf{invBinomN(0.1,0.44,11)} gives 35, the minimum number of doughnuts. Cumulative probability is 1-0.9=0.1. Probability of success if the proportion, and the number of successes is one less than the threshold (12).
+			\end{examquestion}
+		\subsection{Sample Means}
 			\paragraph{Populations and samples}
 				\begin{itemize}
 					\item \textbf{Population} is the set of all eligible members of the intended group of study.
@@ -804,39 +1520,134 @@
 					\item The \textbf{sample mean} $\bar{x}$ is the mean of the values of measure in a particular sample. Since this varies based on the contents of a random sample, we consider $\bar{x}$ as being values of a random variable $\bar{X}$
 				\end{itemize}
 			
-			\paragraph{Sample Mean of a normal random variable} Let $X$ be a normally distributed random variable with mean $\mu$ and standard deviation $\sigma$. Let $X_1,X_2,...,X_n$ represents a sample size of $n$ selected from this population. The sample mean is defined as:
+			\paragraph{Sample Mean of a normal random variable} Let $X$ be a normally distributed random variable with mean $\mu$ and standard deviation $\sigma$. Let $X_1,X_2,...,X_n$ represent a sample size of $n$ selected from this population. The sample mean is defined as:
 			\[
 				\bar{X}=\frac{X_1+X_2+...+X_n}{n}
 			\]
 			The sample mean $\bar{X}$ is normally distributed with $\mathrm{E}(\bar{X})=\mu$ and $\mathrm{sd}(\bar{X})=\frac{\sigma}{\sqrt{n}}$.
+			
+			\begin{example}{Edrolo Sample Mean MCQ}
+				\begin{leftbar}
+					The diameter, in metres, of trees in a certain forest is distributed with the following density function:
+					\[
+						g(x)=\frac{12}{2401}(x-3)(x-10)^2,3\leq x\leq 10
+					\]
+					Find the probability that the mean diameter of a sample of 40 trees is less than 6m to 2 decimal places.
+				\end{leftbar}
+				Let $G$ be the random variable representing the diameter of a randomly selected tree. The sample size is large enough that the distribution of sample means will be approximately normal.\\
+				\[
+					\E(G)=\int\limits_3^{10}x\times\frac{12}{2401}(x-3)(x-10)^2dx=\frac{29}{5}
+				\]
+				\[
+					\mathrm{Var}(G)=\E(G^2)-[\E(G)]^2=\int\limits_3^{10}x^2\times\frac{12}{2401}(x-3)(x-10)^2dx-(\frac{29}{5})^2=\frac{49}{25}
+				\]
+				We use these results to find the distribution of $\bar{G}$.\\
+				\[
+					\E(\bar{G})=\E(G)=\frac{29}{5}
+				\]
+				\[
+					\mathrm{sd}(\bar{G})=\frac{\mathrm{sd}(G)}{\sqrt{40}}=\frac{7}{5\sqrt{40}}=\frac{7}{10\sqrt{10}}
+				\]
+				For $\Pr(\bar{G}<6)$, we can use \textbf{normcdf(-$\infty$,6,$\E(\bar{G})$,$\mathrm{sd}(\bar{G})$)}, which gives $\Pr(\bar{G}<6)=0.82$
+			\end{example}
 				
 		\subsection{Normal Approximation of Sample Proportions}
 			The distribution of the sample mean $\bar{X}$ is normal with mean $\bar{x}=\mu$ and the standard deviation $s=\frac{\sigma}{\sqrt{n}}$.
 			\[
-				\Pr\left(\bar{X}>a\right)=\Pr\left(Z=\frac{a-\bar{x}}{s}\right) \qquad Z\sim(0,1)
+				\Pr\left(\bar{X}>a\right)=\Pr\left(Z>\frac{a-\bar{x}}{s}\right) \qquad Z\sim(0,1)
 			\]
+			\begin{example}{FreeVCENotes Normal Approximation}
+				\begin{leftbar}
+					Use the normal approximation to the binomial distribution to find the approximate probability, to 4 decimal places, that in the next 600 rolls of a fair die, the proportion of sixes rolled is less than 0.2.
+				\end{leftbar}
+				\begin{align*}
+					&\text{Let }\hat{P}\text{ be the proportion of sixes rolled}\\
+					\E(\hat{P})&=p=\frac{1}{6}\\
+					\mathrm{sd}(\hat{P})&=\sqrt{\frac{p(1-p)}{n}}=\sqrt{\frac{\frac{1}{6}\left(\frac{5}{36}\right)}{600}}\\
+					&=\sqrt{\frac{1}{4320}}\\\\
+					\hat{P}\sim&N\left(\frac{1}{6},\sqrt{\frac{1}{4320}}\right)\\
+					\Pr(\hat{P}<0.2)&=\textbf{normcdf}\left(0,0.2,\frac{1}{6},\sqrt{\frac{1}{4320}}\right)\\
+					&=0.9858
+				\end{align*}
+			\end{example}
+		\subsection{Sample Proportions $\hat{P}$ without Normal Approximation (Methods)}
+			\paragraph{Mean, Variance, Standard Deviation} Using the mean and variance from the binomial, we can derive the following about the sample proportion $\hat{P}$:\\
+			\[
+				\hat{P}=\frac{X}{n},\quad X\sim\mathrm{Bi}(n,p)
+			\]
+			\[
+				\E(\hat{P})=p\qquad \mathrm{Var}(\hat{P})=\frac{p(1-p)}{n}\qquad \mathrm{sd}(\hat{P})=\sqrt{\mathrm{Var}(\hat{P})}
+			\]
+			\begin{examquestion}{2016 VCAA Methods A17}
+				\begin{minipage}{\linewidth}
+					\begin{leftbar}
+						Inside a container there are one million coloured building blocks. It is known that 20\% of the blocks are red. A sample of 16 blocks is taken from the container. For samples of 16 blocks, $\hat{P}$ is the random variable of the distribution of sample proportions of red blocks. \textbf{(Do not use a normal approximation.)}
+					\end{leftbar}
+				\end{minipage}\mbox{}\\\\
+				Let $X\sim Bi(16,0.2)$ be a binomial variable representing the number of red blocks in the sample.
+				\[
+				\hat{P}=\frac{X}{16}\implies X=16\hat{P}
+				\]
+				\begin{align*}
+					\Pr\left(\hat{P}\geq\frac{3}{16}\right)&=\Pr\left(X\geq\frac{3}{16}\times16\right)& \\
+					&=0.6482&\textbf{binomcdf(16,0.2,3,16)}
+				\end{align*}
+			\end{examquestion}
+			\begin{examquestion}{2016 VCAA Methods E2 B3d}
+				\begin{leftbar}
+					A supplier of laptops decides to take a sample of 100 new laptops from a number of different schools. For samples of size 100 from the population with a mean battery life of 3 hours 10 minutes and a standard deviation of 6 minutes, $\hat{P}$ is the random variable of the distribution of sample proportions of laptops with battery life less than three hours. It is known that the probability that the probability that a single laptop's battery life is less than 3 hours is 0.0478. Find $Pr(\hat{P}\geq0.06|\hat{P}\geq0.05)$ without a normal approximation.
+				\end{leftbar}
+				\begin{align*}
+					&\text{Let } Y\text{ be the number of laptops with battery less than 3 hours} \\
+					&Y\sim\mathrm{Bi}(100,0.0478)\\
+					&\hat{P}=\frac{Y}{100}\implies\Pr\left(\hat{P}\geq0.06|\hat{P}\geq0.05\right)=\Pr\left(Y\geq0.06\times100|Y\geq0.05\times100\right)\\
+					&=\Pr\left(Y\geq6|Y\geq5\right)\\
+					&=\frac{\Pr(Y\geq6)}{\Pr(Y\geq5)}=0.658
+				\end{align*}
+			\end{examquestion}
 			
 		\subsection{Distribution of the sample mean}
-			\paragraph{Central Limit Theorem} Let $X$ be any random variable with mean $\mu$ and standard deviation $\sigma$. Then, provided that the sample size $n$ is large enough, the distribution of $\bar{X}$ is approximately normal with mean $\mathrm{E}(\bar{X})=\mu$ and $\mathrm{sd}(\bar{X})=\frac{\sigma}{\sqrt{n}}$.
+			\subsubsection{Central Limit Theorem} Let $X$ be any random variable with mean $\mu$ and standard deviation $\sigma$. Then, provided that the sample size $n$ is large enough, the distribution of $\bar{X}$ is approximately normal with mean $\mathrm{E}(\bar{X})=\mu$ and $\mathrm{sd}(\bar{X})=\frac{\sigma}{\sqrt{n}}$.
 			
-			\paragraph{Normal Approximation to the Binomial Distribution} If $X$ is a binomial random variable with parameters $n,p$, then the distribution of $X$ is approximately normal with mean $\mu=np$ and standard deviation $\sigma=\sqrt{np(1-p)}$ provided $np>5$ and $n(1-p)>5$.
+			\subsubsection{Normal Approximation to the Binomial Distribution} If $X$ is a binomial random variable with parameters $n,p$, then the distribution of $X$ is approximately normal with mean $\mu=np$ and standard deviation $\sigma=\sqrt{np(1-p)}$ provided $np>5$ and $n(1-p)>5$.
 			
 		\subsection{Confidence Intervals for the Population Mean}
+			\paragraph{Interpretation of a Confidence Interval} For a 95\% confidence interval, we expect 95\% of such intervals to contain the population mean $\mu$. Whether or not a particular confidence interval contains $\mu$ is generally unknown.
+			
 			\paragraph{Point Estimates} The value of the sample mean $\bar{x}$ can be used to estimate the population mean $\mu$, as this is a single-valued estimate, it is called a point estimate of $\mu$.
 			
 			\paragraph{Interval Estimates} An interval estimate for the population mean $\mu$ is called a confidence interval for $\mu$.
 				\subparagraph{C\% Confidence Interval} An approximate $C\%$ confidence interval for $\mu$ is given by
 				\[
-					\left(\bar{x}-z\frac{\sigma}{\sqrt{n}},\bar{x}+\frac{\sigma}{\sqrt{n}}\right)
+					\left(\bar{x}-z\frac{\sigma}{\sqrt{n}},\bar{x}+z\frac{\sigma}{\sqrt{n}}\right)
 				\]
-				where $z\ni\mathrm{Pr}(-z<Z<z)=C\%$, $\bar{x}$ is the sample mean, $\sigma$ is the standard deviation of the population and $n$ is the sizeo f the sample from which $\bar{x}$ was calculated.\\\\
+				where $z\ni\mathrm{Pr}(-z<Z<z)=C\%$, $\bar{x}$ is the sample mean, $\sigma$ is the standard deviation of the population and $n$ is the size of the sample from which $\bar{x}$ was calculated.\\\\
 				
-				The values of $z$ for common confidence intervals:
-				\begin{itemize}
-					\item 90\% $\to z=1.6449$
-					\item 95\% $\to z=1.9600$
-					\item 99\% $\to z=2.5758$
-				\end{itemize}
+				\begin{minipage}{0.5\textwidth}
+					The values of $z$ for common confidence intervals:
+					\begin{itemize}
+						\item 90\% $\to z=1.6449$
+						\item 95\% $\to z=1.9600$
+						\item 99\% $\to z=2.5758$
+					\end{itemize}
+				\end{minipage}
+				\hfill
+				\begin{minipage}{0.5\textwidth}
+					To find the $z$ score to use for any $C\%$ confidence interval in CAS: \textbf{invnorm($\frac{C}{2}$,0,1)} will give you the value for $z$.
+				\end{minipage}
+				
+				
+				
+			\begin{examquestion}{VCAA Spesh 2017 Exam 2 A19}
+				\begin{leftbar}
+					A confidence interval is to be used to estimate the population mean $\mu$ based on a sample mean $\bar{x}$. To decrease the width of a confidence interval by $75\%$, the sample size must be multiplied by a factor of...
+				\end{leftbar}
+				To reduce by 75\% is the equivalent to making it a quarter the width, i.e. dividing by four:
+				\begin{align*}
+					\frac{\sigma}{4\sqrt{n}}=\frac{\sigma}{\sqrt{16n}}
+				\end{align*}
+				Therefore the sample size must be multiplied by a factor of 16.
+			\end{examquestion}
 		\subsection{Hypothesis Testing for Mean}
 			\paragraph{Null hypothesis} The null hypothesis is denoted by $H_0$ says that the sample is drawn from a population which has the same mean as before (the mean has not changed after taking the sample). Under this hypothesis, any difference between a sample statistic and a population parameter is explained by sample-sample variation.
 			
@@ -877,6 +1688,15 @@
 			\subsubsection{Hypothesis Testing Errors}
 				\paragraph{Type I} Rejecting the null hypothesis when it is true. $\Pr$(Type I)$=\Pr(H_0 \text{ rejected}|H_0 \text{ true})=\text{ level of significance of test}$
 				\paragraph{Type II} Not rejecting the null hypothesis when it is false. $\Pr$(Type II)$=\Pr(H_0 \text{ not rejected}|H_0 \text{ false})$
+				\begin{examquestion}{VCAA 2023 Specialist E2 Sample}
+					\begin{leftbar}
+						The time taken by a machine to make electronic components varies normally with a mean of 20 seconds and a standard deviation of 2 seconds. After the machine is serviced, it is believed that the mean time taken has been reduced to 18.5 seconds with the standard deviation remaining the same. A statistical test is proposed to check whether there is any evidence of a 1.5 second reduction in the mean time taken to make components. The test statistic will be the mean time taken to make a random sample of 16 such components. The type I error for this test will be $\alpha=5\%$ with a critical sample mean of 19.2 seconds. Find the type II error $\beta$ for the test.
+					\end{leftbar}
+					This is a one-tail test (as it is reduction, not simply changing). Therefore we use \textbf{invnorm}(0.05,20,$\frac{2}{\sqrt{16}}$) to get 19.17757...\\
+					We then input this into \textbf{normcdf}(19.17757...,$\infty$,18.5,$\frac{2}{\sqrt{16}}$)=0.088 (3dp)
+				\end{examquestion}
+			\includepdf[pages={24,25}]{./pdf/2018e2.pdf}
+			\includepdf[pages={22,23}]{./pdf/2019e2.pdf}
 	\section{Differential Calculus}			
 		\subsection{Derivatives of x=f(y)}
 			For $x=f(y)$ where $f$ is a one-to-one function:
@@ -906,7 +1726,7 @@
 			\[
 				\int\frac{a}{a^2+x^2}dx=\arctan\left(\frac{x}{a}\right)+c,x\in\R
 			\]
-		\subsection{u-Substitution}
+		\subsection{u-Sub}
 			\[
 				\int f(u)\frac{du}{dx}dx=\int f(u)du
 			\]
@@ -922,6 +1742,15 @@
 					&=\frac{1}{2}-\frac{1}{2e}
 				\end{align*}
 			\end{examquestion}
+			\begin{examquestion}{2006 NEAP E2 A11}
+				\begin{leftbar}
+					Using a suitable substitution, $\displaystyle \int\limits_0^{\frac{\pi}{4}}\left(\frac{\cos x}{\sin x+\cos^2 x}\right)dx$ can be expressed as:
+				\end{leftbar}
+				Let $u=\sin x$\\
+				\begin{align*}
+					\int\frac{\cos x}{\sin x+(1-\sin^2 x)}dx=\int\frac{1}{u+1-u^2}du
+				\end{align*}
+			\end{examquestion}
 			\begin{examquestion}{}
 				Using the substitution $u=\pi-x$,\\
 				a) Show that $\displaystyle\int\limits_0^\pi\frac{x\sin x}{1+\cos^2x}dx=\int\limits_0^\pi\frac{(\pi-x)\sin x}{1+\cos^2x}dx$.\\
@@ -934,11 +1763,12 @@
 				b) Hence deduce that $\displaystyle\int\limits_0^\pi\frac{x\sin x}{1+\cos^2x}dx=\frac{\pi^2}{4}$.
 				\begin{align*}
 					&\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx=\int\limits_{0}^{\pi}\frac{\pi\sin x}{1+\cos^2x}dx-\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx \\
-					2\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx&=\pi\int\limits_0^\pi\frac{\sin x}{1+\cos^2 x}dx\\
+					2\int\limits_{0}^{\pi}\frac{x\sin x}{1+\cos^2x}dx&=\pi\int\limits_0^\pi\frac{\sin x}{1+\cos^2 x}dx\implies\int\limits_0^\pi\frac{x\sin x}{1+\cos^2x}dx=\frac{\pi}{2}\int\limits_0^\pi\frac{\sin x}{1+\cos^2x}dx\\
 					&v=\cos x, dx=\frac{-1}{\sin x}du, x=0\to v=1, x=\pi\to v=-1 \\
 					\pi\int\limits_0^\pi\frac{\sin x}{1+\cos^2 x}dx&=-\pi\int\limits_1^{-1}\frac{1}{1+u^2}du\\
 					&=\pi\int\limits_{-1}^1\frac{1}{1+u^2}du=\pi\left[\arctan u\right]_{-1}^1 \\
-					&=\frac{\pi^2}{2}
+					&=\frac{\pi^2}{2}\\
+					&\therefore \int\limits_0^\pi\frac{x\sin x}{1+\cos^2 x}dx=\frac{1}{2}\cdot\frac{\pi^2}{2}=\frac{\pi^2}{4}
 				\end{align*}
 			\end{examquestion}
 		\subsection{Integration by Trig Identities}
@@ -964,6 +1794,15 @@
 			\]
 			We can also use these for integration in appropriate questions.
 		\subsection{Partial Fractions}
+			\paragraph{Proper Fractions} If $g(x)$ and $h(x)$ are polynomials then $f(x)=\frac{g(x)}{h(x)}$ is a rational function. If the degree of $g$ is less than the degree of $h$ then $f(x)$ is a proper fraction.\\\\
+			For \textbf{proper fractions}, we resolve into proper fractions with the following rules:
+			\begin{itemize}
+				\item For every linear factor $ax+b$ in the denominator, there will be a partial fraction of form $\frac{A}{ax+b}$
+				\item For every repeated linear factor $(ax+b)^2$ in the denominator, there will be two partial fractions of form $\frac{A}{ax+b}$ and $\frac{B}{(ax+b)^2}$
+				\item For every irreducable quadratic factor $ax^2+bx+c$ in the denominator, there will be a partial fraction of the form $\frac{Ax+B}{ax^2+bx+c}$.
+				\item For every repeated irreducable quadratic factor $(ax^2+bx+c)^2$ in the denominator, there will be two partial fractions of form $\frac{Ax+B}{ax^2+bx+c}$ and $\frac{Cx+D}{(ax^2+bx+c)^2}$
+			\end{itemize}
+			For \textbf{improper fractions}, those where the degree of the numerator is greater than the denominator, we use polynomial division to first create a proper fraction then resolve as normal.
 		\subsection{Integration by Parts}
 			\[
 				\int u\frac{dv}{dx}dx=uv-\int v\frac{du}{dx}dx
@@ -971,6 +1810,29 @@
 			\[
 				\int\limits_{a}^{b}u\frac{dv}{dx}dx=\left[uv\right]_a^b-\int\limits_a^bv\frac{du}{dx}dx
 			\]
+			\begin{examquestion}{VCAA 2007 Spesh E2 B2}
+				\begin{leftbar}
+					Let $f(x)=x\arctan(x)$.\\
+					a) Find $f'(x)$ and calculate the slope of $f$ at $x=0$.
+				\end{leftbar}
+				\begin{align*}
+					f'(x)&=\arctan(x)+x\cdot\frac{1}{x^2+1}=\arctan(x)+\frac{x}{x^2+1}\\
+					f'(0)&=0
+				\end{align*}
+				\begin{leftbar}
+					d) Use the result for $f'(x)$ in part \textbf{a} to show that an antiderivative of $\arctan(x)$ is
+					\[
+						x\arctan(x)-\frac{1}{2}\ln(1+x^2)
+					\]
+				\end{leftbar}
+				\begin{align*}
+					f'(x)&=\arctan(x)+\frac{x}{x^2+1}\\
+					\int f'(x)dx&=\int \frac{x}{x^2+1}dx+\int\arctan(x)dx\\
+					\text{Let }u=1+x^2\qquad f(x)&=\int \arctan(x)dx+\frac{1}{2}\int\frac{1}{u}du\\
+					\int\arctan(x)dx&=x\arctan(x)-\frac{1}{2}\ln(u)+c\\
+					&=x\arctan(x)-\frac{1}{2}\ln(1+x^2)\text{ is an antiderivative as required}
+				\end{align*}
+			\end{examquestion}
 		\subsection{Properties of the Definite Integral}
 			\[
 				\int\limits_a^bf(x)dx=\int\limits_a^cf(x)dx+\int\limits_c^bf(x)dx,a<c<b
@@ -1012,6 +1874,26 @@
 			\[
 				L=\int\limits_a^b\sqrt{1+\left(\frac{dy}{dx}\right)^2}dx=\int\limits_a^b\sqrt{1+\left(f'(x)\right)^2}dx
 			\]
+			
+			\begin{examquestion}{VCAA Spesh 2017 E2 B3e}
+				\begin{leftbar}
+					A brooch is designed using inverse circular functions. The edges of the brooch in the first and third quadrants are described by these piecewise functions:
+					\[
+						\text{Q1: } f(x)=\begin{cases}
+							3\arcsin\left(\frac{x}{2}\right)&0\leq x\leq\sqrt{2}\\
+							3\arccos\left(\frac{x}{2}\right)&\sqrt{2}<x\leq 2
+						\end{cases}\qquad
+						\text{Q3: } g(x)=\begin{cases}
+							-3\arccos(\frac{-x}{2})&-2\leq x<-\sqrt{2}\\
+							-3\arcsin(\frac{-x}{2})&-\sqrt{2}\leq x\leq 0
+						\end{cases}
+					\]
+					The graph of the whole brooch is shown below:\\
+					\includegraphics[width=0.5\linewidth]{2017e2b3.png}\\
+					The perimeter of the brooch has a gold border. Show that the length of the gold border needed is given by a definite integral of the form $\displaystyle \int\limits_0^2\sqrt{a+\frac{b}{4-x^2}}dx$, where $a,b\in\R$. Find the values of $a$ and $b$.
+				\end{leftbar}
+				\includegraphics[width=0.4\linewidth]{2017e2b3eworking.png}
+			\end{examquestion}
 		\subsection{Areas of Surfaces of Revolution}
 			\paragraph{Revolution About x-axis} If the region bounded by $y=f(x)$, the $x$-axis and $x=a$, $x=b$ is rotated about the x-axis, the area of the surface formed is given by:
 			\[
@@ -1041,7 +1923,7 @@
 				i) Show that $I_n=e-nI_{n-1}$ for $n\in\mathbb{Z}^+$.\\
 					\begin{align*}
 						&I_n=\int\limits_{1}^{e}(ln(t))^ndt \\
-						&u=(ln(t))^n \quad \frac{du}{dt}=\frac{n(ln(t))^n-1}{t} \quad \frac{dv}{dt}=1 \quad v=t \quad \text{(I.B.P)} \\
+						&u=(ln(t))^n \quad \frac{du}{dt}=\frac{n(ln(t))^{n-1}}{t} \quad \frac{dv}{dt}=1 \quad v=t \quad \text{(I.B.P)} \\
 						&I_n=\left[t(ln(t))^n\right]_1^e-\int\limits_1^en(ln(t))^{n-1}dt \\
 						&=e-n\int\limits_1^en(ln(t))^{n-1}dt \\
 						&=e-nI_{n-1} \text{ As required}.
@@ -1061,13 +1943,50 @@
 			\subsubsection{euler(dydx,iv,dv,\{x0,x1\},y0,h)} Input the euler method function. dydx is the derivative of the dependent variable (dv) w.r.t the independent variable (iv). x0 is the x value stipulated in the initial condition, x1 is the maximum x value you wish to enumerate to. y0 is the y value in the initial condition and h is the step size.
 		\subsection{Verification of Solutions}
 			We can verify solutions to DiffEqs by substitution.
-		\subsection{DiffEqs involving function of the independent variable}
-		\subsection{DiffEqs involving function of the dependent variable}
+		\subsection{Proportionality/Inverse Proportionality}
+			\begin{examquestion}{VCAA 2007 Spesh E2 A14}
+				\begin{leftbar}
+					The rate at which a type of bird flu spreads throughout a population of 1000 birds in a certain area is proportional to the product of the number $N$ of infected birds and the number of birds still \textbf{not} infected after $t$ days. Initially two birds in the population are found to be infected. A differential equation, the solution of which models the number of infected birds after $t$ days, is
+				\end{leftbar}
+				\textbf{\underline{My Blunder Solution}}:
+				\[
+					\frac{dN}{dt}=k(N-2)(1000-N)
+				\]
+				\textbf{\underline{Correct Solution}}:
+				\[
+					\frac{dN}{dt}\propto N(1000-N)\therefore \frac{dN}{dt}=kN(1000-N)
+				\]
+				The intiial value does not matter in this instance, as it is proportional to the product of the \textbf{currently} infected and non-infected birds, not the birds infected \textbf{since} the initial measurement.
+			\end{examquestion}
 		\subsection{Logistic DiffEq}
 			\[
 				\frac{dP}{dt}=rP\left(1-\frac{P}{K}\right)
 			\]
 			Where $P$ is the population at time $t$, $r$ is the 'growth parameter' (rate), $K$ is the upper limit of the population, $\frac{dP}{dt}\to0$ as $P\to K$. Maximum $\frac{dP}{dt}$ occurs at $P=\frac{K}{2}$.
+			\paragraph{General Solution} The general solution to a logistic diffeq $\frac{dP}{dt}$:
+			\[
+				P(t)=\frac{P_0k}{P_0+(k-P_0)e^{-rt}}=\frac{P_0ke^{rt}}{P_0e^{rt}+(k-P_0)},\qquad P_0=P(0)
+			\]
+			\begin{examquestion}{VCAA 2023 Spesh Sample Q2}
+				\begin{leftbar}
+					In a certain region, 500 rare butterflies are released to maintain the species. It is believed that the region can support a maximum of 30 000 such butterflies. The butterfly population $P$, $t$ years after release can be modelled by the logistic differential equation $\displaystyle \frac{dP}{dt}=rP\left(1-\frac{P}{30 000}\right)$ where $r$ is the growth rate of the population.\\
+					a) Use an integration technique and partial fractions to solve the DE above to find $P$ in terms of $r$ and $t$.\\
+					b) Given that after 10 years there are 1930 butterflies, find $r$ to 2 decimal places.
+				\end{leftbar}
+				a)\\
+				\begin{align*}
+					r\frac{dt}{dP}=\frac{1}{P}+\frac{1}{30000-P}\\
+					rt=\ln(P)-\ln(30000-P)+c,c\in\R\\
+					P(0)=500\implies c=\ln(59)\\
+					\therefore rt=\ln\left(\frac{59P}{30000-P}\right)\\
+					P=\frac{30000}{1+59e^{-rt}}
+				\end{align*}
+				b)\\
+				\begin{align*}
+					P(10)=1930\\
+					r=\frac{1}{t}\ln\left(\frac{59P}{30000-{}}\right)=\ln\left(\frac{59(1930)}{30000-1930}\right)\approx 0.14
+				\end{align*}
+			\end{examquestion}
 		\subsection{Separation of Variables}
 			\[
 				\frac{dy}{dx}=f(x)g(y) \implies \int f(x)dx=\int\frac{1}{g(y)}dy
@@ -1091,13 +2010,59 @@
 				\end{align*}
 			\end{examquestion} 
 		\subsection{DiffEqs + Related Rates Crossover Event}
+			\begin{example}{Inverted Cone}
+				An inverted cone has height $h$ and radius $r$. It is being filled at $k$ L per minute. The depth of the water is $x$ at time $t$ minutes. Construct a diffeq for $\frac{dx}{dt}$ and solve given the cone was initially empty.\\
+				\begin{minipage}{0.6\textwidth}
+					\begin{align*}
+						&\text{Let }V\text{ be the volume of water after t minutes}\\
+						&k\text{ litres}=1000k\mathrm{cm}^3\\
+						&\frac{dV}{dt}=1000k\\
+						&\frac{dx}{dt}=\frac{dx}{dV}\times\frac{dV}{dt}\\
+						&V=\frac{1}{3}\pi y^2x\\
+						\\
+						&\text{By similar triangles: }\frac{y}{r}=\frac{x}{h}\implies y=\frac{xr}{h}\implies\qquad V=\frac{1}{3}\pi\frac{r^2x^2}{h^2}x=\frac{\pi r^2}{3h^2}x^3\\
+						&\therefore \frac{dV}{dx}=\frac{\pi r^2}{h^2}x^2\implies\frac{dx}{dV}=\frac{h^2}{\pi r^2}\frac{1}{x^2}\therefore\frac{dx}{dt}=\frac{h^2}{\pi r^2x^2}\times1000k=\frac{1000kh^2}{\pi r^2x^2},k>0\\\\
+						&t=\int\frac{\pi r^2 x^2}{1000kh^2}dx\\
+						&=\frac{\pi r^2x^3}{3000kh^2}+c,c\in\R
+					\end{align*}
+					Then solve appropriately for $c$.
+				\end{minipage}
+				\hfill
+				\begin{minipage}{0.2\textwidth}
+					\includegraphics[width=\linewidth]{relatedratescone.png}
+				\end{minipage}
+				
+			\end{example}
 			
 		\subsection{Definite Integration to solve DiffEqs}
+			For differential equations $\frac{dy}{dx}=f(x)$ with $y_0=f(x_0)$ being known, the values of $y$ at $x_1$ can be found:
+			\[
+				y(x_1)=\int\limits_{x_0}^{x_1}f(x)dx+y_0
+			\]
 		
 		\subsection{Newton's Law of Cooling DiffEq} Newton's Law of Cooling involves a DiffEq that describes the rate of change of temperature $\frac{dT}{dt}$ is proportional to the difference between the temperature and the outside. Note that $k\in\R^-$ in the below statement.
 		\[
 			\frac{dT}{dt}\propto (T-T_{external})\implies\frac{dT}{dt}=k(T-T_{external})
 		\]
+		
+		\subsection{Applications of DiffEqs - Concentration Problems}
+			$Q$=concentration\\
+			\[
+				\frac{dQ}{dt}=\frac{dQ_{in}}{dt}-\frac{dQ_{out}}{dt}
+			\]
+			\textbf{In flow:} $\frac{dQ_{in}}{dt}=\frac{dQ_{in}}{dV_{in}}\times\frac{dV_{in}}{dt}$.\\
+			\textbf{In tank:} Mass at any time $t$, volume at any time $t$, concentration $C=\frac{mass}{volume}$\\
+			\textbf{Out flow:} $\frac{dQ_{out}}{dt}=\frac{dQ_{out}}{dV_{out}}\times\frac{dV_{out}}{dt}$. Out flowing concentration=concentration in tank $C$.
+			
+			\begin{examquestion}{2006 NEAP E1 A21}
+				\begin{leftbar}
+					A 5L container is initially full of fresh water. Saline solution with a concentration of 10g/L flows into the tank at 1L/min. At the same time, the mixture in the container flows out at 2L/min. If $S$ is the quantity of salt in the container at time $t$ minutes, write a differential equation describing this situation.
+				\end{leftbar}
+				\textbf{\underline{Into tank:}} $\displaystyle\frac{dQ_{in}}{dt}=10\times 1=10$\\
+				\textbf{\underline{In tank:}} $\displaystyle C=\frac{S}{5+(1-2)t}=\frac{S}{5-t}$\\
+				\textbf{\underline{Out of tank:}} $\displaystyle \frac{dQ_{out}}{dt}=\frac{S}{5-t}\times 2$\\\\
+				Therefore $\frac{dS}{dt}=\frac{dQ_{in}}{dt}-\frac{dQ_{out}}{dt}=10-\frac{2S}{5-t}$
+			\end{examquestion}
 			
 		\subsection{Euler's Method}
 			If $\displaystyle\frac{dy}{dx}=g(x)$ with $y=y_0$ when $x=x_0$, then:
@@ -1129,7 +2094,105 @@
 			
 	\section{Pseudocode}
 		\subsection{Syntax}
-		
+			\paragraph{Assignment} A variable is a string of one or more letters that acts as a placeholder that can be assigned different values. For example $x\leftarrow3$ reads 'assign the value 3 to the variable $x$' or '$x$ takes the value 3'.
+			
+			\paragraph{Control of Flow of Steps}
+				\subparagraph{If-Then Blocks} This construct provides a means of making decisions within an algorithm. If the condition is true, then the code between the If-Then block and the EndIf statement will execute.\\
+				\textbf{If} \textit{condition} \textbf{then}\\
+				\codeindent execute these instructions\\
+				\textbf{End If}
+				
+				\subparagraph{For loops} Repeated execution of code blocks. Note the convention that 'from 1 to n' is inclusive.\\
+				\textbf{For} \textit{i} \textbf{From} 1 \textbf{to} n\\
+				\codeindent execute these instructions\\
+				\textbf{End For}
+				
+				\subparagraph{While loops} Indefinite repeated iterations of instructions provided some condition remains true.\\
+				\textbf{While} \textit{condition is true}\\
+				\codeindent execute these instructions\\
+				\textbf{End While}
+				
+			\paragraph{Functions} Functions are sections of pseudocode that can be used to complete a specific task. Once a function is defined it can be used ('called') within another algorithm.\\
+			\textbf{define} \textit{function\textunderscore name}(args):\\
+			\codeindent execute these instructions\\
+			\textbf{return} output
+		\subsection{Example Algorithms}
+			\begin{example}{Newton-Raphson Method to tolerance of 0.001}
+				\textbf{define} newtonraphson(f(x),x0)\\
+				\codeindent df(x)$\leftarrow f'(x)$\\
+				\codeindent i$\leftarrow0$\\
+				\codeindent prevx$\leftarrow$x0\\
+				\codeindent \textbf{While} i<1000 \textbf{do}\\
+				\codeindent\codeindent nextx$\leftarrow$prevx - f(prevx) $\div$ df(prevx)\\
+				\codeindent\codeindent \textbf{If} 0.001 < nextx - prevx < 0.001 \textbf{Then}\\
+				\codeindent\codeindent\codeindent \textbf{Return} nextx\\
+				\codeindent\codeindent \textbf{Else}\\
+				\codeindent\codeindent\codeindent prevx$\leftarrow$nextx\\
+				\codeindent\codeindent\codeindent i$\leftarrow$i+1\\
+				\codeindent \textbf{EndWhile}
+			\end{example}
+			\begin{example}{Numerical Integration with Trapezium Method}
+				\textbf{define} f(x)\\
+				\codeindent \textbf{return} (function rule)\\\\
+				sum$\leftarrow$0\\
+				a$\leftarrow$lower bound\\
+				b$\leftarrow$upper bound\\
+				n$\leftarrow$number of trapeziums\\
+				h$\leftarrow$(b-a)/n\\
+				left$\leftarrow$a\\
+				right$\leftarrow$a+h\\
+				\textbf{for} i \textbf{from} 1 \textbf{to} n\\
+				\codeindent strip$\leftarrow0.5($f(left)+f(right)$)\times h$\\
+				\codeindent sum$\leftarrow$ sum + strip\\
+				\codeindent left$\leftarrow$ left + h\\
+				\codeindent right$\leftarrow$ right + h\\
+				\textbf{end for}\\
+				\textbf{print} sum
+			\end{example}
+			\begin{example}{Estimate of Long-Term Average for Number of Dice Rolls for a Six}
+				sum$\leftarrow$0\\
+				\textbf{for} i \textbf{from} 1 \textbf{to} 1000\\
+				\codeindent outcome$\leftarrow$0\\
+				\codeindent count$\leftarrow$0\\
+				\codeindent\textbf{while} outcome $\neq$ 6\\
+				\codeindent\codeindent outcome$\leftarrow$randominteger(1,6)\\
+				\codeindent\codeindent count$\leftarrow$count + 1\\
+				\codeindent\textbf{end while}\\
+				\codeindent sum$\leftarrow$sum + count\\
+				\textbf{end for}\\
+				\textbf{print} sum/1000 
+			\end{example}
+			\begin{example}{Bisection Method for x-intercepts}
+				\begin{minipage}[t]{0.5\textwidth}
+					\underline{Algorithm:}\\\\
+					\textbf{define} f(x):\\
+					\codeindent \textbf{return} (function rule)\\
+					a$\leftarrow$lower guess\\
+					b$\leftarrow$upper guess\\
+					c$\leftarrow$(a+b)/2\\
+					t$\leftarrow$tolerance\\
+					\textbf{if} f(a)$\times$ f(b)>0 \textbf{then}\\
+					\codeindent \textbf{print} "Incorrect initial estimates"\\
+					\textbf{else}\\
+					\codeindent \textbf{while} b-a>2$\times$ t\\
+					\codeindent\codeindent \textbf{if} f(a)$\times$ f(c)<0 \textbf{then}\\
+					\codeindent\codeindent\codeindent b$\leftarrow$c\\
+					\codeindent\codeindent \textbf{else}\\
+					\codeindent\codeindent\codeindent a$\leftarrow$c\\
+					\codeindent\codeindent \textbf{end if}\\
+					\codeindent\codeindent c$\leftarrow$(a+b)/2\\
+					\codeindent\codeindent \textbf{endwhile}\\
+					\textbf{print} c\\
+					\textbf{end if}
+				\end{minipage}
+				\hfill
+				\begin{minipage}[t]{0.4\textwidth}
+					\underline{Comments:}\\\\
+					Function f(x) is chosen. For example, $x^2-2$. Good choices for a and b are a=1 and b=2 as f(1)<0 and f(2)>0\\\\
+					The \textbf{while} loop requires that we continue the iteration until the desired accuracy is reached.\\
+					The \textbf{if} statement inside the loop ensures that we continue to choose values for which there is a sign difference. For each iteration an average of the new pair is determined.
+				\end{minipage}				
+			\end{example}
 	\section{Other Tech}
 		\subsection{Functions}
 			\subsubsection{scriptedmath\textbackslash poi(f(x),x)} Gives stationary points, axes intercepts, straight-line asymptotes, and endpoints.
