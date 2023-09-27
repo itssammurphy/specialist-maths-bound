@@ -1469,9 +1469,7 @@
 					&\mu-1.7507\sigma=0.994 \text{ as required}
 				\end{align*}
 			\end{examquestion}
-			\begin{examquestion}{2009 Methods E2 B3d}
-				content...
-			\end{examquestion}
+			\includepdf[pages={1,2,3}]{./pdf/2009e2mmq3.pdf}
 		\subsection{The Binomial Distribution}
 			\paragraph{Bernoulli Sequence} describes a sequence of trials for which there are two possible outcomes (success, failure), the probability of success $p$ is constant for all trials, and the trials are independent. The number of successes in a Bernoulli sequence of $n$ trials is called a Binomial Random Variable denoted $X\sim \mathrm{Bi}(n,p)$
 			\begin{examquestion}{Suzanne Cory 2018 SAC3 Part II Q2e/f}
@@ -1677,6 +1675,35 @@
 					p=\Pr\left(\left|\bar{X}-\mu\right|\geq\left|\bar{x}-\mu\right|\right)
 				\]
 				$p$-value (two-tail)=2$\times p$-value (one-tail)
+				\begin{example}{Cumbridge Modulus Bullshit}
+					\begin{leftbar}
+						Suppose that the weight $X$kg of sand in a bag is a normally distributed random variable with a mean of 50kg and a standard deviation of 1.5kg. A random sample of 10 bags is taken.\\
+						a) Find the probability that the mean weight of the 10 bags in the sample differs by 1kg or more from the population mean.
+					\end{leftbar}
+					\begin{align*}
+						\Pr\left(\left|\bar{X}-\mu\right|\geq1\right)&=\Pr\left(\left|\frac{\bar{X}-\mu}{\sigma/\sqrt{n}}\right|\geq\frac{\sqrt{10}}{1.5}\right)\\
+						&=\Pr\left(\left|Z\right|\geq2.108 \right)\\
+						&=2\times\Pr(Z\leq-2.108)\\
+						&=0.035
+					\end{align*}
+					\begin{leftbar}
+						b) Suppose that the mean weight of the 10 bags is 49.1kg\\
+						i) Determine the $p$ value appropriate to the following hypotheses:\\
+						\begin{equation*}
+							H_0:\mu=50\qquad H_1:\mu\neq50
+						\end{equation*}
+					\end{leftbar}
+					\begin{align*}
+						p&=\Pr\left(\left|\bar{X}-\mu\right|\geq\left|\bar{x}-\mu\right|\right)\\
+						&=\Pr\left(|Z|\geq\left|\frac{49.1-50}{1.5/\sqrt{10}}\right|\right)\\
+						&=\Pr\left(|Z|\geq|-1.897|\right)\\
+						&=2\Pr\left(Z\geq1.897\right)=0.0578
+					\end{align*}
+					\begin{leftbar}
+						ii) What is your conclusion at $\alpha=0.05$?
+					\end{leftbar}
+					Since $p$ is greater than $\alpha$, there is insufficient evidence to conclude that the mean weight of the bags is not 50kg.
+				\end{example}
 			\subsubsection{Relation to Confidence Intervals}
 				Consider the fact of the real number line:
 				\[
@@ -1701,8 +1728,67 @@
 					This is a one-tail test (as it is reduction, not simply changing). Therefore we use \textbf{invnorm}(0.05,20,$\frac{2}{\sqrt{16}}$) to get 19.17757...\\
 					We then input this into \textbf{normcdf}(19.17757...,$\infty$,18.5,$\frac{2}{\sqrt{16}}$)=0.088 (3dp)
 				\end{examquestion}
+			
+			\begin{examquestion}{VCAA 2021 Specialist E2 QB6}
+				\begin{leftbar}
+					The maximum load of a lift in a chocolate company's office building is 1000kg. The masses of employees who use the lift are normally distributed with a mean of 75kg and a standard deviation of 8kg. On a particular morning there are $n$ employees who use the lift.\\
+					a) What is the maximum possible value of $n$ for there to be a less than 1\% chance of the lift exceeding the maximum load? (2 marks)
+				\end{leftbar}
+				\begin{align*}
+					W\sim \mathrm{N}(75,8) &\qquad \text{Let }W_i\text{ be a random variable identically distributed to W},\quad T=\sum\limits_{i=1}^{n}W_i\\
+					\E(T)=75n&\qquad \mathrm{sd}(T)=8\sqrt{n}\implies T\sim\mathrm{N}(75n,8\sqrt{n})\\
+					\Pr\left(T<1000\right)&=\Pr\left(Z<\frac{1000-75n}{8\sqrt{n}}\right)>0.99\\
+					\frac{1000-75n}{8\sqrt{n}}&>2.3263\\
+					\implies n&=12 \text{ (nearest integer)}
+				\end{align*}
+				\begin{leftbar}
+					Clare, who is one of the employees, likes to have a hot drink after she exits the lift. The time taken for a drink to be dispensed from the hot drink machine is normally distributed with a mean of 2 minutes and a standard deviation of 0.5 minutes. Time taken to dispense successive drinks are independent.\\
+					b) Clare has a meeting at 9:00am and at 8:52 am she is fourth in the queue for a hot drink. Assume that the waiting time between hot drinks dispensed is negligible and that it takes Clare 0.5 minutes to get from the drink machine to the meeting room. What is the probability, correct to four decimal places, that Clare will get to her meeting on time? (2 marks)
+				\end{leftbar}
+				\begin{align*}
+					T&\sim\mathrm{N}\left(2,\frac{1}{2}\right)\\
+					\Pr\left(4T+\frac{1}{2}<8\right)&=\Pr\left(4T<15/2\right)\\
+					X&=4T\sim\mathrm{N}(8,1)\\
+					\Pr\left(X>\frac{15}{2}\right)=0.3085
+				\end{align*}
+				\begin{leftbar}
+					Clare is a statistician for the company. The number of chocolate bars sold daily is normally distributed with a mean of 60000 and a standard deviation of 5000. To increase sales, the company decides to run an advertising campaign. After the campaign, the mean daily sales from 14 randomly selected days is 63500. Clare has been asked to investigate whether the campaign was effective, and so she performs a one-tailed test at the 1\% level of significance.
+					c)i) Write down a null and alternative hypothesis. (1 mark)
+				\end{leftbar}
+				\begin{equation*}
+					H_0: \mu=60000\qquad H_1: \mu>60000
+				\end{equation*}
+				\begin{leftbar}
+					ii) Determine the $p$ value, correct to 4 decimal places, for this test. (1 mark)
+				\end{leftbar}
+				\begin{equation*}
+					S\sim\mathrm{N}(60000,5000)\qquad p=\Pr(\bar{S}>63500 | \mu=60000)=\Pr\left(Z>\frac{63500-60000}{\frac{5000}{\sqrt{14}}}\right)=0.0044
+				\end{equation*}
+				\textbf{Note: } Menu+6+7+1 can also conduct a $z$ test for this hypothesis.
+				\begin{leftbar}
+					iii) Giving a reason, state whether there is any evidence for the success of the campaign? (1 mark)
+				\end{leftbar}
+				p=0.0044<0.01, and therefore there is sufficient evidence to reject $H_0$ and conclude the campaign was effective.
+				\begin{leftbar}
+					d) Find the range of values for the mean daily sales of another randomly selected 14 days that would lead to rejecting the null hypothesis at 1\% level of significance.
+				\end{leftbar}
+				\begin{align*}
+					\Pr\left(Z>\frac{\bar{x}-60000}{\frac{5000}{\sqrt{14}}}\right)\leq0.01\\
+					2.3263\leq\frac{\bar{x}-60000}{\frac{5000}{\sqrt{14}}}\\
+					\implies \bar{x}\geq63109
+				\end{align*}
+				\begin{leftbar}
+					e) The advertising campaign has been successful to the extent that the mean daily sales is now 63000. Another test is conducted at 5\% significance level. Find the probability of the null hypothesis being incorrectly accepted, to 3 decimal places.
+				\end{leftbar}
+				\begin{align*}
+					\Pr\left(Z>\frac{s-60000}{\frac{5000}{\sqrt{14}}}\right)=0.05&\implies s=62198.03\\
+					\Pr\left(\bar{s}<62198.03 | \mu=63000\right)&=0.274
+				\end{align*}
+			\end{examquestion}
 			\includepdf[pages={24,25}]{./pdf/2018e2.pdf}
 			\includepdf[pages={22,23}]{./pdf/2019e2.pdf}
+			\includepdf[pages={1,2}]{./pdf/2021nhtsm2-stat.pdf}
+			\includepdf[pages={1,2}]{./pdf/2022nhtsm2-stat.pdf}
 	\section{Differential Calculus}			
 		\subsection{Derivatives of x=f(y)}
 			For $x=f(y)$ where $f$ is a one-to-one function:
