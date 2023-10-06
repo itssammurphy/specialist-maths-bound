@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.22)  6 OCT 2023 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.22)  6 OCT 2023 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3165,66 +3165,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 2188--2200
 <./img/2018-2A10.png, id=2571, 894.34125pt x 692.5875pt>
 File: ./img/2018-2A10.png Graphic file (type png)
 <use ./img/2018-2A10.png>
-Package pdftex.def Info: ./img/2018-2A10.png  used on input line 2205.
+Package pdftex.def Info: ./img/2018-2A10.png  used on input line 2207.
 (pdftex.def)             Requested size: 227.62204pt x 176.27458pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2207--2209
+Underfull \hbox (badness 10000) in paragraph at lines 2209--2211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2202--2209
+Underfull \hbox (badness 10000) in paragraph at lines 2204--2211
 
  []
 
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 2237--2250
+Underfull \hbox (badness 10000) in paragraph at lines 2239--2252
 
  []
 
 [73 <./img/2018-2A10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2252--2268
+Underfull \hbox (badness 10000) in paragraph at lines 2254--2270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2251--2268
+Underfull \hbox (badness 10000) in paragraph at lines 2253--2270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2269--2281
+Underfull \hbox (badness 10000) in paragraph at lines 2271--2283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2284--2304
+Underfull \hbox (badness 10000) in paragraph at lines 2286--2306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2307--2311
+Underfull \hbox (badness 10000) in paragraph at lines 2309--2313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2307--2311
+Underfull \hbox (badness 10000) in paragraph at lines 2309--2313
 
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 2307--2311
+Underfull \hbox (badness 2894) in paragraph at lines 2309--2313
 \T1/cmr/m/n/9 The \T1/cmr/bx/n/9 while \T1/cmr/m/n/9 loop requires that we cont
 inue
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 2307--2311
+Underfull \hbox (badness 3547) in paragraph at lines 2309--2313
 \T1/cmr/m/n/9 the iteration until the desired accuracy is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2282--2312
+Underfull \hbox (badness 10000) in paragraph at lines 2284--2314
 
  []
 
@@ -3233,15 +3233,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2398 	\newpage
+l.2400 	\newpage
                 ]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2604, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2605, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2399.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2401.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -3249,7 +3249,7 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2399.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2401.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -3259,91 +3259,91 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2607, page=1, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2608, page=1, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2608, page=2, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2609, page=2, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 2>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 2>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2609, page=3, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2610, page=3, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 3>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 3>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2610, page=4, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2611, page=4, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 4>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 4>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 2>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 3>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 4>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 [77 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
@@ -3361,81 +3361,81 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2863, page=5, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2864, page=5, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 5>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 5>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2864, page=6, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2865, page=6, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 6>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 6>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2865, page=7, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2866, page=7, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 7>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 7>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2866, page=8, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2867, page=8, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 8>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 8>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 5>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 6>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 7>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 8>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 [78 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
@@ -3453,81 +3453,81 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3048, page=9, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3049, page=9, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 9>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 9>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3049, page=10, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3050, page=10, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 10>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 10>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3050, page=11, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3051, page=11, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 11>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 11>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3051, page=12, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3052, page=12, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 12>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 12>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 9>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 10>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 11>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 12>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 [79 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
@@ -3545,74 +3545,81 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3167, page=13, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3168, page=13, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 13>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 13>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3168, page=14, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3169, page=14, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 14>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 14>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 239
-9.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 13>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 14>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 23
-99.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 24
+01.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 [80 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
 >] [81] (Specialist Mathematics Reference.aux)
-Package rerunfilecheck Info: File `"Specialist Mathematics Reference".out' has 
-not changed.
-(rerunfilecheck)             Checksum: A9EF0C3AE83354056B8B8C01662E7BBD;35185.
+
+Package rerunfilecheck Warning: File `"Specialist Mathematics Reference".out' h
+as changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Specialist Mathematics Reference".
+out':
+(rerunfilecheck)             Before: A9EF0C3AE83354056B8B8C01662E7BBD;35185
+(rerunfilecheck)             After:  815B2BFDA984C1F1D40A3F18818BDC10;35353.
  ) 
 Here is how much of TeX's memory you used:
- 51205 strings out of 476411
- 1248656 string characters out of 5789134
+ 51206 strings out of 476411
+ 1248677 string characters out of 5789134
  1903845 words of memory out of 5000000
  70092 multiletter control sequences out of 15000+600000
  539387 words of font info for 103 fonts, out of 8000000 for 9000
@@ -3656,10 +3663,10 @@ rs/samym/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam
 10.pfb><C:/Users/samym/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb><C:/Users/samym/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/rsfs/rsfs10.pfb>
-Output written on "Specialist Mathematics Reference.pdf" (81 pages, 6423849 byt
+Output written on "Specialist Mathematics Reference.pdf" (81 pages, 6424470 byt
 es).
 PDF statistics:
- 3953 PDF objects out of 4296 (max. 8388607)
- 427 named destinations out of 1000 (max. 500000)
+ 3955 PDF objects out of 4296 (max. 8388607)
+ 428 named destinations out of 1000 (max. 500000)
  2084 words of extra memory for PDF output out of 10000 (max. 10000000)
 
