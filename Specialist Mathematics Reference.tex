@@ -191,6 +191,7 @@
 	\hfill
 	\begin{minipage}{0.5\textwidth}
 		\paragraph{Add a Problem} If you want to add a new problem to the document, go doc+4+1
+		\paragraph{Add row to matrix} Carriage return key
 	\end{minipage}
 	\subsection{Functions}
 	\paragraph{Odd Function} $f(-x)=-f(x)$. Odd functions have rotational symmetry about the origin.
@@ -250,12 +251,12 @@
 				\[
 					\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1
 				\]
-				Ellipse with centre $(h,k)$ and $2a$ is the horizontal axis length, $b$ is the vertical axis length.
+				Ellipse with centre $(h,k)$ and $2a$ is the horizontal axis length, $2b$ is the vertical axis length.
 			\subsubsection{Hyperbolas}
 				\[
 					\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1\qquad\qquad\text{Asymptotes: }y-k=\pm\frac{b}{a}(x-h)
 				\]
-				Hyperbola with centre $(h,k)$ and $2a$ is the horizontal distance between foci, $b$ is a vertical dilation.
+				Hyperbola with centre $(h,k)$ and $2a$ is the horizontal distance between foci, $2b$ is a vertical dilation.
 				The tangents
 				\begin{examquestion}{VCAA 2007 Spesh E2 A1}
 					\begin{leftbar}
@@ -265,6 +266,14 @@
 						\frac{(x-2)^2}{a^2}-\frac{4(y+3)^2}{a^2}=\frac{(x-2)^2}{a^2}-\frac{(y+3)^2}{\left(\frac{a}{2}\right)^2}=1
 					\]
 					Asymptotes are $\displaystyle y+3=\pm\frac{\frac{a}{2}}{a}(x-2)=\pm\frac{1}{2}(x-2)$ and the product of the gradients is $\displaystyle \frac{1}{2}\times\left(-\frac{1}{2}\right)=\frac{-1}{4}$.
+				\end{examquestion}
+			
+				\begin{examquestion}{VCAA 2008 Spesh E2 A4}
+					\begin{leftbar}
+						$P$ is any point on the hyperbola with equation $\displaystyle x^2-\frac{y^2}{4}=1$.\\
+						If $m$ is the gradient of any of the hyperbola at point $P$, then $m$ could be.
+					\end{leftbar}
+					The hyperbola has asymptotes $\pm2x$, therefore the absolute value of gradient, $|m|>2$. Therefore $m\in(-\infty,-2)\cup(2,\infty)\equiv m\in\R\setminus[-2,2]$.
 				\end{examquestion}
 	\section{Functions}
 		\subsection{Tech}
@@ -342,6 +351,25 @@
 					&9-4k\geq0\implies k\leq\frac{9}{4}\\
 					&\therefore 0<k\leq\frac{9}{4}\because k\in\mathbb{R}^+		
 				\end{align*}
+			\end{examquestion}
+		\subsection{Simultaneous Unique Solutions}
+			\begin{examquestion}{2007 VCAA Methods E2 A5}
+				\begin{leftbar}
+					The simultaneous linear equations\\
+					\begin{align*}
+						mx+12y=24\\
+						3x+my=m
+					\end{align*}
+					have a unique solution only for what values of $m$?
+				\end{leftbar}
+				Take the determinant of the 2x2 matrix of coefficients and solve for 0, this will give the values of $m$ for which the gradients are equal (no solns or infinite solns).\\
+				\includegraphics[width=10cm]{./img/uniquesolns.png}
+			\end{examquestion}
+			\begin{examquestion}{2014 VCAA Methods E2 A17}
+				\begin{leftbar}
+					The simultaneous linear equations $ax-3y=5$ and $3x-ay=8-a$ have no solutions for what values of $a$?
+				\end{leftbar}
+				Take the determinant of the 2x2 matrix of coefficients and solve for 0, then check each value it gives to see if lines are coincident or distinct parallel lines. In this case, $a=3$ produces coincidental lines, so $a=-3$ is the only solution.
 			\end{examquestion}
 		\subsection{Tangents}
 			\begin{examquestion}{2006 VCAA Methods E2 B1}
@@ -1681,7 +1709,7 @@
 						a) Find the probability that the mean weight of the 10 bags in the sample differs by 1kg or more from the population mean.
 					\end{leftbar}
 					\begin{align*}
-						\Pr\left(\left|\bar{X}-\mu\right|\geq1\right)&=\Pr\left(\left|\frac{\bar{X}-\mu}{\sigma/\sqrt{n}}\right|\geq\frac{\sqrt{10}}{1.5}\right)\\
+						\Pr\left(\left|\bar{X}-\mu\right|\geq1\right)&=\Pr\left(\left|\frac{\bar{X}-\mu}{\sigma/\sqrt{n}}\right|\geq\frac{1}{\frac{1.5}{\sqrt{10}}}\right)\\
 						&=\Pr\left(\left|Z\right|\geq2.108 \right)\\
 						&=2\times\Pr(Z\leq-2.108)\\
 						&=0.035
@@ -1721,12 +1749,8 @@
 			\subsubsection{Hypothesis Testing Errors}
 				\paragraph{Type I} Rejecting the null hypothesis when it is true. $\Pr$(Type I)$=\Pr(H_0 \text{ rejected}|H_0 \text{ true})=\text{ level of significance of test}$
 				\paragraph{Type II} Not rejecting the null hypothesis when it is false. $\Pr$(Type II)$=\Pr(H_0 \text{ not rejected}|H_0 \text{ false})$
-				\begin{examquestion}{VCAA 2023 Specialist E2 Sample}
-					\begin{leftbar}
-						The time taken by a machine to make electronic components varies normally with a mean of 20 seconds and a standard deviation of 2 seconds. After the machine is serviced, it is believed that the mean time taken has been reduced to 18.5 seconds with the standard deviation remaining the same. A statistical test is proposed to check whether there is any evidence of a 1.5 second reduction in the mean time taken to make components. The test statistic will be the mean time taken to make a random sample of 16 such components. The type I error for this test will be $\alpha=5\%$ with a critical sample mean of 19.2 seconds. Find the type II error $\beta$ for the test.
-					\end{leftbar}
-					This is a one-tail test (as it is reduction, not simply changing). Therefore we use \textbf{invnorm}(0.05,20,$\frac{2}{\sqrt{16}}$) to get 19.17757...\\
-					We then input this into \textbf{normcdf}(19.17757...,$\infty$,18.5,$\frac{2}{\sqrt{16}}$)=0.088 (3dp)
+				\begin{examquestion}{VCAA 2023 Specialist E2 Sample Q7}
+					\includegraphics[width=\textwidth]{./img/spectypeii.png}
 				\end{examquestion}
 			
 			\begin{examquestion}{VCAA 2021 Specialist E2 QB6}
@@ -2131,6 +2155,7 @@
 			\[
 				y(x_1)=\int\limits_{x_0}^{x_1}f(x)dx+y_0
 			\]
+			\includepdf[pages={12-15}]{./pdf/2014e2.pdf}
 		
 		\subsection{Newton's Law of Cooling DiffEq} Newton's Law of Cooling involves a DiffEq that describes the rate of change of temperature $\frac{dT}{dt}$ is proportional to the difference between the temperature and the outside. Note that $k\in\R^-$ in the below statement.
 		\[
@@ -2371,5 +2396,6 @@
 			\]
 			The function $f$ is 'sandwiched' between $g$ and $h$.
 	\newpage
+	\includepdf[pages={1-14},scale=0.95,nup=2x2]{./pdf/2023SM2Sample.pdf}
 	\section{Cheeky Snack}
 \end{document}
