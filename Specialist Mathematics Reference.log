@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.22)  6 OCT 2023 11:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.22)  19 OCT 2023 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1761,7 +1761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--146
 [1
 
 {C:/Users/samym/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<./pdf/methods_formula.pdf, id=806, 597.50829pt x 845.0471pt>
+<./pdf/methods_formula.pdf, id=814, 597.50829pt x 845.0471pt>
 File: ./pdf/methods_formula.pdf Graphic file (type pdf)
 <use ./pdf/methods_formula.pdf>
 Package pdftex.def Info: ./pdf/methods_formula.pdf  used on input line 148.
@@ -1774,7 +1774,7 @@ File: ./pdf/methods_formula.pdf Graphic file (type pdf)
 <use ./pdf/methods_formula.pdf>
 Package pdftex.def Info: ./pdf/methods_formula.pdf  used on input line 148.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pdf/methods_formula.pdf, id=810, page=2, 597.50829pt x 845.0471pt>
+<./pdf/methods_formula.pdf, id=818, page=2, 597.50829pt x 845.0471pt>
 File: ./pdf/methods_formula.pdf Graphic file (type pdf)
 <use ./pdf/methods_formula.pdf, page 2>
 Package pdftex.def Info: ./pdf/methods_formula.pdf , page2 used on input line 1
@@ -1801,7 +1801,7 @@ Package pdftex.def Info: ./pdf/methods_formula.pdf , page2 used on input line 1
 48.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [2 <./pdf/methods_formula.pdf>]
-<./pdf/methods_formula.pdf, id=1034, page=3, 597.50829pt x 845.0471pt>
+<./pdf/methods_formula.pdf, id=1042, page=3, 597.50829pt x 845.0471pt>
 File: ./pdf/methods_formula.pdf Graphic file (type pdf)
 <use ./pdf/methods_formula.pdf, page 3>
 Package pdftex.def Info: ./pdf/methods_formula.pdf , page3 used on input line 1
@@ -1818,7 +1818,7 @@ Package pdftex.def Info: ./pdf/methods_formula.pdf , page3 used on input line 1
 48.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [3 <./pdf/methods_formula.pdf>]
-<./pdf/spesh_formula.pdf, id=1134, 597.50829pt x 845.0471pt>
+<./pdf/spesh_formula.pdf, id=1142, 597.50829pt x 845.0471pt>
 File: ./pdf/spesh_formula.pdf Graphic file (type pdf)
 <use ./pdf/spesh_formula.pdf>
 Package pdftex.def Info: ./pdf/spesh_formula.pdf  used on input line 149.
@@ -1827,7 +1827,7 @@ File: ./pdf/spesh_formula.pdf Graphic file (type pdf)
 <use ./pdf/spesh_formula.pdf>
 Package pdftex.def Info: ./pdf/spesh_formula.pdf  used on input line 149.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pdf/spesh_formula.pdf, id=1137, page=2, 1195.01462pt x 845.0471pt>
+<./pdf/spesh_formula.pdf, id=1145, page=2, 1195.01462pt x 845.0471pt>
 File: ./pdf/spesh_formula.pdf Graphic file (type pdf)
 <use ./pdf/spesh_formula.pdf, page 2>
 Package pdftex.def Info: ./pdf/spesh_formula.pdf , page2 used on input line 149
@@ -1862,7 +1862,7 @@ File: ./pdf/spesh_formula.pdf Graphic file (type pdf)
 <use ./pdf/spesh_formula.pdf>
 Package pdftex.def Info: ./pdf/spesh_formula.pdf  used on input line 150.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./pdf/spesh_formula.pdf, id=1574, page=3, 597.50829pt x 845.0471pt>
+<./pdf/spesh_formula.pdf, id=1582, page=3, 597.50829pt x 845.0471pt>
 File: ./pdf/spesh_formula.pdf Graphic file (type pdf)
 <use ./pdf/spesh_formula.pdf, page 3>
 Package pdftex.def Info: ./pdf/spesh_formula.pdf , page3 used on input line 150
@@ -1910,112 +1910,118 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--269
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--277
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--284
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 285.
+(hyperref)                removing `math shift' on input line 292.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 288.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 288.
+(hyperref)                removing `math shift' on input line 292.
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 328--337
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 295.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 295.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--354
+Underfull \hbox (badness 10000) in paragraph at lines 348--361
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
-<./img/uniquesolns.png, id=1943, 826.58812pt x 451.6875pt>
+<./img/uniquesolns.png, id=1953, 826.58812pt x 451.6875pt>
 File: ./img/uniquesolns.png Graphic file (type png)
 <use ./img/uniquesolns.png>
-Package pdftex.def Info: ./img/uniquesolns.png  used on input line 366.
+Package pdftex.def Info: ./img/uniquesolns.png  used on input line 373.
 (pdftex.def)             Requested size: 284.52756pt x 155.48085pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--367
+Underfull \hbox (badness 10000) in paragraph at lines 363--374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--373
+Underfull \hbox (badness 10000) in paragraph at lines 375--380
 
  []
 
-<./img/2006 E2 B1.png, id=1944, 458.46281pt x 368.1253pt>
+[13 <./img/uniquesolns.png>]
+<./img/2006 E2 B1.png, id=1959, 458.46281pt x 368.1253pt>
 File: ./img/2006 E2 B1.png Graphic file (type png)
 <use ./img/2006 E2 B1.png>
-Package pdftex.def Info: ./img/2006 E2 B1.png  used on input line 379.
+Package pdftex.def Info: ./img/2006 E2 B1.png  used on input line 386.
 (pdftex.def)             Requested size: 236.46165pt x 189.87032pt.
 
-Underfull \hbox (badness 1783) in paragraph at lines 383--386
+Underfull \hbox (badness 1783) in paragraph at lines 390--393
 []\T1/cmr/m/n/9 The tangent to the curve at $\OML/cmm/m/it/9 x \OT1/cmr/m/n/9 =
  []$ \T1/cmr/m/n/9 is given by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 390--393
 
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 383--386
+Underfull \hbox (badness 1394) in paragraph at lines 390--393
 \T1/cmr/m/n/9 The two tangents to the curve at points A and B
  []
 
 
-Overfull \hbox (2.05505pt too wide) in paragraph at lines 377--387
+Overfull \hbox (2.05505pt too wide) in paragraph at lines 384--394
 []$  $[]$ 
  []
 
-<./img/2006e2b1soln.png, id=1945, 975.645pt x 410.2828pt>
+<./img/2006e2b1soln.png, id=1960, 975.645pt x 410.2828pt>
 File: ./img/2006e2b1soln.png Graphic file (type png)
 <use ./img/2006e2b1soln.png>
-Package pdftex.def Info: ./img/2006e2b1soln.png  used on input line 388.
+Package pdftex.def Info: ./img/2006e2b1soln.png  used on input line 395.
 (pdftex.def)             Requested size: 493.92331pt x 207.70766pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--389
+Underfull \hbox (badness 10000) in paragraph at lines 382--396
 
  []
 
-[13 <./img/uniquesolns.png>]
-<./img/2021neapmcq20.png, id=1951, 618.81187pt x 450.9347pt>
+<./img/2021neapmcq20.png, id=1961, 618.81187pt x 450.9347pt>
 File: ./img/2021neapmcq20.png Graphic file (type png)
 <use ./img/2021neapmcq20.png>
-Package pdftex.def Info: ./img/2021neapmcq20.png  used on input line 394.
+Package pdftex.def Info: ./img/2021neapmcq20.png  used on input line 401.
 (pdftex.def)             Requested size: 236.46165pt x 172.31337pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--409
+Underfull \hbox (badness 10000) in paragraph at lines 398--416
 
  []
 
 [14 <./img/2006 E2 B1.png> <./img/2006e2b1soln.png>] [15 <./img/2021neapmcq20.p
 ng>]
-<./img/lindepcas.png, id=1962, 948.54375pt x 301.8778pt>
+<./img/lindepcas.png, id=1972, 948.54375pt x 301.8778pt>
 File: ./img/lindepcas.png Graphic file (type png)
 <use ./img/lindepcas.png>
-Package pdftex.def Info: ./img/lindepcas.png  used on input line 420.
+Package pdftex.def Info: ./img/lindepcas.png  used on input line 427.
 (pdftex.def)             Requested size: 512.1496pt x 162.99776pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--437
+Underfull \hbox (badness 10000) in paragraph at lines 429--444
 
  []
 
@@ -2023,10 +2029,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--437
 
 pdfTeX warning: pdflatex.exe (file ./pdf/vectorproofs.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/vectorproofs.pdf, id=1967, 597.50786pt x 845.04686pt>
+<./pdf/vectorproofs.pdf, id=1977, 597.50786pt x 845.04686pt>
 File: ./pdf/vectorproofs.pdf Graphic file (type pdf)
 <use ./pdf/vectorproofs.pdf>
-Package pdftex.def Info: ./pdf/vectorproofs.pdf  used on input line 480.
+Package pdftex.def Info: ./pdf/vectorproofs.pdf  used on input line 487.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
 
@@ -2034,7 +2040,7 @@ pdfTeX warning: pdflatex.exe (file ./pdf/vectorproofs.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 File: ./pdf/vectorproofs.pdf Graphic file (type pdf)
 <use ./pdf/vectorproofs.pdf>
-Package pdftex.def Info: ./pdf/vectorproofs.pdf  used on input line 480.
+Package pdftex.def Info: ./pdf/vectorproofs.pdf  used on input line 487.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
 
@@ -2044,315 +2050,347 @@ d PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/vectorproofs.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/vectorproofs.pdf, id=1970, page=1, 597.50786pt x 845.04686pt>
+<./pdf/vectorproofs.pdf, id=1980, page=1, 597.50786pt x 845.04686pt>
 File: ./pdf/vectorproofs.pdf Graphic file (type pdf)
 <use ./pdf/vectorproofs.pdf, page 1>
-Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 480.
+Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 487.
 
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: ./pdf/vectorproofs.pdf Graphic file (type pdf)
 <use ./pdf/vectorproofs.pdf, page 1>
-Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 480.
+Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 487.
 
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--480
+Underfull \hbox (badness 10000) in paragraph at lines 485--487
 
  []
 
 [17]
 File: ./pdf/vectorproofs.pdf Graphic file (type pdf)
 <use ./pdf/vectorproofs.pdf, page 1>
-Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 480.
+Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 487.
 
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./pdf/vectorproofs.pdf Graphic file (type pdf)
 <use ./pdf/vectorproofs.pdf, page 1>
-Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 480.
+Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 487.
 
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./pdf/vectorproofs.pdf Graphic file (type pdf)
 <use ./pdf/vectorproofs.pdf, page 1>
-Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 480.
+Package pdftex.def Info: ./pdf/vectorproofs.pdf , page1 used on input line 487.
 
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
  [18 <./pdf/vectorproofs.pdf>]
-<./img/vectorlinesdist.png, id=1995, 292.09125pt x 286.06876pt>
+<./img/vectorlinesdist.png, id=2005, 292.09125pt x 286.06876pt>
 File: ./img/vectorlinesdist.png Graphic file (type png)
 <use ./img/vectorlinesdist.png>
-Package pdftex.def Info: ./img/vectorlinesdist.png  used on input line 527.
+Package pdftex.def Info: ./img/vectorlinesdist.png  used on input line 534.
 (pdftex.def)             Requested size: 131.594pt x 128.88252pt.
 
-Overfull \hbox (2.05505pt too wide) in paragraph at lines 517--529
+Overfull \hbox (2.05505pt too wide) in paragraph at lines 524--536
 []$  $[]$ 
  []
 
 [19 <./img/vectorlinesdist.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--600
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--600
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--606
+Underfull \hbox (badness 10000) in paragraph at lines 610--613
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--629
+Underfull \hbox (badness 10000) in paragraph at lines 623--636
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 631--648
+Underfull \hbox (badness 10000) in paragraph at lines 638--655
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--668
+Underfull \hbox (badness 10000) in paragraph at lines 657--675
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 692--694
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--701
+Underfull \hbox (badness 10000) in paragraph at lines 691--708
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 717--718
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
 
  []
 
 
-Overfull \hbox (2.05505pt too wide) in paragraph at lines 716--738
+Overfull \hbox (2.05505pt too wide) in paragraph at lines 723--745
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--738
+Underfull \hbox (badness 10000) in paragraph at lines 718--745
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--759
+Underfull \hbox (badness 10000) in paragraph at lines 748--766
 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 769--782
+Underfull \hbox (badness 10000) in paragraph at lines 776--789
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--788
+Underfull \hbox (badness 10000) in paragraph at lines 793--795
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--794
+Underfull \hbox (badness 10000) in paragraph at lines 791--801
 
  []
 
-[24] [25]
-<./img/argandrotate.png, id=2054, 495.35063pt x 521.69907pt>
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 819--828
+
+ []
+
+[25]
+<./img/2015mave2a18.png, id=2063, 590.95781pt x 423.83344pt>
+File: ./img/2015mave2a18.png Graphic file (type png)
+<use ./img/2015mave2a18.png>
+Package pdftex.def Info: ./img/2015mave2a18.png  used on input line 858.
+(pdftex.def)             Requested size: 493.92331pt x 354.24564pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--859
+
+ []
+
+[26]
+<./img/argandrotate.png, id=2072, 495.35063pt x 521.69907pt>
 File: ./img/argandrotate.png Graphic file (type png)
 <use ./img/argandrotate.png>
-Package pdftex.def Info: ./img/argandrotate.png  used on input line 852.
+Package pdftex.def Info: ./img/argandrotate.png  used on input line 879.
 (pdftex.def)             Requested size: 210.54718pt x 221.74702pt.
- [26 <./img/argandrotate.png>]
-<./img/2007e2a6.png, id=2067, 931.98187pt x 383.93437pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 883--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--890
+
+ []
+
+[27 <./img/2015mave2a18.png>] [28 <./img/argandrotate.png>]
+<./img/2007e2a6.png, id=2090, 931.98187pt x 383.93437pt>
 File: ./img/2007e2a6.png Graphic file (type png)
 <use ./img/2007e2a6.png>
-Package pdftex.def Info: ./img/2007e2a6.png  used on input line 896.
+Package pdftex.def Info: ./img/2007e2a6.png  used on input line 933.
 (pdftex.def)             Requested size: 472.92331pt x 194.81973pt.
 
-Overfull \hbox (14.6346pt too wide) in paragraph at lines 895--897
+Overfull \hbox (14.6346pt too wide) in paragraph at lines 932--934
 []$\T1/cmr/m/n/9 ? [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--899
+Underfull \hbox (badness 10000) in paragraph at lines 929--936
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 901--911
+Underfull \hbox (badness 10000) in paragraph at lines 938--948
 
  []
 
-[27 <./img/2007e2a6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 955--967
-
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 972--984
-
- []
-
-<./img/complexhyperbola.png, id=2093, 389.20406pt x 316.93407pt>
-File: ./img/complexhyperbola.png Graphic file (type png)
-<use ./img/complexhyperbola.png>
-Package pdftex.def Info: ./img/complexhyperbola.png  used on input line 997.
-(pdftex.def)             Requested size: 142.26378pt x 115.85164pt.
-
-Overfull \hbox (2.05504pt too wide) in paragraph at lines 988--999
-[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1005
-
- []
-
-[29 <./img/complexhyperbola.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1039
+[29 <./img/2007e2a6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 992--1004
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1021
 
  []
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
+<./img/complexhyperbola.png, id=2113, 389.20406pt x 316.93407pt>
+File: ./img/complexhyperbola.png Graphic file (type png)
+<use ./img/complexhyperbola.png>
+Package pdftex.def Info: ./img/complexhyperbola.png  used on input line 1034.
+(pdftex.def)             Requested size: 142.26378pt x 115.85164pt.
+
+Overfull \hbox (2.05504pt too wide) in paragraph at lines 1025--1036
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1042
+
+ []
+
+[31 <./img/complexhyperbola.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1057
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1070
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1082
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1083
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1088--1104
-
- []
-
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 1106--1137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1138--1171
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1098
 
  []
 
 [32]
-<./img/oldformulasheetinvtrig.png, id=2117, 1328.71407pt x 332.74312pt>
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1147
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1214
+
+ []
+
+[34]
+<./img/oldformulasheetinvtrig.png, id=2137, 1328.71407pt x 332.74312pt>
 File: ./img/oldformulasheetinvtrig.png Graphic file (type png)
 <use ./img/oldformulasheetinvtrig.png>
 Package pdftex.def Info: ./img/oldformulasheetinvtrig.png  used on input line 1
-177.
+220.
 (pdftex.def)             Requested size: 526.376pt x 131.81541pt.
-<./img/arcsin.png, id=2118, 854.44218pt x 569.12625pt>
+<./img/arcsin.png, id=2138, 854.44218pt x 569.12625pt>
 File: ./img/arcsin.png Graphic file (type png)
 <use ./img/arcsin.png>
-Package pdftex.def Info: ./img/arcsin.png  used on input line 1192.
+Package pdftex.def Info: ./img/arcsin.png  used on input line 1235.
 (pdftex.def)             Requested size: 210.54718pt x 140.24043pt.
- [33 <./img/oldformulasheetinvtrig.png> <./img/arcsin.png>]
-<./img/arccos.png, id=2124, 845.40843pt x 534.49687pt>
+<./img/arccos.png, id=2139, 845.40843pt x 534.49687pt>
 File: ./img/arccos.png Graphic file (type png)
 <use ./img/arccos.png>
-Package pdftex.def Info: ./img/arccos.png  used on input line 1209.
+Package pdftex.def Info: ./img/arccos.png  used on input line 1252.
 (pdftex.def)             Requested size: 210.54718pt x 133.11008pt.
-<./img/arctan.png, id=2125, 850.67813pt x 544.28343pt>
+ [35 <./img/oldformulasheetinvtrig.png> <./img/arcsin.png>]
+<./img/arctan.png, id=2146, 850.67813pt x 544.28343pt>
 File: ./img/arctan.png Graphic file (type png)
 <use ./img/arctan.png>
-Package pdftex.def Info: ./img/arctan.png  used on input line 1226.
+Package pdftex.def Info: ./img/arctan.png  used on input line 1269.
 (pdftex.def)             Requested size: 210.54718pt x 134.70848pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1215--1233
+Underfull \hbox (badness 10000) in paragraph at lines 1258--1276
 
  []
 
-[34 <./img/arccos.png> <./img/arctan.png>]
+[36 <./img/arccos.png> <./img/arctan.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1283.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 1283.
+(hyperref)                removing `math shift' on input line 1326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1283.
+(hyperref)                removing `\mu' on input line 1326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1283.
+(hyperref)                removing `math shift' on input line 1326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 1283.
+(hyperref)                removing `math shift' on input line 1326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1283.
+(hyperref)                removing `\sigma' on input line 1326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1285.
+(hyperref)                removing `math shift' on input line 1326.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 1285.
+(hyperref)                removing `math shift' on input line 1328.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1285.
+(hyperref)                removing `\mu' on input line 1328.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1285.
+(hyperref)                removing `math shift' on input line 1328.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 1285.
+(hyperref)                removing `math shift' on input line 1328.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1285.
+(hyperref)                removing `\sigma' on input line 1328.
 
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 1309--1311
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1328.
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1352--1354
 
  []
 
 
-Overfull \hbox (66.4476pt too wide) in paragraph at lines 1309--1311
+Overfull \hbox (66.4476pt too wide) in paragraph at lines 1352--1354
 \T1/cmr/m/n/9 To do this for $\OML/cmm/m/it/9 m$ \T1/cmr/m/n/9 samples, add a \
 T1/cmr/bx/n/9 Lists and Spreadsheets \T1/cmr/m/n/9 page in the CAS. In column A
  in the formula box input seq(mean(randNorm($\OML/cmm/m/it/9 ^^V$\T1/cmr/m/n/9 
@@ -2361,74 +2399,69 @@ OML/cmm/m/it/9 m$\T1/cmr/m/n/9 ).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1320--1324
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1320--1324
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1320--1324
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1326
+Underfull \hbox (badness 10000) in paragraph at lines 1361--1369
 
  []
 
-[36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1422--1433
+[38] [39]
+<./img/2023mavspece2a20.png, id=2180, 866.48718pt x 510.40688pt>
+File: ./img/2023mavspece2a20.png Graphic file (type png)
+<use ./img/2023mavspece2a20.png>
+Package pdftex.def Info: ./img/2023mavspece2a20.png  used on input line 1444.
+(pdftex.def)             Requested size: 493.92331pt x 290.95052pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1420--1440
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1443--1454
+Underfull \hbox (badness 10000) in paragraph at lines 1442--1445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1441--1466
-
- []
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 1477--1499
+Underfull \hbox (badness 10000) in paragraph at lines 1467--1478
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 1465--1485
+
+ []
+
+[40 <./img/2023mavspece2a20.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1486--1511
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1522--1544
+
+ []
+
+[41]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2009e2mmq3.pdf, id=2170, 614.295pt x 794.97pt>
+<./pdf/2009e2mmq3.pdf, id=2197, 614.295pt x 794.97pt>
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1500.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
-<use ./pdf/2009e2mmq3.pdf>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1500.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
-<use ./pdf/2009e2mmq3.pdf>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1545.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2436,7 +2469,23 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found
 PDF version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1545.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
+<use ./pdf/2009e2mmq3.pdf>
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1545.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
+<use ./pdf/2009e2mmq3.pdf>
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf  used on input line 1545.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2446,203 +2495,222 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2009e2mmq3.pdf, id=2175, page=1, 614.295pt x 794.97pt>
+<./pdf/2009e2mmq3.pdf, id=2202, page=1, 614.295pt x 794.97pt>
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 1>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1545.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 1>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[39]
+[42]
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 1>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1500.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
-<use ./pdf/2009e2mmq3.pdf, page 1>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 1>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [40 <./pdf/2009e2mmq3.pdf>]
+File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
+<use ./pdf/2009e2mmq3.pdf, page 1>
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page1 used on input line 1545.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [43 <./pdf/2009e2mmq3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2009e2mmq3.pdf, id=2186, page=2, 614.295pt x 794.97pt>
+<./pdf/2009e2mmq3.pdf, id=2213, page=2, 614.295pt x 794.97pt>
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 2>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page2 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page2 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 2>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page2 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page2 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 2>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page2 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page2 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[41 <./pdf/2009e2mmq3.pdf>]
+[44 <./pdf/2009e2mmq3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2009e2mmq3.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2009e2mmq3.pdf, id=2192, page=3, 614.295pt x 794.97pt>
+<./pdf/2009e2mmq3.pdf, id=2219, page=3, 614.295pt x 794.97pt>
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 3>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page3 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page3 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 3>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page3 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page3 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2009e2mmq3.pdf Graphic file (type pdf)
 <use ./pdf/2009e2mmq3.pdf, page 3>
-Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page3 used on input line 1500.
+Package pdftex.def Info: ./pdf/2009e2mmq3.pdf , page3 used on input line 1545.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[42 <./pdf/2009e2mmq3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1505--1509
+[45 <./pdf/2009e2mmq3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1550--1554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1526
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1571
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1528--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1573--1584
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1540--1545
-
- []
-
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 1569--1570
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1575--1577
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1561--1584
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1590--1604
-
- []
-
-[44]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1605.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1605.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1606--1607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1614--1620
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1612--1627
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1628--1639
-
- []
-
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 1655--1657
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1655--1657
-
- []
-
-
-Overfull \hbox (14.05505pt too wide) in paragraph at lines 1658--1670
-[]$[]$  $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1682
+Underfull \hbox (badness 10000) in paragraph at lines 1585--1590
 
  []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1697--1700
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1615
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1701--1702
+Underfull \hbox (badness 10000) in paragraph at lines 1620--1622
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1718--1720
+Underfull \hbox (badness 10000) in paragraph at lines 1606--1629
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1704--1734
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1649
 
  []
 
 [47]
-<./img/spectypeii.png, id=2232, 1014.03844pt x 645.16031pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1650.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1651--1652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1659--1665
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1684
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1700--1702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1700--1702
+
+ []
+
+
+Overfull \hbox (14.05505pt too wide) in paragraph at lines 1703--1715
+[]$[]$  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1718--1727
+
+ []
+
+[49]
+<./img/mavmm2023a16.png, id=2250, 816.80156pt x 152.06813pt>
+File: ./img/mavmm2023a16.png Graphic file (type png)
+<use ./img/mavmm2023a16.png>
+Package pdftex.def Info: ./img/mavmm2023a16.png  used on input line 1741.
+(pdftex.def)             Requested size: 246.96165pt x 45.97812pt.
+
+Overfull \hbox (2.05505pt too wide) in paragraph at lines 1732--1745
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1745
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1760--1763
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1765
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1781--1783
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1797
+
+ []
+
+[50 <./img/mavmm2023a16.png>]
+<./img/spectypeii.png, id=2260, 1014.03844pt x 645.16031pt>
 File: ./img/spectypeii.png Graphic file (type png)
 <use ./img/spectypeii.png>
-Package pdftex.def Info: ./img/spectypeii.png  used on input line 1753.
+Package pdftex.def Info: ./img/spectypeii.png  used on input line 1816.
 (pdftex.def)             Requested size: 493.92331pt x 314.2412pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1751--1754
+Underfull \hbox (badness 10000) in paragraph at lines 1814--1817
 
  []
 
+[51]
+<./img/heff2023speca20.png, id=2267, 918.43124pt x 449.42906pt>
+File: ./img/heff2023speca20.png Graphic file (type png)
+<use ./img/heff2023speca20.png>
+Package pdftex.def Info: ./img/heff2023speca20.png  used on input line 1825.
+(pdftex.def)             Requested size: 493.92331pt x 241.70056pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1756--1811
+Underfull \hbox (badness 10000) in paragraph at lines 1818--1826
 
  []
 
-[48 <./img/spectypeii.png>] [49]
+[52 <./img/spectypeii.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1828--1883
+
+ []
+
+[53 <./img/heff2023speca20.png>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2018e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2018e2.pdf, id=2244, 597.50829pt x 845.0471pt>
+<./pdf/2018e2.pdf, id=2276, 597.50829pt x 845.0471pt>
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf>
-Package pdftex.def Info: ./pdf/2018e2.pdf  used on input line 1812.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./pdf/2018e2.pdf): PDF inclusion: found PDF 
-version <1.7>, but at most version <1.5> allowed
-File: ./pdf/2018e2.pdf Graphic file (type pdf)
-<use ./pdf/2018e2.pdf>
-Package pdftex.def Info: ./pdf/2018e2.pdf  used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf  used on input line 1884.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2650,7 +2718,15 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2018e2.pdf): PDF inclusion: found PDF
 version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf>
-Package pdftex.def Info: ./pdf/2018e2.pdf  used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf  used on input line 1884.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/2018e2.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+File: ./pdf/2018e2.pdf Graphic file (type pdf)
+<use ./pdf/2018e2.pdf>
+Package pdftex.def Info: ./pdf/2018e2.pdf  used on input line 1884.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2660,61 +2736,53 @@ version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2018e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2018e2.pdf, id=2248, page=24, 597.50829pt x 845.0471pt>
+<./pdf/2018e2.pdf, id=2280, page=24, 597.50829pt x 845.0471pt>
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf, page 24>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1884.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf, page 24>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1884.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[50]
+[54]
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf, page 24>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1812.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdf/2018e2.pdf Graphic file (type pdf)
-<use ./pdf/2018e2.pdf, page 24>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1884.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf, page 24>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1884.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [51 <./pdf/2018e2.pdf>]
+File: ./pdf/2018e2.pdf Graphic file (type pdf)
+<use ./pdf/2018e2.pdf, page 24>
+Package pdftex.def Info: ./pdf/2018e2.pdf , page24 used on input line 1884.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [55 <./pdf/2018e2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2018e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2018e2.pdf, id=2290, page=25, 597.50829pt x 845.0471pt>
+<./pdf/2018e2.pdf, id=2323, page=25, 597.50829pt x 845.0471pt>
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf, page 25>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page25 used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf , page25 used on input line 1884.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf, page 25>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page25 used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf , page25 used on input line 1884.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2018e2.pdf Graphic file (type pdf)
 <use ./pdf/2018e2.pdf, page 25>
-Package pdftex.def Info: ./pdf/2018e2.pdf , page25 used on input line 1812.
+Package pdftex.def Info: ./pdf/2018e2.pdf , page25 used on input line 1884.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[52 <./pdf/2018e2.pdf>]
+[56 <./pdf/2018e2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2019e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2019e2.pdf, id=2309, 597.50829pt x 845.0471pt>
+<./pdf/2019e2.pdf, id=2342, 597.50829pt x 845.0471pt>
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf>
-Package pdftex.def Info: ./pdf/2019e2.pdf  used on input line 1813.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./pdf/2019e2.pdf): PDF inclusion: found PDF 
-version <1.7>, but at most version <1.5> allowed
-File: ./pdf/2019e2.pdf Graphic file (type pdf)
-<use ./pdf/2019e2.pdf>
-Package pdftex.def Info: ./pdf/2019e2.pdf  used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf  used on input line 1885.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2722,7 +2790,15 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2019e2.pdf): PDF inclusion: found PDF
 version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf>
-Package pdftex.def Info: ./pdf/2019e2.pdf  used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf  used on input line 1885.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/2019e2.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+File: ./pdf/2019e2.pdf Graphic file (type pdf)
+<use ./pdf/2019e2.pdf>
+Package pdftex.def Info: ./pdf/2019e2.pdf  used on input line 1885.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2732,60 +2808,52 @@ version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2019e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2019e2.pdf, id=2313, page=22, 597.50829pt x 845.0471pt>
+<./pdf/2019e2.pdf, id=2346, page=22, 597.50829pt x 845.0471pt>
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 22>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1885.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 22>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1885.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 22>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1885.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 22>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1885.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 22>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page22 used on input line 1885.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[53 <./pdf/2019e2.pdf>]
+[57 <./pdf/2019e2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2019e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2019e2.pdf, id=2351, page=23, 597.50829pt x 845.0471pt>
+<./pdf/2019e2.pdf, id=2384, page=23, 597.50829pt x 845.0471pt>
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 23>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page23 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page23 used on input line 1885.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 23>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page23 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page23 used on input line 1885.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2019e2.pdf Graphic file (type pdf)
 <use ./pdf/2019e2.pdf, page 23>
-Package pdftex.def Info: ./pdf/2019e2.pdf , page23 used on input line 1813.
+Package pdftex.def Info: ./pdf/2019e2.pdf , page23 used on input line 1885.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[54 <./pdf/2019e2.pdf>]
+[58 <./pdf/2019e2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2021nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2021nhtsm2-stat.pdf, id=2357, 614.295pt x 794.97pt>
+<./pdf/2021nhtsm2-stat.pdf, id=2390, 614.295pt x 794.97pt>
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf>
-Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf  used on input line 1814.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./pdf/2021nhtsm2-stat.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
-<use ./pdf/2021nhtsm2-stat.pdf>
-Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf  used on input line 1814.
+Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf  used on input line 1886.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2793,7 +2861,15 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2021nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf>
-Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf  used on input line 1814.
+Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf  used on input line 1886.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/2021nhtsm2-stat.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
+<use ./pdf/2021nhtsm2-stat.pdf>
+Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf  used on input line 1886.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2803,68 +2879,60 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2021nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2021nhtsm2-stat.pdf, id=2361, page=1, 614.295pt x 794.97pt>
+<./pdf/2021nhtsm2-stat.pdf, id=2394, page=1, 614.295pt x 794.97pt>
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page1 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page1 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page1 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page1 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page1 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[55 <./pdf/2021nhtsm2-stat.pdf>]
+[59 <./pdf/2021nhtsm2-stat.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2021nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2021nhtsm2-stat.pdf, id=2368, page=2, 614.295pt x 794.97pt>
+<./pdf/2021nhtsm2-stat.pdf, id=2400, page=2, 614.295pt x 794.97pt>
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 2>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page2 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 2>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page2 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2021nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2021nhtsm2-stat.pdf, page 2>
 Package pdftex.def Info: ./pdf/2021nhtsm2-stat.pdf , page2 used on input line 1
-814.
+886.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[56 <./pdf/2021nhtsm2-stat.pdf>]
+[60 <./pdf/2021nhtsm2-stat.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2022nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2022nhtsm2-stat.pdf, id=2373, 614.295pt x 794.97pt>
+<./pdf/2022nhtsm2-stat.pdf, id=2405, 614.295pt x 794.97pt>
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf>
-Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf  used on input line 1815.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./pdf/2022nhtsm2-stat.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
-<use ./pdf/2022nhtsm2-stat.pdf>
-Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf  used on input line 1815.
+Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf  used on input line 1887.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2872,7 +2940,15 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2022nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf>
-Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf  used on input line 1815.
+Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf  used on input line 1887.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./pdf/2022nhtsm2-stat.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
+<use ./pdf/2022nhtsm2-stat.pdf>
+Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf  used on input line 1887.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2882,176 +2958,192 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2022nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2022nhtsm2-stat.pdf, id=2377, page=1, 614.295pt x 794.97pt>
+<./pdf/2022nhtsm2-stat.pdf, id=2409, page=1, 614.295pt x 794.97pt>
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page1 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page1 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page1 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page1 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 1>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page1 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[57 <./pdf/2022nhtsm2-stat.pdf>]
+[61 <./pdf/2022nhtsm2-stat.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2022nhtsm2-stat.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2022nhtsm2-stat.pdf, id=2383, page=2, 614.295pt x 794.97pt>
+<./pdf/2022nhtsm2-stat.pdf, id=2416, page=2, 614.295pt x 794.97pt>
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 2>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page2 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 2>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page2 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ./pdf/2022nhtsm2-stat.pdf Graphic file (type pdf)
 <use ./pdf/2022nhtsm2-stat.pdf, page 2>
 Package pdftex.def Info: ./pdf/2022nhtsm2-stat.pdf , page2 used on input line 1
-815.
+887.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[58 <./pdf/2022nhtsm2-stat.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1851--1852
+[62 <./pdf/2022nhtsm2-stat.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1923--1924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1849--1860
+Underfull \hbox (badness 10000) in paragraph at lines 1921--1932
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1865--1866
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1861--1869
+Underfull \hbox (badness 10000) in paragraph at lines 1933--1941
 
  []
 
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 1871--1873
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1870--1889
-
- []
-
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 1913--1916
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 1943--1945
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1928--1951
-
- []
-
-[61] [62]
-<./img/2017e2b3.png, id=2413, 536.0025pt x 469.755pt>
-File: ./img/2017e2b3.png Graphic file (type png)
-<use ./img/2017e2b3.png>
-Package pdftex.def Info: ./img/2017e2b3.png  used on input line 2008.
-(pdftex.def)             Requested size: 236.46165pt x 207.23042pt.
-<./img/2017e2b3eworking.png, id=2414, 585.68813pt x 484.05844pt>
-File: ./img/2017e2b3eworking.png Graphic file (type png)
-<use ./img/2017e2b3eworking.png>
-Package pdftex.def Info: ./img/2017e2b3eworking.png  used on input line 2011.
-(pdftex.def)             Requested size: 197.5663pt x 163.28511pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1994--2012
-
- []
-
-[63 <./img/2017e2b3.png> <./img/2017e2b3eworking.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2038--2040
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2046--2048
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2035--2054
+Underfull \hbox (badness 10000) in paragraph at lines 1942--1961
 
  []
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 2063--2076
+Underfull \hbox (badness 10000) in paragraph at lines 1985--1988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2093
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2023
+
+ []
+
+[65] [66]
+<./img/2017e2b3.png, id=2445, 536.0025pt x 469.755pt>
+File: ./img/2017e2b3.png Graphic file (type png)
+<use ./img/2017e2b3.png>
+Package pdftex.def Info: ./img/2017e2b3.png  used on input line 2080.
+(pdftex.def)             Requested size: 236.46165pt x 207.23042pt.
+<./img/2017e2b3eworking.png, id=2446, 585.68813pt x 484.05844pt>
+File: ./img/2017e2b3eworking.png Graphic file (type png)
+<use ./img/2017e2b3eworking.png>
+Package pdftex.def Info: ./img/2017e2b3eworking.png  used on input line 2083.
+(pdftex.def)             Requested size: 197.5663pt x 163.28511pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2084
+
+ []
+
+[67 <./img/2017e2b3.png> <./img/2017e2b3eworking.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2110--2112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2099--2101
+Underfull \hbox (badness 10000) in paragraph at lines 2118--2120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2085--2105
+Underfull \hbox (badness 10000) in paragraph at lines 2107--2126
 
  []
 
-[65]
-Underfull \hbox (badness 10000) in paragraph at lines 2116--2122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2111--2127
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 2135--2148
 
  []
 
 
-Overfull \hbox (19.13689pt too wide) detected at line 2143
+Underfull \hbox (badness 10000) in paragraph at lines 2164--2165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2171--2173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2157--2177
+
+ []
+
+[69]
+<./img/mav2023specqa13.png, id=2467, 803.25093pt x 627.09282pt>
+File: ./img/mav2023specqa13.png Graphic file (type png)
+<use ./img/mav2023specqa13.png>
+Package pdftex.def Info: ./img/mav2023specqa13.png  used on input line 2179.
+(pdftex.def)             Requested size: 493.92331pt x 385.61674pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2179--2181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2178--2185
+
+ []
+
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 2196--2202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2191--2207
+
+ []
+
+[71 <./img/mav2023specqa13.png>]
+Overfull \hbox (19.13689pt too wide) detected at line 2223
 []
  []
 
-<./img/relatedratescone.png, id=2434, 201.75375pt x 300.3722pt>
+<./img/relatedratescone.png, id=2477, 201.75375pt x 300.3722pt>
 File: ./img/relatedratescone.png Graphic file (type png)
 <use ./img/relatedratescone.png>
-Package pdftex.def Info: ./img/relatedratescone.png  used on input line 2148.
+Package pdftex.def Info: ./img/relatedratescone.png  used on input line 2228.
 (pdftex.def)             Requested size: 98.78314pt x 147.06906pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2151
+Underfull \hbox (badness 10000) in paragraph at lines 2209--2231
 
  []
 
-[66]
+
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2014e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2014e2.pdf, id=2439, 597.50829pt x 845.0471pt>
+<./pdf/2014e2.pdf, id=2478, 597.50829pt x 845.0471pt>
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf>
-Package pdftex.def Info: ./pdf/2014e2.pdf  used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf  used on input line 2238.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -3059,7 +3151,7 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2014e2.pdf): PDF inclusion: found PDF
 version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf>
-Package pdftex.def Info: ./pdf/2014e2.pdf  used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf  used on input line 2238.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -3069,179 +3161,179 @@ version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2014e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2014e2.pdf, id=2442, page=12, 597.50829pt x 845.0471pt>
+<./pdf/2014e2.pdf, id=2481, page=12, 597.50829pt x 845.0471pt>
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 12>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2238.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 12>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[67 <./img/relatedratescone.png>]
+[72 <./img/relatedratescone.png>]
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 12>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2158.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdf/2014e2.pdf Graphic file (type pdf)
-<use ./pdf/2014e2.pdf, page 12>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 12>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [68 <./pdf/2014e2.pdf>]
+File: ./pdf/2014e2.pdf Graphic file (type pdf)
+<use ./pdf/2014e2.pdf, page 12>
+Package pdftex.def Info: ./pdf/2014e2.pdf , page12 used on input line 2238.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [73 <./pdf/2014e2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2014e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2014e2.pdf, id=2491, page=13, 597.50829pt x 845.0471pt>
+<./pdf/2014e2.pdf, id=2530, page=13, 597.50829pt x 845.0471pt>
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 13>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page13 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page13 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 13>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page13 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page13 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 13>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page13 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page13 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[69 <./pdf/2014e2.pdf>]
+[74 <./pdf/2014e2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2014e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2014e2.pdf, id=2547, page=14, 597.50829pt x 845.0471pt>
+<./pdf/2014e2.pdf, id=2586, page=14, 597.50829pt x 845.0471pt>
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 14>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page14 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page14 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 14>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page14 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page14 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 14>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page14 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page14 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[70 <./pdf/2014e2.pdf>]
+[75 <./pdf/2014e2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2014e2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<./pdf/2014e2.pdf, id=2565, page=15, 597.50829pt x 845.0471pt>
+<./pdf/2014e2.pdf, id=2604, page=15, 597.50829pt x 845.0471pt>
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 15>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page15 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page15 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 15>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page15 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page15 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdf/2014e2.pdf Graphic file (type pdf)
 <use ./pdf/2014e2.pdf, page 15>
-Package pdftex.def Info: ./pdf/2014e2.pdf , page15 used on input line 2158.
+Package pdftex.def Info: ./pdf/2014e2.pdf , page15 used on input line 2238.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[71 <./pdf/2014e2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 2166--2167
+[76 <./pdf/2014e2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 2246--2247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2178--2182
+Underfull \hbox (badness 10000) in paragraph at lines 2258--2262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2174--2182
+Underfull \hbox (badness 10000) in paragraph at lines 2254--2262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2200
+Underfull \hbox (badness 10000) in paragraph at lines 2268--2280
 
  []
 
-<./img/2018-2A10.png, id=2571, 894.34125pt x 692.5875pt>
+<./img/2018-2A10.png, id=2610, 894.34125pt x 692.5875pt>
 File: ./img/2018-2A10.png Graphic file (type png)
 <use ./img/2018-2A10.png>
-Package pdftex.def Info: ./img/2018-2A10.png  used on input line 2207.
+Package pdftex.def Info: ./img/2018-2A10.png  used on input line 2287.
 (pdftex.def)             Requested size: 227.62204pt x 176.27458pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2209--2211
+Underfull \hbox (badness 10000) in paragraph at lines 2289--2291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2204--2211
+Underfull \hbox (badness 10000) in paragraph at lines 2284--2291
 
  []
 
-[72]
-Underfull \hbox (badness 10000) in paragraph at lines 2239--2252
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 2319--2332
 
  []
 
-[73 <./img/2018-2A10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2270
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2253--2270
+[78 <./img/2018-2A10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2271--2283
+Underfull \hbox (badness 10000) in paragraph at lines 2333--2350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2286--2306
+Underfull \hbox (badness 10000) in paragraph at lines 2351--2363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2309--2313
+Underfull \hbox (badness 10000) in paragraph at lines 2366--2386
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2309--2313
+Underfull \hbox (badness 10000) in paragraph at lines 2389--2393
 
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 2309--2313
+Underfull \hbox (badness 10000) in paragraph at lines 2389--2393
+
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 2389--2393
 \T1/cmr/m/n/9 The \T1/cmr/bx/n/9 while \T1/cmr/m/n/9 loop requires that we cont
 inue
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 2309--2313
+Underfull \hbox (badness 3547) in paragraph at lines 2389--2393
 \T1/cmr/m/n/9 the iteration until the desired accuracy is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2284--2314
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2394
 
  []
 
-[74] [75] [76
+[79] [80] [81
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2400 	\newpage
+l.2480 	\newpage
                 ]
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2605, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2643, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2401.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2481.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -3249,7 +3341,7 @@ pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2401.
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf  used on input line 2481.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -3259,93 +3351,93 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2608, page=1, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2646, page=1, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2609, page=2, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2647, page=2, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 2>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 2>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2610, page=3, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2648, page=3, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 3>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 3>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2611, page=4, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2649, page=4, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 4>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 4>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 2>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page2 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 3>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page3 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 4>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page4 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
-[77 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
+[82 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -3361,83 +3453,83 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2864, page=5, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2902, page=5, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 5>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 5>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2865, page=6, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2903, page=6, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 6>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 6>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2866, page=7, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2904, page=7, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 7>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 7>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=2867, page=8, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=2905, page=8, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 8>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 8>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 5>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page5 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 6>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page6 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 7>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page7 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 8>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page8 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
-[78 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
+[83 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -3453,83 +3545,83 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3049, page=9, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3087, page=9, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 9>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 9>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3050, page=10, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3088, page=10, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 10>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 10>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3051, page=11, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3089, page=11, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 11>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 11>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3052, page=12, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3090, page=12, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 12>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 12>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 9>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page9 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 10>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page10 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 11>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page11 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 12>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page12 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
-[79 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
+[84 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -3545,86 +3637,79 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3168, page=13, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3205, page=13, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 13>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 13>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<./pdf/2023SM2Sample.pdf, id=3169, page=14, 597.50829pt x 845.0471pt>
+<./pdf/2023SM2Sample.pdf, id=3206, page=14, 597.50829pt x 845.0471pt>
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 14>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 14>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 1>
-Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 240
+Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page1 used on input line 248
 1.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 13>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page13 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: ./pdf/2023SM2Sample.pdf Graphic file (type pdf)
 <use ./pdf/2023SM2Sample.pdf, page 14>
 Package pdftex.def Info: ./pdf/2023SM2Sample.pdf , page14 used on input line 24
-01.
+81.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
-[80 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
+[85 <./pdf/2023SM2Sample.pdf> <./pdf/2023SM2Sample.pdf
 
 pdfTeX warning: pdflatex.exe (file ./pdf/2023SM2Sample.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [81] (Specialist Mathematics Reference.aux)
-
-Package rerunfilecheck Warning: File `"Specialist Mathematics Reference".out' h
-as changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Specialist Mathematics Reference".
-out':
-(rerunfilecheck)             Before: A9EF0C3AE83354056B8B8C01662E7BBD;35185
-(rerunfilecheck)             After:  815B2BFDA984C1F1D40A3F18818BDC10;35353.
+>] [86] (Specialist Mathematics Reference.aux)
+Package rerunfilecheck Info: File `"Specialist Mathematics Reference".out' has 
+not changed.
+(rerunfilecheck)             Checksum: 75F441E9A1704D3E2E29D91988001140;35598.
  ) 
 Here is how much of TeX's memory you used:
- 51206 strings out of 476411
- 1248677 string characters out of 5789134
+ 51265 strings out of 476411
+ 1250103 string characters out of 5789134
  1903845 words of memory out of 5000000
- 70092 multiletter control sequences out of 15000+600000
+ 70140 multiletter control sequences out of 15000+600000
  539387 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,24n,118p,1209b,838s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,24n,118p,1209b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\samym\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 0800.pk> <C:\Users\samym\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecti0900.pk> <C:\Users\samym\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -3663,10 +3748,10 @@ rs/samym/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam
 10.pfb><C:/Users/samym/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb><C:/Users/samym/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/rsfs/rsfs10.pfb>
-Output written on "Specialist Mathematics Reference.pdf" (81 pages, 6424470 byt
+Output written on "Specialist Mathematics Reference.pdf" (86 pages, 6727137 byt
 es).
 PDF statistics:
- 3955 PDF objects out of 4296 (max. 8388607)
- 428 named destinations out of 1000 (max. 500000)
- 2084 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3997 PDF objects out of 4296 (max. 8388607)
+ 434 named destinations out of 1000 (max. 500000)
+ 2125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
