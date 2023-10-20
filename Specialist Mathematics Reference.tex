@@ -711,6 +711,19 @@
 				\[
 					d=\left|\left(\utilde{a}_2-\utilde{a}_1\right)\cdot\utilde{\hat{n}}\right|\qquad \hat{\utilde{n}}=\frac{\utilde{d}_1\times\utilde{d}_2}{|\utilde{d}_1\times\utilde{d}_2|}
 				\]
+				\begin{examquestion}{2023 MAV Spec E2 QB2d}
+					\begin{leftbar}
+						Determine the shortest distance between the skew lines:
+						\begin{equation*}
+							l_1: \utilde{r}_1(\lambda)=(3+3\lambda)\utilde{i}+(2-3\lambda)\utilde{j}+(2\lambda-1)\utilde{k},\lambda\in\R\qquad l_2: \frac{x-4}{7}=\frac{y+1}{13}=\frac{z-5}{9}
+						\end{equation*}
+						Let $\utilde{n}$ be a vector perpendicular to both lines.
+						\[
+							\utilde{n}=\left(7\utilde{i}+13\utilde{j}+9\utilde{k}\right)\times\left(3\utilde{i}-3\utilde{j}+2\utilde{k}\right)=53\utilde{i}+13\utilde{j}-60\utilde{k}
+						\]
+						A(3,2,-1) lies on $l_1$ and $P(4,-1,5)$ lies on $l_2$. Therefore $\overrightarrow{AP}=\utilde{i}-3\utilde{j}+6\utilde{k}$. The distance between the lines is $\left|\overrightarrow{AP}\cdot\hat{\utilde{n}}\right|=4.27$
+					\end{leftbar}
+				\end{examquestion}
 			
 			\subsubsection{Intersections and Angles}
 				Two planes that are not parallel will intersect along a line. To find the angle between the planes choose a point $P$ common to both planes and find the angle $\theta$ between the normal vectors. The answer will either be $\theta$ or $\pi-\theta$, whichever is in the interval $[0,\frac{\pi}{2}]$.
@@ -764,6 +777,27 @@
 						\utilde{r}(\lambda)=-9\utilde{j}-5\utilde{k}+\lambda\left(\utilde{i}+\frac{7}{2}\utilde{j}+\frac{3}{2}\utilde{k}\right)
 					\end{align*}
 				\end{example}
+				\begin{examquestion}{2023 MAV Spec E2 QBcii}
+					\begin{leftbar}
+						Find a Cartesian equation for the line $l_2$ contained in both $\Pi_1$ and $\Pi_2$ where
+						\[
+							\Pi_1: 3x-3y+2z=25 \qquad \Pi_2: 2x+y-3z=-8
+						\]
+					\end{leftbar}
+					The line contained in both $\Pi_1$ and $\Pi_2$ is perpendicular to the normals of both planes. That, is $l_2$ is parallel to:
+					\[
+						\left(3\utilde{i}-3\utilde{j}+2\utilde{k}\right)\times\left(2\utilde{i}+\utilde{j}-3\utilde{k}\right)=7\utilde{i}+13\utilde{j}+9\utilde{k}
+					\]
+					The line has to pass through point $P(4,-1,5)$ on $\Pi_2$ (given in previous part), therefore the vector equation of $l_2$ is:
+					\[
+						\utilde{r}(\lambda)=4\utilde{i}-\utilde{j}+5\utilde{k}+\lambda\left(7\utilde{i}+13\utilde{j}+9\utilde{k}\right)
+					\]
+					By looking at \textbf{Lines in 3D} in Section 5.7, we can see that:
+					\begin{align*}
+						&a_1=4\quad a_2=-1\quad a_3=5 \quad d_1=7\quad d_2=13\quad d_3=9\\
+						&\implies \frac{x-4}{7}=\frac{y+1}{13}=\frac{z-5}{9}
+					\end{align*}
+				\end{examquestion}
 			
 		\subsection{Parametric Vector Equations}
 			
@@ -1896,10 +1930,62 @@
 				\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}},\frac{dx}{dy}\neq0
 			\]
 		\subsection{Derivatives of Inverse Circular Functions}
+		\subsection{Derivatives of Inverse Functions (Methods Doggery)}
+			\paragraph{Theorem:} Let $f(x)$ be a function that is both invertible and differentiable. Let $y=g(x)$ be the inverse of $f(x)$.
+			\[
+				g'(x)=\frac{1}{f'(g(x))}
+			\]
 		\subsection{Second Derivatives}
 		\subsection{Points of Inflection}
+			\paragraph{Concavity test} must be completed to test all points of inflection, as $f''(x)=0$ does not necessarily mean it is a point of inflection, and concavity \textbf{must change.}
 		\subsection{Related Rates}
 		\subsection{Rational Functions}
+			\subsubsection{Discontinuity - Vertical Asymptotes vs Holes}
+				\paragraph{Holes} are also known as \textit{removable discontinuities} which occur when a factor in the denominator that equals 0 cancels with one in the numerator. Consider the following rational function:
+				\[
+					\frac{2x-6}{x^2-9}=\frac{2(x-3)}{(x+3)(x-3)}
+				\]
+				For $(x+3)(x-3)=0$, $x+3=0$ or $x-3=0$, but $x-3$ cancels in the numerator and denominator, so this is a removable discontinuity, or a 'hole'.
+				\paragraph{Vertical Asymptotes} are known as \textit{non-removable discontinuities} which occur when a factor in the denominator that equals 0 can not be cancelled with one in the numerator. Consider the following rational function:
+				\[
+				\frac{2x-6}{x^2-9}=\frac{2(x-3)}{(x+3)(x-3)}
+				\]
+				For $(x+3)(x-3)=0$, $x+3=0$ or $x-3=0$, and $x+3$ does not cancel with any factors in the numerator, therefore when $x+3=0$ there is a vertical asymptote.
+			\subsubsection{Diagonal Asymptotes}
+			\begin{note}{Definition for diagonal asymptotes}
+				A line $y=mx+c$ is a diagonal asymptote of $g(x)$ as $x\to\infty$ if $\lim\limits_{x\to+\infty}\left(g(x)-[mx+c]\right)=0$. Similarly when $\lim\limits_{x\to-\infty}\left(g(x)-[mx+c]\right)=0$. If $m=0$ then it is a horizontal asymptote.
+			\end{note}
+			\begin{examquestion}{2023 MAV Spec E2 QB5ai}
+				\begin{leftbar}
+					Consider the function:
+					\[
+					f_k: D_k\to\R,f_k(x)=\frac{x^2-1}{e^x-x-k},k\in\R
+					\]
+					where $D_k$ is the maximal domain of $f_k$.\\
+					a) Let $k=2$\\
+					i) $f_2$ has a diagonal asymptote $y=mx+c$. Find $m$ and $c$.
+				\end{leftbar}
+				\[
+					\lim\limits_{x\to-\infty}f_2'(x)=-1=m
+				\]
+				Substitute $m=1$ into the definition:
+				\begin{align*}
+					&\lim\limits_{x\to-\infty}(f_2(x)-[-x+c])=0 &\implies \lim\limits_{x\to-\infty}(f_2(x)+x-c)=0\\
+					&\implies \lim\limits_{x\to-\infty}(f_2(x)+x)=\lim\limits_{x\to-\infty}c=c &\implies c=2
+				\end{align*}
+				\textbf{Note:} $\lim\limits_{x\to\pm\infty}f'(x)$ may not exist when a diagonal asymptote exists.
+			\end{examquestion}
+			\begin{examquestion}{2023 MAV Spec E2 QB6bii}
+				\begin{leftbar}
+					Consider the function:
+					\[
+					f_k: D_k\to\R,f_k(x)=\frac{x^2-1}{e^x-x-k},k\in\R
+					\]
+					where $D_k$ is the maximal domain of $f_k$.\\
+					b) ii) Find the value(s) of $k$ for which $f_k$ has two vertical asymptotes.
+					
+				\end{leftbar}
+			\end{examquestion}
 	\section{Integral Calculus}
 		\subsection{Rules}
 			\subsubsection{Definite Integral}
