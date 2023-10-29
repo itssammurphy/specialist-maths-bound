@@ -238,82 +238,83 @@
 \contentsline {subsection}{\numberline {9.5}Linear Combination of Random Variables}{42}{subsection.9.5}%
 \contentsline {paragraph}{aX vs X+X+X+...+X}{42}{section*.114}%
 \contentsline {paragraph}{Sum of Identically Distributed Independent Random Variables}{42}{section*.115}%
-\contentsline {paragraph}{Mean of Sum of n Identically Distributed Independent Random Variables}{43}{section*.116}%
-\contentsline {paragraph}{Variance of Sum of n Identically Distributed Independent Random Variables}{43}{section*.117}%
-\contentsline {paragraph}{Linear Combinations of n Independent Random Variables}{43}{section*.118}%
-\contentsline {paragraph}{Linear Combinations of Normal Random Variables}{43}{section*.119}%
+\contentsline {subparagraph}{Quick way to denote clones of a random variable}{43}{section*.116}%
+\contentsline {paragraph}{Mean of Sum of n Identically Distributed Independent Random Variables}{43}{section*.117}%
+\contentsline {paragraph}{Variance of Sum of n Identically Distributed Independent Random Variables}{43}{section*.118}%
+\contentsline {paragraph}{Linear Combinations of n Independent Random Variables}{43}{section*.119}%
+\contentsline {paragraph}{Linear Combinations of Normal Random Variables}{43}{section*.120}%
 \contentsline {subsection}{\numberline {9.6}Discrete Probability}{43}{subsection.9.6}%
 \contentsline {subsection}{\numberline {9.7}Normal Probability}{44}{subsection.9.7}%
-\contentsline {paragraph}{Symmetry Properties of Normally Distributed Probabilities}{44}{section*.120}%
+\contentsline {paragraph}{Symmetry Properties of Normally Distributed Probabilities}{44}{section*.121}%
 \contentsline {subsection}{\numberline {9.8}The Binomial Distribution}{49}{subsection.9.8}%
-\contentsline {paragraph}{Bernoulli Sequence}{49}{section*.121}%
+\contentsline {paragraph}{Bernoulli Sequence}{49}{section*.122}%
 \contentsline {subsubsection}{\numberline {9.8.1}Inverse Binomial}{49}{subsubsection.9.8.1}%
 \contentsline {subsection}{\numberline {9.9}Sample Means}{50}{subsection.9.9}%
-\contentsline {paragraph}{Populations and samples}{50}{section*.122}%
-\contentsline {paragraph}{Sample Mean of a normal random variable}{50}{section*.123}%
+\contentsline {paragraph}{Populations and samples}{50}{section*.123}%
+\contentsline {paragraph}{Sample Mean of a normal random variable}{50}{section*.124}%
 \contentsline {subsection}{\numberline {9.10}Normal Approximation of Sample Proportions}{50}{subsection.9.10}%
 \contentsline {subsection}{\numberline {9.11}Sample Proportions $\hat {P}$ without Normal Approximation (Methods)}{51}{subsection.9.11}%
-\contentsline {paragraph}{Mean, Variance, Standard Deviation}{51}{section*.124}%
+\contentsline {paragraph}{Mean, Variance, Standard Deviation}{51}{section*.125}%
 \contentsline {subsection}{\numberline {9.12}Distribution of the sample mean}{52}{subsection.9.12}%
 \contentsline {subsubsection}{\numberline {9.12.1}Central Limit Theorem}{52}{subsubsection.9.12.1}%
 \contentsline {subsubsection}{\numberline {9.12.2}Normal Approximation to the Binomial Distribution}{52}{subsubsection.9.12.2}%
 \contentsline {subsection}{\numberline {9.13}Confidence Intervals for the Population Mean}{52}{subsection.9.13}%
-\contentsline {paragraph}{Interpretation of a Confidence Interval}{52}{section*.125}%
-\contentsline {paragraph}{Point Estimates}{52}{section*.126}%
-\contentsline {paragraph}{Interval Estimates}{52}{section*.127}%
-\contentsline {subparagraph}{C\% Confidence Interval}{52}{section*.128}%
+\contentsline {paragraph}{Interpretation of a Confidence Interval}{52}{section*.126}%
+\contentsline {paragraph}{Point Estimates}{52}{section*.127}%
+\contentsline {paragraph}{Interval Estimates}{52}{section*.128}%
+\contentsline {subparagraph}{C\% Confidence Interval}{52}{section*.129}%
 \contentsline {subsection}{\numberline {9.14}Hypothesis Testing for Mean}{53}{subsection.9.14}%
-\contentsline {paragraph}{Null hypothesis}{53}{section*.129}%
-\contentsline {paragraph}{Alternative hypothesis}{53}{section*.130}%
-\contentsline {paragraph}{p-Values}{53}{section*.131}%
-\contentsline {paragraph}{Statistical Significance}{53}{section*.132}%
-\contentsline {paragraph}{z-test}{53}{section*.133}%
+\contentsline {paragraph}{Null hypothesis}{53}{section*.130}%
+\contentsline {paragraph}{Alternative hypothesis}{53}{section*.131}%
+\contentsline {paragraph}{p-Values}{53}{section*.132}%
+\contentsline {paragraph}{Statistical Significance}{53}{section*.133}%
+\contentsline {paragraph}{z-test}{53}{section*.134}%
 \contentsline {subsubsection}{\numberline {9.14.1}One-tail tests}{53}{subsubsection.9.14.1}%
 \contentsline {subsubsection}{\numberline {9.14.2}Two-tail tests}{53}{subsubsection.9.14.2}%
 \contentsline {subsubsection}{\numberline {9.14.3}Relation to Confidence Intervals}{54}{subsubsection.9.14.3}%
 \contentsline {subsubsection}{\numberline {9.14.4}Hypothesis Testing Errors}{54}{subsubsection.9.14.4}%
-\contentsline {paragraph}{Type I}{54}{section*.134}%
-\contentsline {paragraph}{Type II}{54}{section*.135}%
+\contentsline {paragraph}{Type I}{54}{section*.135}%
+\contentsline {paragraph}{Type II}{54}{section*.136}%
 \contentsline {section}{\numberline {10}Differential Calculus}{66}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Derivatives of x=f(y)}{66}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Derivatives of Inverse Circular Functions}{66}{subsection.10.2}%
 \contentsline {subsection}{\numberline {10.3}Derivatives of Inverse Functions (Methods Doggery)}{66}{subsection.10.3}%
-\contentsline {paragraph}{Theorem:}{66}{section*.136}%
+\contentsline {paragraph}{Theorem:}{66}{section*.137}%
 \contentsline {subsection}{\numberline {10.4}Second Derivatives}{66}{subsection.10.4}%
 \contentsline {subsection}{\numberline {10.5}Points of Inflection}{66}{subsection.10.5}%
-\contentsline {paragraph}{Concavity test}{66}{section*.137}%
+\contentsline {paragraph}{Concavity test}{66}{section*.138}%
 \contentsline {subsection}{\numberline {10.6}Related Rates}{66}{subsection.10.6}%
 \contentsline {subsection}{\numberline {10.7}Rational Functions}{66}{subsection.10.7}%
 \contentsline {subsubsection}{\numberline {10.7.1}Discontinuity - Vertical Asymptotes vs Holes}{66}{subsubsection.10.7.1}%
-\contentsline {paragraph}{Holes}{66}{section*.138}%
-\contentsline {paragraph}{Vertical Asymptotes}{66}{section*.139}%
+\contentsline {paragraph}{Holes}{66}{section*.139}%
+\contentsline {paragraph}{Vertical Asymptotes}{66}{section*.140}%
 \contentsline {subsubsection}{\numberline {10.7.2}Diagonal Asymptotes}{66}{subsubsection.10.7.2}%
 \contentsline {section}{\numberline {11}Integral Calculus}{67}{section.11}%
 \contentsline {subsection}{\numberline {11.1}Rules}{67}{subsection.11.1}%
 \contentsline {subsubsection}{\numberline {11.1.1}Definite Integral}{67}{subsubsection.11.1.1}%
 \contentsline {subsection}{\numberline {11.2}Inverse Circular Functions}{67}{subsection.11.2}%
 \contentsline {subsection}{\numberline {11.3}u-Sub}{68}{subsection.11.3}%
-\contentsline {paragraph}{Linear substitutions}{68}{section*.140}%
+\contentsline {paragraph}{Linear substitutions}{68}{section*.141}%
 \contentsline {subsection}{\numberline {11.4}Integration by Trig Identities}{69}{subsection.11.4}%
-\contentsline {paragraph}{Case 1: Power of sine is odd}{69}{section*.141}%
-\contentsline {paragraph}{Case 2: Power of cosine is odd}{69}{section*.142}%
-\contentsline {paragraph}{Case 3: Both powers are even}{69}{section*.143}%
-\contentsline {paragraph}{Products to Sums Identities}{69}{section*.144}%
+\contentsline {paragraph}{Case 1: Power of sine is odd}{69}{section*.142}%
+\contentsline {paragraph}{Case 2: Power of cosine is odd}{69}{section*.143}%
+\contentsline {paragraph}{Case 3: Both powers are even}{69}{section*.144}%
+\contentsline {paragraph}{Products to Sums Identities}{69}{section*.145}%
 \contentsline {subsection}{\numberline {11.5}Partial Fractions}{70}{subsection.11.5}%
-\contentsline {paragraph}{Proper Fractions}{70}{section*.145}%
+\contentsline {paragraph}{Proper Fractions}{70}{section*.146}%
 \contentsline {subsection}{\numberline {11.6}Integration by Parts}{70}{subsection.11.6}%
 \contentsline {subsection}{\numberline {11.7}Properties of the Definite Integral}{70}{subsection.11.7}%
 \contentsline {subsection}{\numberline {11.8}Area Between Curves}{71}{subsection.11.8}%
 \contentsline {subsection}{\numberline {11.9}Volumes of Solids of Revolution}{71}{subsection.11.9}%
-\contentsline {paragraph}{Revolution around the x-axis}{71}{section*.146}%
-\contentsline {paragraph}{Revolution around the y-axis}{71}{section*.147}%
-\contentsline {paragraph}{Regions not bound by an axis}{71}{section*.148}%
+\contentsline {paragraph}{Revolution around the x-axis}{71}{section*.147}%
+\contentsline {paragraph}{Revolution around the y-axis}{71}{section*.148}%
+\contentsline {paragraph}{Regions not bound by an axis}{71}{section*.149}%
 \contentsline {subsection}{\numberline {11.10}Lengths of Curves in Plane}{71}{subsection.11.10}%
 \contentsline {subsection}{\numberline {11.11}Areas of Surfaces of Revolution}{72}{subsection.11.11}%
-\contentsline {paragraph}{Revolution About x-axis}{72}{section*.149}%
-\contentsline {paragraph}{Revolution About y-axis}{72}{section*.150}%
-\contentsline {paragraph}{Surface Area of Parametrics}{73}{section*.151}%
-\contentsline {paragraph}{Total Surface Area of a Solid}{73}{section*.152}%
+\contentsline {paragraph}{Revolution About x-axis}{72}{section*.150}%
+\contentsline {paragraph}{Revolution About y-axis}{72}{section*.151}%
+\contentsline {paragraph}{Surface Area of Parametrics}{73}{section*.152}%
+\contentsline {paragraph}{Total Surface Area of a Solid}{73}{section*.153}%
 \contentsline {subsection}{\numberline {11.12}Reduction Formulas}{73}{subsection.11.12}%
 \contentsline {section}{\numberline {12}Differential Equations}{73}{section.12}%
 \contentsline {subsection}{\numberline {12.1}Tech}{73}{subsection.12.1}%
@@ -322,7 +323,7 @@
 \contentsline {subsection}{\numberline {12.2}Verification of Solutions}{73}{subsection.12.2}%
 \contentsline {subsection}{\numberline {12.3}Proportionality/Inverse Proportionality}{74}{subsection.12.3}%
 \contentsline {subsection}{\numberline {12.4}Logistic DiffEq}{74}{subsection.12.4}%
-\contentsline {paragraph}{General Solution}{74}{section*.153}%
+\contentsline {paragraph}{General Solution}{74}{section*.154}%
 \contentsline {subsection}{\numberline {12.5}Separation of Variables}{75}{subsection.12.5}%
 \contentsline {subsubsection}{\numberline {12.5.1}Solving}{75}{subsubsection.12.5.1}%
 \contentsline {subsection}{\numberline {12.6}DiffEqs + Related Rates Crossover Event}{76}{subsection.12.6}%
@@ -335,12 +336,12 @@
 \contentsline {subsection}{\numberline {12.12}Finding Solutions to DiffEqs}{82}{subsection.12.12}%
 \contentsline {section}{\numberline {13}Pseudocode}{82}{section.13}%
 \contentsline {subsection}{\numberline {13.1}Syntax}{82}{subsection.13.1}%
-\contentsline {paragraph}{Assignment}{82}{section*.154}%
-\contentsline {paragraph}{Control of Flow of Steps}{82}{section*.155}%
-\contentsline {subparagraph}{If-Then Blocks}{82}{section*.156}%
-\contentsline {subparagraph}{For loops}{82}{section*.157}%
-\contentsline {subparagraph}{While loops}{82}{section*.158}%
-\contentsline {paragraph}{Functions}{82}{section*.159}%
+\contentsline {paragraph}{Assignment}{82}{section*.155}%
+\contentsline {paragraph}{Control of Flow of Steps}{82}{section*.156}%
+\contentsline {subparagraph}{If-Then Blocks}{82}{section*.157}%
+\contentsline {subparagraph}{For loops}{82}{section*.158}%
+\contentsline {subparagraph}{While loops}{82}{section*.159}%
+\contentsline {paragraph}{Functions}{82}{section*.160}%
 \contentsline {subsection}{\numberline {13.2}Example Algorithms}{82}{subsection.13.2}%
 \contentsline {section}{\numberline {14}Other Tech}{84}{section.14}%
 \contentsline {subsection}{\numberline {14.1}Functions}{84}{subsection.14.1}%
