@@ -117,7 +117,7 @@
 
 \newenvironment{note}[1]{%
 	\mbox{}\\\tcolorbox[beamer,breakable,%
-	title=Example: #1,standard jigsaw,opacityback=0, colframe=red!75!black]}{\endtcolorbox\mbox{}\\}
+	title=Note: #1,standard jigsaw,opacityback=0, colframe=blue!75!black]}{\endtcolorbox\mbox{}\\}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -414,6 +414,16 @@
 					&=\frac{ab}{6}
 				\end{align*}
 			\end{examquestion}
+		\subsection{Codomain Weirdness}
+			\paragraph{The codomain of a function} is the set of possible outputs. For $f: D\to\R$ we say that the codomain is all real numbers. If, for instance, we specify a codomain of a function $g: \R\to\R^+$, we ignore all negative and 0 values the function produces. This differs from range as the Codomain is all values that \textit{could} come out, whereas the range is all values that \textit{do} come out from the function.
+		\subsection{Continuity and Discontinuity}
+			A function $f(x)$ is \textbf{continuous at a point} $a$ if and only if the following are satisfied:\\
+			\begin{itemize}
+				\item $f(a)$ is defined
+				\item $\lim\limits_{x\to a}f(x)$ exists
+				\item $\lim\limits_{x\to a}f(x)=f(a)$.
+			\end{itemize}
+			A function is discontinuous at $a$ if it fails to be continuous at $a$.
 	\section{Vectors and Kinematics}
 		\subsection{Vectors Tech}
 			\paragraph{Create a vector} ctrl+( creates a matrix which we can use for vectors.
@@ -1018,6 +1028,7 @@
 				\[
 					r=|z_0-z_1|=|z_0-z_2|=|z_0-z_3|\qquad z,z_1,z_2,z_3\in\mathbb{C}
 				\]
+				\paragraph{Maximum Value of Modulus} For points on a circle given by $|z-z_1|=r$ for $z,z_1\in\mathbb{C}$ and $r\in\R$, the maximum value of $|z|$ is given by $|z_1|+|r|$.
 			\subsubsection{Lines}
 				\paragraph{Perpendicular Bisectors} The set of points equidistant on the complex plane from two complex numbers form a line.
 				\[
@@ -1951,6 +1962,18 @@
 				\frac{2x-6}{x^2-9}=\frac{2(x-3)}{(x+3)(x-3)}
 				\]
 				For $(x+3)(x-3)=0$, $x+3=0$ or $x-3=0$, and $x+3$ does not cancel with any factors in the numerator, therefore when $x+3=0$ there is a vertical asymptote.
+				\begin{examquestion}{2021 VCAA Spesh E2 QB1d.i}
+					\begin{leftbar}
+						Let $\displaystyle g_k(x)=\frac{(2x-3)(x+5)}{(x-k)(x+2)}$, where $k$ is some real constant.\\
+						i) For what values of $k$ will the graph of $g_k$ have two asymptotes?
+					\end{leftbar}
+					Find all factors that cancel or make the function into an indeterminate form:
+					\[
+						(x-k)=(x+2)\implies k=-2\qquad (x-k)=(x+5)\implies k=-5\qquad 2(x-k)=2x-3\implies k=\frac{3}{2}
+					\]
+					\textbf{Note} the multiplication by 2 in the third step so that the coefficients of $x$ match.\\
+					Therefore $k\in\{-5,-2,\frac{3}{2}\}$.
+				\end{examquestion}
 			\subsubsection{Diagonal Asymptotes}
 			\begin{note}{Definition for diagonal asymptotes}
 				A line $y=mx+c$ is a diagonal asymptote of $g(x)$ as $x\to\infty$ if $\lim\limits_{x\to+\infty}\left(g(x)-[mx+c]\right)=0$. Similarly when $\lim\limits_{x\to-\infty}\left(g(x)-[mx+c]\right)=0$. If $m=0$ then it is a horizontal asymptote.
